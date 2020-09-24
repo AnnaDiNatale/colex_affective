@@ -1,0 +1,572 @@
+---
+title: "Colexification networks encode affective meaning"
+author: "Anna Di Natale, Max Pellert, David Garcia"
+output: 
+  pdf_document:
+    df_print: kable
+    keep_tex: true
+url_colour: blue
+always_allow_html: yes
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message=FALSE, warning=FALSE)
+```
+
+Analysis of the CLICS3, OmegaWiki and FreeDict networks in relation to the ratings of valence, arousal and dominance
+```{r, libraries, results='hide'}
+library(dplyr) #for data transformations
+library(DescTools) #for Fisher transformation
+library(igraph) #for graphs
+library(boot) #for null models
+library(ggplot2) #for plots
+
+##functions for data processing
+source("scripts/correlations.R")
+source("scripts/expansion.R")
+source("scripts/nullmodels.R")
+```
+
+<!-- Table 1. Descriptive statistics of the networks -->
+
+```{r}
+# statistics<-data.frame(stringsAsFactors = F)
+# 
+# for (netw in c('clics3','omegawiki','freedict'))
+# {
+#   network<-readRDS(paste0('datasets/',netw,'.Rda'))
+#   df<-data.frame(network=netw, 'num languages'=NA, 'num families'=NA, 'num nodes' =length(union(network$from_word,network$to_word)), 'num links'=nrow(network),stringsAsFactors = F)
+#   statistics<-rbind(statistics,df)
+# }
+# statistics
+# write.csv2(statistics, "output/Table1.csv", row.names=F)
+```
+
+Table 2. Words in the affective lexica that are mapped in the colexification networks
+```{r}
+p_match<-data.frame(stringsAsFactors = F)
+for (netw in c('clics3','omegawiki','freedict'))
+{
+  for (lex in c('WKB','NRCVAD'))
+  {
+    network<-readRDS(paste0('datasets/',netw,'.Rda'))
+    lexicon<-read.csv(paste0('datasets/',lex,'.csv'),header=T,sep=",",stringsAsFactors = F)
+    matched<-readRDS(paste0('datasets/',netw,'_',lex,'.Rda'))
+    nwords<-length(union(matched$from_word,matched$to_word))
+    df<-data.frame(network=netw, lexicon=lex, 'num words'=nwords, 'percent in network'= round((nwords*100)/length(union(network$from_word,network$to_word))), 'percent in lexicon'=round((nwords*100)/length(unique(lexicon$Word))),stringsAsFactors = F)
+    p_match<-rbind(p_match,df)
+  }
+}
+p_match
+write.csv2(p_match, "output/Table2.csv", row.names=F)
+```
+
+
+Computation of the ratings of all nodes in the network
+
+Figure 5. Correlation between estimated and true values in the case of the OmegaWiki network and the NRC VAD lexicon
+
+```{r}
+netw<-'omegawiki'
+lex<-'NRCVAD'
+ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda'))
+network<-readRDS(paste0('datasets/',netw,'.Rda'))
+inlexicon<-ratings_allnetw[!is.na(ratings_allnetw$Valence),]  
+inlexicon$n_neigh<-NA
+    for (i in seq(1,length(inlexicon$Word)))
+    {
+      word<-inlexicon$Word[i]
+      neigh<-union(network$from_word[which(network$to_word==word)],network$to_word[which(network$from_word==word)])
+      inlexicon$n_neigh[i]=length(neigh)
+    }
+to_compute<-filter(inlexicon,n_neigh>=5)
+
+ggplot(data = to_compute, aes(x = Valence, y = Valence_lang)) +
+  geom_point(color='black', size = 1) +
+  geom_smooth(method = "lm", se = FALSE)+
+  xlab("true valence")+ylab("computed valence")+
+  theme(plot.title = element_text(size=16,face='bold',hjust=0.5),
+        axis.title.x=element_text(size=12),
+        axis.title.y=element_text(size=12))+
+  theme_bw()
+
+a<-cor.test(to_compute$Valence,to_compute$Valence_lang)
+print(paste('correlation coefficient:',round(a$estimate[[1]],digit=3)))
+print(paste0('confidence interval: [',round(a$conf.int[1],digits = 3),',',round(a$conf.int[2],digits=3),']'))
+
+```
+
+Table 3. Correlation between computed and true values
+```{r}
+
+correl<-data.frame(stringsAsFactors = F)
+for (netw in c('clics3','omegawiki','freedict'))
+{
+  for (lex in c('WKB','NRCVAD'))
+  {
+    network<-readRDS(paste0('datasets/',netw,'.Rda'))
+    # corr<-correlations(netw,lex,1,1) ##it may take some time to compute
+    corr<-readRDS(paste0('results/corr_first_',netw,'_',lex,'.Rda'))
+    words<-union(network$from_word,network$to_word) ##words of the network
+  
+    df<-corr[corr$th_neigh==1,]
+    df<-select(df,1,3,6,9,30,31)
+    df$val_lang<-round(df$val_lang,digits=3)
+    df$aro_lang<-round(df$aro_lang,digits=3)
+    df$dom_lang<-round(df$dom_lang,digits=3)
+    df<-df %>% rename ('num words'=nwords,V=val_lang,A=aro_lang,D=dom_lang)
+    df$network<-netw
+    df$lexicon<-lex
+    df$perc_coverage<-round((length(words)-(df$left_out))*100/length(words),digits = 1)
+    df$new_words<-df$num_words_computed-df$`num words`
+    df<-df[,c(7,8,10,9,2,3,4)]
+    correl<-rbind(correl,df)
+  }
+}
+
+rownames(correl)<-seq(1,nrow(correl))
+
+correl
+# write.csv2(correlations, "output/Table3.csv", row.names=F)
+```
+
+<!-- Table 4. Correlation between computed and real values, considering all nodes -->
+```{r}
+# correl
+# write.csv2(correlations, "output/Table4.csv", row.names=F)
+```
+
+
+
+
+Fig 6. Comparison with the null models in the case of OmegaWiki and the NRC VAD lexicon
+```{r}
+netw<-'omegawiki'  ##selection of the network and the lexicon
+lex<-'NRCVAD'
+iter_perm<-10000 ##number of iterations of the permutation
+iter_random<-10000 ##number of iterations of the random neighbors model
+Nneigh<-10 ##maximum number of neighbors to consider as threshold 
+
+corr<-readRDS(paste0('results/corr_first_',netw,'_',lex,'.Rda'))  ##results of the method
+ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda')) ##real and computed ratings 
+ratings<-ratings_allnetw[!is.na(ratings_allnetw$Valence),] ##considering only the words for which there are true affective ratings
+
+df_cor<-data.frame()
+
+
+sel<-corr[1:10,3:5]
+sel$num_iter<-seq(1,10)
+sel$class<-'val'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = val_lang, ci1 = c.i1_val_lang,ci2 = c.i2_val_lang)
+df_cor<-rbind(df_cor,sel)
+
+sel<-corr[1:10,6:8]
+sel$num_iter<-seq(1,10)
+sel$class<-'aro'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = aro_lang, ci1 = c.i1_aro_lang,ci2 = c.i2_aro_lang)
+df_cor<-rbind(df_cor,sel)
+
+sel<-corr[1:10,9:11]
+sel$num_iter<-seq(1,10)
+sel$class<-'dom'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = dom_lang, ci1 = c.i1_dom_lang,ci2 = c.i2_dom_lang)
+df_cor<-rbind(df_cor,sel)
+
+perm<-readRDS(paste0('results/perm_first_',netw,'_',lex,'.Rda'))
+# perm<-null_models(netw,lex,ratings,'permutation',iter_perm,Nneigh)  ##it may take some time
+
+# random_neigh<-null_models(netw,lex,ratings,'random',iter_random,Nneigh)  ##it may take some time
+random_neigh<-readRDS(paste0('results/random_first_',netw,'_',lex,'.Rda'))
+
+
+for (i in seq(1,Nneigh))
+{
+  sel<-perm[perm$numneigh==i,]
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$val_lang_perm)[2],ci1=unlist(sel$val_lang_perm)[1],ci2=unlist(sel$val_lang_perm)[3],num_iter=i,class='val',class1='perm'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$aro_lang_perm)[2],ci1=unlist(sel$aro_lang_perm)[1],ci2=unlist(sel$aro_lang_perm)[3],num_iter=i,class='aro',class1='perm'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$dom_lang_perm)[2],ci1=unlist(sel$dom_lang_perm)[1],ci2=unlist(sel$dom_lang_perm)[3],num_iter=i,class='dom',class1='perm'))
+    sel<-random_neigh[random_neigh$numneigh==i,]
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$val_lang_rnd)[2],ci1=unlist(sel$val_lang_rnd)[1],ci2=unlist(sel$val_lang_rnd)[3],num_iter=i,class='val',class1='rnd'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$aro_lang_rnd)[2],ci1=unlist(sel$aro_lang_rnd)[1],ci2=unlist(sel$aro_lang_rnd)[3],num_iter=i,class='aro',class1='rnd'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$dom_lang_rnd)[2],ci1=unlist(sel$dom_lang_rnd)[1],ci2=unlist(sel$dom_lang_rnd)[3],num_iter=i,class='dom',class1='rnd'))
+}
+
+
+offset1<--0.5
+offset2<-0.5
+
+new_df<-df_cor
+new_df$num_iter[new_df$num_iter==10]<-37
+new_df$num_iter[new_df$num_iter==9]<-33
+new_df$num_iter[new_df$num_iter==8]<-29
+new_df$num_iter[new_df$num_iter==7]<-25
+new_df$num_iter[new_df$num_iter==6]<-21
+new_df$num_iter[new_df$num_iter==5]<-17
+new_df$num_iter[new_df$num_iter==4]<-13
+new_df$num_iter[new_df$num_iter==3]<-9
+new_df$num_iter[new_df$num_iter==2]<-5
+
+
+new_df$num_iter[new_df$class=='val']<-new_df$num_iter[new_df$class=='val']+offset1
+new_df$num_iter[new_df$class=='dom']<-new_df$num_iter[new_df$class=='dom']+offset2
+
+filt<-new_df[-which(new_df$class1=='perm'),]
+ggplot(data = filt, aes(x=num_iter,y=estimated))+
+  geom_point(aes(colour=factor(class),shape=factor(class1)))+
+  geom_errorbar(aes(ymin = ci1, ymax = ci2,colour=factor(class)), width=.1)+
+  theme_bw()+theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  geom_vline(xintercept = c(1,5,9,13,17,21,25,29,33,37)+2,color='grey',alpha=0.7)+
+  geom_hline(yintercept = c(-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9),color='grey',alpha=0.3)+
+  scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
+  scale_y_continuous(breaks=c(0,0.2,0.4,0.6,0.8), labels=c('0','0.2','0.4','0.6','0.8'))+
+  xlab('num neighbors')+ylab('correlation')+ggtitle('Comparison of the method with the null models')
+# ggsave('output/fig5part1.pdf',width=10,height=6)
+
+filt<-new_df[which(new_df$class1=='perm'),]
+ggplot(data = filt, aes(x=num_iter,y=estimated))+
+  geom_point(aes(colour=factor(class)),shape=4)+
+  geom_errorbar(aes(ymin = ci1, ymax = ci2,colour=factor(class)), width=.1)+
+  theme_bw()+theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  geom_vline(xintercept = c(1,5,9,13,17,21,25,29,33,37)+2,color='grey',alpha=0.7)+
+  geom_hline(yintercept = c(-0.1,0,0.1),color='grey',alpha=0.3)+
+  scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
+  scale_y_continuous(breaks=c(-0.1,0,0.1), labels=c('-0.1','0','0.1'))+
+  xlab('num neighbors')+ylab('correlation')
+ggsave('output/fig5part2test.pdf',width=10.1,height=1.5)
+
+```
+
+<!-- pvalues for the pemutation null model. If the number of observations that are >= the correlation value (extreme observations) is < 5%, the pvalue is <0.05 -->
+<!-- ```{r} -->
+<!-- for (netw in c('clics3','omegawiki','freedict')) -->
+<!-- { -->
+<!--   for (lex in c('WKB','NRCVAD')) -->
+<!--   { -->
+<!--     perm<-readRDS(paste0('results/perm_first_',netw,'_',lex,'.Rda')) -->
+<!--     random<-readRDS(paste0('results/random_first_',netw,'_',lex,'.Rda')) -->
+<!--     for (k in seq(1,10)) -->
+<!--     { -->
+<!--       pvalue_perm<-unlist(perm$pvalue[perm$numneigh==k]) -->
+<!--       pvalue_rnd<-unlist(random$pvalue[random$numneigh==k]) -->
+<!--       if (any(pvalue_perm>=5)) -->
+<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the permutations null model'))} -->
+<!--       if (any(pvalue_rnd>=5)) -->
+<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the random neighbors null model'))} -->
+<!--     } -->
+<!--   } -->
+<!-- } -->
+<!-- ``` -->
+
+Table 4. Results of the 75/25 split cross validation on 10 iterations
+```{r}
+perc_training_set<-0.75
+niter<-10
+correlations<-data.frame(stringsAsFactors = F)
+for (netw in c('clics3','omegawiki','freedict'))
+{
+  for (lex in c('WKB','NRCVAD'))
+  {
+        if(netw=='freedict' & lex=='WKB')
+    {
+      next
+    }
+    # cor<-correlations(netw,lex,perc_training_set,niter) ##it may take some time
+    cor<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))
+    # saveRDS(cor,paste0('results/corr_second_',netw,'_',lex,'.Rda'))
+    matched<-readRDS(paste0('datasets/',netw,'_',lex,'.Rda'))
+    netw1<-unique(select(matched,from_word,Valence.x,Arousal.x,Dominance.x))
+    netw1 %>% rename(Valence = Valence.x, Arousal = Arousal.x, Dominance = Dominance.x, Word = from_word)->netw1
+    netw2<-unique(select(matched,to_word,Valence.y,Arousal.y,Dominance.y))
+    netw2 %>% rename(Valence = Valence.y, Arousal = Arousal.y, Dominance = Dominance.y, Word = to_word)->netw2
+    ratings<-unique(rbind(netw1,netw2)) 
+    num_words<-round(length(ratings$Word)*(1-perc_training_set))
+    
+    df<-data.frame(network=netw,lexicon=lex,perc_computed_words=round((mean(num_words-cor$left_out)*100)/num_words,digits=1),
+                   V=round(FisherZInv(mean(FisherZ(cor$val_lang))),digits=3),A=round(FisherZInv(mean(FisherZ(cor$aro_lang))),digits=3),
+                   D=round(FisherZInv(mean(FisherZ(cor$dom_lang))),digits=3),stringsAsFactors = F)
+    correlations<-rbind(correlations,df)
+  }
+}
+correlations
+write.csv2(correlations, "output/Table5.csv", row.names=F)
+```
+
+Figure 7. Comparison with the null models in the case of OmegaWiki and the NRC VAD lexicon
+```{r}
+netw<-'omegawiki'  ##selection of the network and the lexicon
+lex<-'NRCVAD'
+iter_perm<-10000 ##number of iterations of the permutation
+iter_random<-10000 ##number of iterations of the random neighbors model
+Nenigh<-1 ##maximum number of neighbors to consider as threshold 
+lexicon<-readRDS(paste0('datasets/',netw,'_',lex,'.Rda'))
+
+corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))  ##results of the method
+
+df_cor<-data.frame()
+
+
+sel<-corr[1:10,3:5]
+sel$num_iter<-seq(1,10)
+sel$class<-'val'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = val_lang, ci1 = c.i1_val_lang,ci2 = c.i2_val_lang)
+df_cor<-rbind(df_cor,sel)
+
+sel<-corr[1:10,6:8]
+sel$num_iter<-seq(1,10)
+sel$class<-'aro'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = aro_lang, ci1 = c.i1_aro_lang,ci2 = c.i2_aro_lang)
+df_cor<-rbind(df_cor,sel)
+
+sel<-corr[1:10,9:11]
+sel$num_iter<-seq(1,10)
+sel$class<-'dom'
+sel$class1<-'estimated'
+sel<-sel %>% rename(estimated = dom_lang, ci1 = c.i1_dom_lang,ci2 = c.i2_dom_lang)
+df_cor<-rbind(df_cor,sel)
+  
+  
+  
+## reconstruction of the affective lexica
+# netw1<-unique(select(lexicon,from_word,Valence.x,Arousal.x,Dominance.x))
+# netw1 %>% rename(Valence = Valence.x, Arousal = Arousal.x, Dominance = Dominance.x, Word = from_word)->netw1
+# netw2<-unique(select(lexicon,to_word,Valence.y,Arousal.y,Dominance.y))
+# netw2 %>% rename(Valence = Valence.y, Arousal = Arousal.y, Dominance = Dominance.y, Word = to_word)->netw2
+# rat_lexicon<-unique(rbind(netw1,netw2)) 
+# rownames(rat_lexicon)<-seq(1,nrow(rat_lexicon))
+
+perm<-readRDS(paste0('results/perm_second_',netw,'_',lex,'.Rda'))
+# perm<-data.frame(stringsAsFactors = F)
+# for (i in seq(1,10)) ##number of iterations of the model we want to test
+# {
+#   print(i)
+#   ratings<-readRDS(paste0('results/second/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
+#   #reconstruction of the test set
+#   training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set
+#   s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)]
+#   test_set<-ratings$Word[which(ratings$Word %in% s)]
+#   ratings<-ratings[which(ratings$Word %in% test_set),]
+#   ratings<-ratings[,1:10]
+#   ratings<-left_join(ratings,rat_lexicon,by='Word')
+#   perm_iter<-null_models(netw,lex,ratings,corr[i,],'permutation',iter_perm,1)  ##it may take some time
+#   perm_iter$numiter<-i
+#   perm<-rbind(perm,perm_iter[perm_iter$numneigh==1,])
+# }
+# perm$numneigh<-NULL
+# perm<-saveRDS(paste0('results/perm_second_',netw,'_',lex,'.Rda'))
+
+random_neigh<-readRDS(paste0('results/random_second_',netw,'_',lex,'.Rda'))
+# random_neigh<-data.frame(stringsAsFactors = F)
+# for (i in seq(1,10)) ##number of iterations of the model we want to test
+# {
+#   ratings<-readRDS(paste0('results/second/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
+#   #reconstruction of the test set
+#   training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set
+#   s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)]
+#   test_set<-ratings$Word[which(ratings$Word %in% s)]
+#   ratings<-ratings[which(ratings$Word %in% test_set),]
+#   ratings<-ratings[,1:10]
+#   ratings<-left_join(ratings,rat_lexicon,by='Word')
+#   corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))
+#   random_iter<-null_models(netw,lex,ratings,'random',corr,iter_random,1)  ##it may take some time
+#   random_iter$numiter<-i
+#   random_neigh<-rbind(random_neigh,random_iter[random_iter$numneigh==1,])
+# }
+# random_neigh$numneigh<-NULL
+# saveRDS(paste0('results/random_second_',netw,'_',lex,'.Rda'))
+
+for (i in seq(1,10))
+{
+  sel<-perm[perm$numiter==i,]
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$val_lang_perm)[2],ci1=unlist(sel$val_lang_perm)[1],ci2=unlist(sel$val_lang_perm)[3],num_iter=i,class='val',class1='perm'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$aro_lang_perm)[2],ci1=unlist(sel$aro_lang_perm)[1],ci2=unlist(sel$aro_lang_perm)[3],num_iter=i,class='aro',class1='perm'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$dom_lang_perm)[2],ci1=unlist(sel$dom_lang_perm)[1],ci2=unlist(sel$dom_lang_perm)[3],num_iter=i,class='dom',class1='perm'))
+    sel<-random_neigh[random_neigh$numiter==i,]
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$val_lang_rnd)[2],ci1=unlist(sel$val_lang_rnd)[1],ci2=unlist(sel$val_lang_rnd)[3],num_iter=i,class='val',class1='rnd'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$aro_lang_rnd)[2],ci1=unlist(sel$aro_lang_rnd)[1],ci2=unlist(sel$aro_lang_rnd)[3],num_iter=i,class='aro',class1='rnd'))
+  df_cor<-rbind(df_cor,data.frame(estimated=unlist(sel$dom_lang_rnd)[2],ci1=unlist(sel$dom_lang_rnd)[1],ci2=unlist(sel$dom_lang_rnd)[3],num_iter=i,class='dom',class1='rnd'))
+}
+
+
+offset1<--0.5
+offset2<-0.5
+
+new_df<-df_cor
+new_df$num_iter[new_df$num_iter==10]<-37
+new_df$num_iter[new_df$num_iter==9]<-33
+new_df$num_iter[new_df$num_iter==8]<-29
+new_df$num_iter[new_df$num_iter==7]<-25
+new_df$num_iter[new_df$num_iter==6]<-21
+new_df$num_iter[new_df$num_iter==5]<-17
+new_df$num_iter[new_df$num_iter==4]<-13
+new_df$num_iter[new_df$num_iter==3]<-9
+new_df$num_iter[new_df$num_iter==2]<-5
+
+
+new_df$num_iter[new_df$class=='val']<-new_df$num_iter[new_df$class=='val']+offset1
+new_df$num_iter[new_df$class=='dom']<-new_df$num_iter[new_df$class=='dom']+offset2
+
+filt<-new_df[-which(new_df$class1=='perm'),]
+ggplot(data = filt, aes(x=num_iter,y=estimated))+
+  geom_point(aes(colour=factor(class),shape=factor(class1)))+
+  geom_errorbar(aes(ymin = ci1, ymax = ci2,colour=factor(class)), width=.1)+
+  theme_bw()+theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  geom_vline(xintercept = c(1,5,9,13,17,21,25,29,33,37)+2,color='grey',alpha=0.7)+
+  geom_hline(yintercept = c(-0.1,0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8),color='grey',alpha=0.3)+
+  scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
+  scale_y_continuous(breaks=c(0,0.2,0.4,0.6,0.8), labels=c('0','0.2','0.4','0.6','0.8'))+
+  xlab('iterations')+ylab('correlation')+ggtitle('Comparison of the method with the null models')
+ggsave('output/fig6part1.pdf',width=10,height=6)
+
+filt<-new_df[which(new_df$class1=='perm'),]
+ggplot(data = filt, aes(x=num_iter,y=estimated))+
+  geom_point(aes(colour=factor(class)),shape=4)+
+  geom_errorbar(aes(ymin = ci1, ymax = ci2,colour=factor(class)), width=.1)+
+  theme_bw()+theme(panel.border = element_blank(), panel.grid.major = element_blank(),
+                   panel.grid.minor = element_blank(), axis.line = element_line(colour = "black"))+
+  geom_vline(xintercept = c(1,5,9,13,17,21,25,29,33,37)+2,color='grey',alpha=0.7)+
+  geom_hline(yintercept = c(-0.1,0,0.1),color='grey',alpha=0.3)+
+  scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
+  scale_y_continuous(breaks=c(-0.1,0,0.1), labels=c('-0.1','0','0.1'))+
+  xlab('iterations')+ylab('correlation')
+ggsave('output/fig6part2.pdf',width=10.1,height=1.6)
+```
+
+<!-- pvalues -->
+<!-- ```{r} -->
+<!-- # iter_random<-10000 -->
+<!-- # iter_perm<-10000 -->
+<!-- for (netw in c('clics3','omegawiki','freedict')) -->
+<!-- { -->
+<!--   for (lex in c('WKB','NRCVAD')) -->
+<!--   { -->
+<!--     if(netw=='freedict' & lex=='WKB') -->
+<!--     { -->
+<!--       next -->
+<!--     } -->
+<!--     lexicon<-readRDS(paste0('datasets/',netw,'_',lex,'.Rda')) -->
+<!--     #reconstruction of the affective lexica -->
+<!--     netw1<-unique(select(lexicon,from_word,Valence.x,Arousal.x,Dominance.x)) -->
+<!--     netw1 %>% rename(Valence = Valence.x, Arousal = Arousal.x, Dominance = Dominance.x, Word = from_word)->netw1 -->
+<!--     netw2<-unique(select(lexicon,to_word,Valence.y,Arousal.y,Dominance.y)) -->
+<!--     netw2 %>% rename(Valence = Valence.y, Arousal = Arousal.y, Dominance = Dominance.y, Word = to_word)->netw2 -->
+<!--     rat_lexicon<-unique(rbind(netw1,netw2))  -->
+<!--     rownames(rat_lexicon)<-seq(1,nrow(rat_lexicon)) -->
+
+<!--     ratings<-readRDS(paste0('results/second_1iter_',netw,'_',lex,'.Rda')) -->
+<!--     #reconstruction of the test set -->
+<!--     training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set -->
+<!--     s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)] -->
+<!--     test_set<-ratings$Word[which(ratings$Word %in% s)] -->
+<!--     ratings<-ratings[which(ratings$Word %in% test_set),] -->
+<!--     ratings<-ratings[,1:10] -->
+<!--     ratings<-left_join(ratings,rat_lexicon,by='Word') -->
+
+<!--     perm<-readRDS(paste0('results/perm_second_1iter_',netw,'_',lex,'.Rda')) -->
+<!--     # corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))[1,] -->
+<!--     # perm<-null_models(netw,lex,ratings,corr,'permutation',iter_perm,1)  ##it may take some time -->
+<!--     # perm$numneigh<-NULL -->
+
+
+<!--     random<-readRDS(paste0('results/random_second_1iter_',netw,'_',lex,'.Rda')) -->
+<!--     # corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))[1,] -->
+<!--     # random<-null_models(netw,lex,ratings,corr,'random',iter_random,1) ##it may take some time -->
+<!--     # random$numneigh<-NULL -->
+
+<!--     pvalue_perm<-unlist(perm$pvalue) -->
+<!--     pvalue_rnd<-unlist(random$pvalue) -->
+<!--     if (any(pvalue_perm>=5)) -->
+<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the permutations null model'))} -->
+<!--     if (any(pvalue_rnd>=5)) -->
+<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the random neighbors null model'))} -->
+<!--   } -->
+<!-- } -->
+
+<!-- ``` -->
+
+
+Figure 2.
+```{r}
+library(igraph)
+netw<-'omegawiki'
+lex<-'NRCVAD'
+ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda'))
+network<-readRDS(paste0('datasets/',netw,'.Rda'))
+inlexicon<-ratings_allnetw[!is.na(ratings_allnetw$Valence),]  
+netw_ratings<-left_join(select(network,from_word,to_word),select(inlexicon,1,11),by=c('from_word'='Word'))
+netw_ratings<-left_join(netw_ratings,select(inlexicon,1,11),by=c('to_word'='Word'))
+netw_ratings<-netw_ratings[!is.na(netw_ratings$Valence.x) & !is.na(netw_ratings$Valence.y),]
+
+g<-graph_from_data_frame(netw_ratings[,1:2],directed=F,vertices<-union(netw_ratings$from_word,netw_ratings$to_word))
+comp<-components(g)
+nodes<-groups(comp)[[1]]
+netw_ratings<-netw_ratings[netw_ratings$from_word%in%nodes & netw_ratings$to_word %in% nodes,]
+g<-graph_from_data_frame(netw_ratings[,1:2],directed=F,vertices<-union(netw_ratings$from_word,netw_ratings$to_word))
+
+val<-c()
+for (word in union(netw_ratings$from_word,netw_ratings$to_word))
+{
+  if (inlexicon$Valence[inlexicon$Word==word]<0.2)
+    {add<-'1'}
+  else if (inlexicon$Valence[inlexicon$Word==word]<0.4)
+    {add<-'2'}
+  else if (inlexicon$Valence[inlexicon$Word==word]<0.6)
+    {add<-'3'}
+  else if (inlexicon$Valence[inlexicon$Word==word]<0.8)
+    {add<-'4'}
+  else if (inlexicon$Valence[inlexicon$Word==word]<=1)
+  {add<-'5'}
+  val<-c(val,add)
+}
+vertex_attr(g,'valence',V(g))<-as.character(val)
+
+# val<-c()
+# for (word in union(netw_ratings$from_word,netw_ratings$to_word))
+# {
+#   val<-c(val,inlexicon$Valence[inlexicon$Word==word])
+# }
+# vertex_attr(g,'valence',V(g))<-as.character(val)
+
+write_graph(g,paste0('testvalence1_',netw,'_',lex,'_1comp.gml'),format='gml')
+```
+
+
+
+<!-- ###estimating the WKB ratings using NRC VAD -->
+<!-- ```{r} -->
+<!-- corr<-data.frame(stringsAsFactors = F) -->
+<!-- lex<-'NRCVAD' -->
+<!-- for (netw in c('clics3','omegawiki','freedict')) -->
+<!-- { -->
+<!--   ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda')) ##real and computed ratings  -->
+<!--   # ratings_allnetw<-ratings_allnetw[!is.na(ratings_allnetw$Valence),] ##considering only the words for which it was possible to compute the     affective ratings -->
+<!--   WKB<-read.csv('datasets/WKB.csv') -->
+<!--   WKB<-select(WKB,1:2,5,8) -->
+<!--   new_df<-left_join(ratings_allnetw,WKB,by='Word') -->
+<!--   new_df<-new_df[!is.na(new_df$V.Mean.Sum),] ##considering only the words for which it was possible to compute the affective ratings -->
+<!--   a<-cor.test(new_df$Valence_lang,new_df$V.Mean.Sum) -->
+<!--   b<-cor.test(new_df$Arousal_lang,new_df$A.Mean.Sum) -->
+<!--   c<-cor.test(new_df$Dominance_lang,new_df$D.Mean.Sum) -->
+<!--   df<-data.frame(network=netw,V=round(a$estimate[[1]],digit=3),A=round(b$estimate[[1]],digit=3),D=round(c$estimate[[1]],digit=3),stringsAsFactors = F) -->
+<!--   corr<-rbind(corr,df) -->
+<!-- } -->
+<!-- corr -->
+<!-- ``` -->
+
+<!-- #########Checking results -->
+<!-- ```{r} -->
+<!-- wrnd<-new_df$Valence_lang+rnorm(nrow(new_df),mean=0.1,sd=0.1) -->
+<!-- cor.test(wrnd,new_df$Valence) -->
+<!-- cor.test(wrnd,new_df$V.Mean.Sum) -->
+
+<!-- ``` -->
+
+
+
