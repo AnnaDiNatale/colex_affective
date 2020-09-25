@@ -1,4 +1,4 @@
-###function for correlating computed ratings and real ratings on a 75/25 split cross-validation
+###function for correlating computed ratings and true ratings on a 75/25 split cross-validation
 ###Inputs:
 ##network: the word network. It can be 'clics3', 'omegawiki' or 'freedict'
 ##lexicon1: the affective ratings lexicon. It can be either 'NRCVAD' or 'WBK'
@@ -12,7 +12,7 @@ correlations<-function(network,lexicon1,perc_training_set,N){
     
    
   
-  #reconstruction of the affective lexica
+  #reconstruction of the affective lexicon
   netw1<-unique(select(lexicon,from_word,Valence.x,Arousal.x,Dominance.x))
   netw1 %>% rename(Valence = Valence.x, Arousal = Arousal.x, Dominance = Dominance.x, Word = from_word)->netw1
   netw2<-unique(select(lexicon,to_word,Valence.y,Arousal.y,Dominance.y))
@@ -39,12 +39,6 @@ correlations<-function(network,lexicon1,perc_training_set,N){
 
        source('scripts/expansion.R')
        rat_allnetw<-expansion(network,lexicon1,training_set)
-       # if (k==1)
-       # {
-       #  saveRDS(rat_allnetw,paste0('/home/anatale/Documents/PhD/word networks/Word ratings and colexification/paper/GitHub repository/scripts nice/results/second/second_',k,'iter_omegawiki_warriner.Rda'))
-       # 
-       # }
-       # rat_allnetw<-readRDS(paste0('results/first_',network,'_',lexicon1,'.Rda'))
        num_words_computed<-nrow(rat_allnetw[!is.na(rat_allnetw$Valence_lang),])
        
        if(length(test_set)>=1) ##if the words are split into training and test set
