@@ -275,7 +275,7 @@ random_neigh<-readRDS(paste0('results/random_second_',netw,'_',lex,'.Rda'))
 # for (i in seq(1,10)) ##number of iterations of the model we want to test
 # {
 #   print(i)
-#   ratings<-readRDS(paste0('results/second/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
+#   ratings<-readRDS(paste0('results/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
 #   #reconstruction of the test set
 #   training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set
 #   s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)]
@@ -293,7 +293,7 @@ random_neigh<-readRDS(paste0('results/random_second_',netw,'_',lex,'.Rda'))
 # random_neigh<-data.frame(stringsAsFactors = F)
 # for (i in seq(1,10)) ##number of iterations of the model we want to test
 # {
-#   ratings<-readRDS(paste0('results/second/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
+#   ratings<-readRDS(paste0('results/second_',i,'iter_',netw,'_',lex,'.Rda')) ##real and computed ratings
 #   #reconstruction of the test set
 #   training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set
 #   s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)]
