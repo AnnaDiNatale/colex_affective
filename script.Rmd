@@ -27,20 +27,7 @@ source("scripts/expansion.R")
 source("scripts/nullmodels.R")
 ```
 
-<!-- Table 1. Descriptive statistics of the networks -->
 
-```{r}
-# statistics<-data.frame(stringsAsFactors = F)
-# 
-# for (netw in c('clics3','omegawiki','freedict'))
-# {
-#   network<-readRDS(paste0('datasets/',netw,'.Rda'))
-#   df<-data.frame(network=netw, 'num languages'=NA, 'num families'=NA, 'num nodes' =length(union(network$from_word,network$to_word)), 'num links'=nrow(network),stringsAsFactors = F)
-#   statistics<-rbind(statistics,df)
-# }
-# statistics
-# write.csv2(statistics, "output/Table1.csv", row.names=F)
-```
 
 Table 2. Words in the affective lexica that are mapped in the colexification networks
 ```{r}
@@ -241,26 +228,6 @@ ggsave('output/fig5part2test.pdf',width=10.1,height=1.5)
 
 ```
 
-<!-- pvalues for the pemutation null model. If the number of observations that are >= the correlation value (extreme observations) is < 5%, the pvalue is <0.05 -->
-<!-- ```{r} -->
-<!-- for (netw in c('clics3','omegawiki','freedict')) -->
-<!-- { -->
-<!--   for (lex in c('WKB','NRCVAD')) -->
-<!--   { -->
-<!--     perm<-readRDS(paste0('results/perm_first_',netw,'_',lex,'.Rda')) -->
-<!--     random<-readRDS(paste0('results/random_first_',netw,'_',lex,'.Rda')) -->
-<!--     for (k in seq(1,10)) -->
-<!--     { -->
-<!--       pvalue_perm<-unlist(perm$pvalue[perm$numneigh==k]) -->
-<!--       pvalue_rnd<-unlist(random$pvalue[random$numneigh==k]) -->
-<!--       if (any(pvalue_perm>=5)) -->
-<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the permutations null model'))} -->
-<!--       if (any(pvalue_rnd>=5)) -->
-<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the random neighbors null model'))} -->
-<!--     } -->
-<!--   } -->
-<!-- } -->
-<!-- ``` -->
 
 Table 4. Results of the 75/25 split cross validation on 10 iterations
 ```{r}
@@ -439,59 +406,6 @@ ggplot(data = filt, aes(x=num_iter,y=estimated))+
 ggsave('output/fig6part2.pdf',width=10.1,height=1.6)
 ```
 
-<!-- pvalues -->
-<!-- ```{r} -->
-<!-- # iter_random<-10000 -->
-<!-- # iter_perm<-10000 -->
-<!-- for (netw in c('clics3','omegawiki','freedict')) -->
-<!-- { -->
-<!--   for (lex in c('WKB','NRCVAD')) -->
-<!--   { -->
-<!--     if(netw=='freedict' & lex=='WKB') -->
-<!--     { -->
-<!--       next -->
-<!--     } -->
-<!--     lexicon<-readRDS(paste0('datasets/',netw,'_',lex,'.Rda')) -->
-<!--     #reconstruction of the affective lexica -->
-<!--     netw1<-unique(select(lexicon,from_word,Valence.x,Arousal.x,Dominance.x)) -->
-<!--     netw1 %>% rename(Valence = Valence.x, Arousal = Arousal.x, Dominance = Dominance.x, Word = from_word)->netw1 -->
-<!--     netw2<-unique(select(lexicon,to_word,Valence.y,Arousal.y,Dominance.y)) -->
-<!--     netw2 %>% rename(Valence = Valence.y, Arousal = Arousal.y, Dominance = Dominance.y, Word = to_word)->netw2 -->
-<!--     rat_lexicon<-unique(rbind(netw1,netw2))  -->
-<!--     rownames(rat_lexicon)<-seq(1,nrow(rat_lexicon)) -->
-
-<!--     ratings<-readRDS(paste0('results/second_1iter_',netw,'_',lex,'.Rda')) -->
-<!--     #reconstruction of the test set -->
-<!--     training_set<-ratings$Word[which(!is.na(ratings$Valence)&(ratings$Valence_lang==0))] ##training set -->
-<!--     s<-rat_lexicon$Word[!(rat_lexicon$Word %in% training_set)] -->
-<!--     test_set<-ratings$Word[which(ratings$Word %in% s)] -->
-<!--     ratings<-ratings[which(ratings$Word %in% test_set),] -->
-<!--     ratings<-ratings[,1:10] -->
-<!--     ratings<-left_join(ratings,rat_lexicon,by='Word') -->
-
-<!--     perm<-readRDS(paste0('results/perm_second_1iter_',netw,'_',lex,'.Rda')) -->
-<!--     # corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))[1,] -->
-<!--     # perm<-null_models(netw,lex,ratings,corr,'permutation',iter_perm,1)  ##it may take some time -->
-<!--     # perm$numneigh<-NULL -->
-
-
-<!--     random<-readRDS(paste0('results/random_second_1iter_',netw,'_',lex,'.Rda')) -->
-<!--     # corr<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))[1,] -->
-<!--     # random<-null_models(netw,lex,ratings,corr,'random',iter_random,1) ##it may take some time -->
-<!--     # random$numneigh<-NULL -->
-
-<!--     pvalue_perm<-unlist(perm$pvalue) -->
-<!--     pvalue_rnd<-unlist(random$pvalue) -->
-<!--     if (any(pvalue_perm>=5)) -->
-<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the permutations null model'))} -->
-<!--     if (any(pvalue_rnd>=5)) -->
-<!--       {print(paste0('Pvalue>0.05 for ',netw,' and ',lex,'with respect to the random neighbors null model'))} -->
-<!--   } -->
-<!-- } -->
-
-<!-- ``` -->
-
-
 Figure 2.
 ```{r}
 library(igraph)
@@ -536,37 +450,3 @@ vertex_attr(g,'valence',V(g))<-as.character(val)
 
 write_graph(g,paste0('testvalence1_',netw,'_',lex,'_1comp.gml'),format='gml')
 ```
-
-
-
-<!-- ###estimating the WKB ratings using NRC VAD -->
-<!-- ```{r} -->
-<!-- corr<-data.frame(stringsAsFactors = F) -->
-<!-- lex<-'NRCVAD' -->
-<!-- for (netw in c('clics3','omegawiki','freedict')) -->
-<!-- { -->
-<!--   ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda')) ##real and computed ratings  -->
-<!--   # ratings_allnetw<-ratings_allnetw[!is.na(ratings_allnetw$Valence),] ##considering only the words for which it was possible to compute the     affective ratings -->
-<!--   WKB<-read.csv('datasets/WKB.csv') -->
-<!--   WKB<-select(WKB,1:2,5,8) -->
-<!--   new_df<-left_join(ratings_allnetw,WKB,by='Word') -->
-<!--   new_df<-new_df[!is.na(new_df$V.Mean.Sum),] ##considering only the words for which it was possible to compute the affective ratings -->
-<!--   a<-cor.test(new_df$Valence_lang,new_df$V.Mean.Sum) -->
-<!--   b<-cor.test(new_df$Arousal_lang,new_df$A.Mean.Sum) -->
-<!--   c<-cor.test(new_df$Dominance_lang,new_df$D.Mean.Sum) -->
-<!--   df<-data.frame(network=netw,V=round(a$estimate[[1]],digit=3),A=round(b$estimate[[1]],digit=3),D=round(c$estimate[[1]],digit=3),stringsAsFactors = F) -->
-<!--   corr<-rbind(corr,df) -->
-<!-- } -->
-<!-- corr -->
-<!-- ``` -->
-
-<!-- #########Checking results -->
-<!-- ```{r} -->
-<!-- wrnd<-new_df$Valence_lang+rnorm(nrow(new_df),mean=0.1,sd=0.1) -->
-<!-- cor.test(wrnd,new_df$Valence) -->
-<!-- cor.test(wrnd,new_df$V.Mean.Sum) -->
-
-<!-- ``` -->
-
-
-
