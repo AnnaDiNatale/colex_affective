@@ -204,10 +204,6 @@ for (netw in c('clics3','omegawiki','freedict'))
 {
   for (lex in c('WKB','NRCVAD'))
   {
-        if(netw=='freedict' & lex=='WKB')
-    {
-      next
-    }
     # cor<-correlations(netw,lex,perc_training_set,niter) ##it may take some time
     cor<-readRDS(paste0('results/corr_second_',netw,'_',lex,'.Rda'))
     # saveRDS(cor,paste0('results/corr_second_',netw,'_',lex,'.Rda'))
