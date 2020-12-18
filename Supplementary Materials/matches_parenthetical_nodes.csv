@@ -1,0 +1,349 @@
+Word,Word_changed,Valence,Arousal,Dominance,inWKB
+affair (classifier),affair,3.1,5.4,5.89,1
+alcohol (fermented drink),alcohol,4.11,5.17,4,1
+anaconda (water boa),anaconda,4.43,6,4.08,1
+angular (squareformed),angular,0.449,0.281,0.444,0
+animal (classifier),animal,7.06,4.3,5.72,1
+ask (inquire),ask,5.95,3.48,6.29,1
+ask (request),ask,5.95,3.48,6.29,1
+axe (classifier),axe,3.48,5.64,5.55,1
+back (part),back,4.76,2.59,5.22,1
+back (direction),back,4.76,2.59,5.22,1
+bathe (someone),bathe,7.5,3.15,6.5,1
+beat (classifier),beat,4.38,5.52,5.59,1
+belief (religious),belief,6.14,3.95,7.18,1
+bend (something),bend,5.75,4.4,6,1
+bend (oneself),bend,5.75,4.4,6,1
+bit (classifier),bit,5.05,3.86,5.53,1
+blame (somebody),blame,2.94,4.81,3.33,1
+block (the way),block,4.48,4.25,6.21,1
+blow (of wind),blow,6.1,4.48,5,1
+blow (with mouth),blow,6.1,4.48,5,1
+blow (with nose),blow,6.1,4.48,5,1
+boil (of skin),boil,4.48,5.42,5.4,1
+boil (something),boil,4.48,5.42,5.4,1
+boil (of liquid),boil,4.48,5.42,5.4,1
+bolt (of lightning),bolt,3.9,4.55,4.64,1
+bolt (move in haste),bolt,3.9,4.55,4.64,1
+bother (harass),bother,4.44,4.2,4.22,1
+bottle (classifier),bottle,5.47,3.32,5.88,1
+bowl (classifier),bowl,5.67,3.21,5.58,1
+braid (verb),braid,5.78,3.9,5.6,1
+brawl (fight),brawl,3.64,5.38,4.73,1
+break (cleave),break,5.1,4.71,4.5,1
+break (destroy or get destroyed),break,5.1,4.71,4.5,1
+break (breaking),break,5.1,4.71,4.5,1
+break (of rope),break,5.1,4.71,4.5,1
+bridge (classifier),bridge,5.44,3.48,4.78,1
+broken (shattered),broken,2.75,4.86,3.76,1
+broken (not working),broken,2.75,4.86,3.76,1
+brood (verb),brood,4.65,2.57,4.04,1
+bud (classifier),bud,0.46,0.402,0.333,0
+budge (oneself),budge,4.83,3.95,4.32,1
+burn (something),burn,3.73,5.4,3.9,1
+call (appeal),call,6.18,3.29,5.61,1
+car (classifier),car,6.63,4.04,6.41,1
+carp (fish),carp,4.55,4.31,5.83,1
+carry (with pole on shoulder),carry,5.67,3.47,4.94,1
+chaff (husk),chaff,0.333,0.327,0.188,0
+chain (classifier),chain,4.79,4.05,4.2,1
+change (become different),change,5.09,4.05,5.81,1
+change (something),change,5.09,4.05,5.81,1
+chat (with somebody),chat,5.75,4.27,6.22,1
+chicken (classifier),chicken,6.17,3.2,5.22,1
+child (descendant),child,7.2,5.33,5.2,1
+child (young human),child,7.2,5.33,5.2,1
+chime (action),chime,6.05,4.1,6.21,1
+chop (into pieces),chop,4.6,4.43,5.76,1
+clean (something),clean,7.09,3.57,6.11,1
+clog (something),clog,2.95,3.23,3.58,1
+close (eyes),close,5.23,3.81,5.94,1
+clothing (classifier),clothing,6.37,4.44,6.72,1
+cold (of weather),cold,4.32,3.55,5.17,1
+cold (chill),cold,4.32,3.55,5.17,1
+comb (verb),comb,5.65,2.33,6.68,1
+convey (a message),convey,5.1,3.83,5.1,1
+cook (something),cook,7.12,4.33,6.25,1
+cook (person),cook,7.12,4.33,6.25,1
+correct (right),correct,6.94,3.48,7.06,1
+correct (something or somebody),correct,6.94,3.48,7.06,1
+count (quantity),count,5.89,2.3,5.17,1
+creek (tidal),creek,6.32,2.67,5,1
+crow (verb),crow,4.32,3.55,5.4,1
+crown (of head),crown,6,4.52,5.62,1
+current (stream),current,5.53,3.25,5.9,1
+cut (with axe),cut,3.9,5.07,4.55,1
+cut (with knife),cut,3.9,5.07,4.55,1
+cut (with scissors),cut,3.9,5.07,4.55,1
+damage (injury),damage,2.98,4.86,3.46,1
+dash (of vehicle),dash,5.05,4.29,5.86,1
+day (24 hours),day,6.36,3.62,5.59,1
+day (not night),day,6.36,3.62,5.59,1
+deal (classifier),deal,6.14,3.9,6.12,1
+die (from accident),die,1.67,6.9,3.28,1
+dinner (supper),dinner,6.4,3.85,6.05,1
+door (classifier),door,5.43,3.19,6.1,1
+doubt (something),doubt,3.28,4.33,3.06,1
+draw (water),draw,6.18,3.6,6.37,1
+dream (something),dream,7.43,4.37,5.4,1
+drip (emit liquid),drip,5.52,3.7,4.11,1
+drip (fall in globules),drip,5.52,3.7,4.11,1
+drive (cattle),drive,6.5,4.19,5.67,1
+drop (classifier),drop,4.23,4.67,4.82,1
+drop (something),drop,4.23,4.67,4.82,1
+dung (animal faeces),dung,3.86,3.45,4.65,1
+"dwell (live, reside)",dwell,4.75,3.14,5.3,1
+ear (of grain),ear,5.86,3.5,6.74,1
+earth (soil),earth,6.83,5.04,5.69,1
+earth (wet substance),earth,6.83,5.04,5.69,1
+egg (classifier),egg,5.95,3.28,5.74,1
+emerge (appear),emerge,5.75,4.74,6.67,1
+end (of time),end,4.73,3.95,4.41,1
+end (of space),end,4.73,3.95,4.41,1
+fade (loose color),fade,4.65,3.2,4.63,1
+faeces (excrement),faeces,0.184,0.476,0.175,0
+fall (of snow and rain),fall,3.89,4.24,3.83,1
+fan (object),fan,6.81,3.7,6.05,1
+fat (organic substance),fat,2.74,3.89,4,1
+fat (from animals),fat,2.74,3.89,4,1
+fat (obese),fat,2.74,3.89,4,1
+fat (oily),fat,2.74,3.89,4,1
+fat (of meat and food),fat,2.74,3.89,4,1
+fat (for nourishment),fat,2.74,3.89,4,1
+fear (fright),fear,2.93,6.14,3.32,1
+fear (be afraid),fear,2.93,6.14,3.32,1
+feel (tactually),feel,6.27,4.05,5.5,1
+fell (a tree),fell,0.255,0.462,0.25,0
+female (of person),female,7.52,5.9,6.42,1
+female (of animal),female,7.52,5.9,6.42,1
+field (upland),field,5.73,3.84,5.74,1
+file (tool),file,5.44,3.4,4.61,1
+fine (penalty),fine,6.5,3.86,5.78,1
+fish (classifier),fish,6.42,3.33,6.08,1
+fishing (with a hook),fishing,7.05,3.6,6.33,1
+flash (verb),flash,5.53,5.38,4.94,1
+flock (of animals),flock,5.25,3.48,5.38,1
+fly (insect),fly,6.06,4.9,5.28,1
+fly (move through air),fly,6.06,4.9,5.28,1
+foot (measure),foot,4.68,2.77,5.97,1
+ford (crossing),ford,5.79,2.85,6,1
+frog (small),frog,5.84,4.07,5.5,1
+front (part),front,0.677,0.35,0.623,0
+fruit (classifier),fruit,7,4.09,6.12,1
+gap (distance),gap,4.91,3.6,4.71,1
+grain (classifier),grain,5.83,1.6,5.12,1
+grandchild (daughter's offspring),grandchild,7,3.9,5.68,1
+grandson (son's son),grandson,6.22,3.36,5.39,1
+hair (head),hair,6.18,3.71,6.69,1
+hair (body),hair,6.18,3.71,6.69,1
+halt (stop),halt,4.42,4.57,4.37,1
+hat (classifier),hat,5.69,2.88,6.21,1
+hatch (out),hatch,5.26,4.9,5.09,1
+help (assistance),help,6.95,4.29,6.89,1
+herd (something),herd,5.67,3.33,5,1
+hide (oneself),hide,4.9,3.52,4.85,1
+hide (conceal),hide,4.9,3.52,4.85,1
+hit (a target),hit,3.95,5.48,5.15,1
+hope (something),hope,7.48,5.29,6.78,1
+horn (anatomy),horn,5,4.22,5.68,1
+horn (instrument),horn,5,4.22,5.68,1
+house (classifier),house,7.19,3.95,6.41,1
+hurt (somebody),hurt,2.45,4.72,3.73,1
+hurt (sense pain),hurt,2.45,4.72,3.73,1
+improve (something),improve,6.14,4.61,6.04,1
+iron (clothes),iron,5.03,3.24,5.51,1
+jog (something),jog,5.81,3.43,6.35,1
+kind (thing),kind,7.78,3.19,7.62,1
+kiss (noun),kiss,7.78,6.05,6.52,1
+knife (classifier),knife,4.33,4.86,5.29,1
+knife (for eating),knife,4.33,4.86,5.29,1
+know (something),know,6.82,3.24,5.78,1
+know (somebody),know,6.82,3.24,5.78,1
+lack (not have),lack,3.68,2.24,5.46,1
+ladle (water),ladle,5.11,2.82,5.42,1
+land (descend),land,6.61,3.05,5.94,1
+lay (verb),lay,6.18,3.7,6.32,1
+lead (chemical element),lead,5.56,3.95,5.22,1
+lead (guide),lead,5.56,3.95,5.22,1
+leaf (leaflike object),leaf,6.16,3.05,5.54,1
+lean (meat),lean,6.35,3.32,5.84,1
+"lid (cover, cap)",lid,5.14,2.91,6.33,1
+lie (mislead),lie,2.39,4.81,4.72,1
+lie (rest),lie,2.39,4.81,4.72,1
+lie (falsehood),lie,2.39,4.81,4.72,1
+light (radiation),light,6.55,3.52,5.89,1
+light (ignite),light,6.55,3.52,5.89,1
+light (weight),light,6.55,3.52,5.89,1
+light (color),light,6.55,3.52,5.89,1
+light (in taste),light,6.55,3.52,5.89,1
+lime (material),lime,6.1,3.83,6.23,1
+lime (fruit),lime,6.1,3.83,6.23,1
+longing (wish),longing,0.604,0.434,0.56,0
+low (height),low,4.39,2.21,3.11,1
+low (position or height),low,4.39,2.21,3.11,1
+male (of person),male,6.91,4.5,5.89,1
+male (of animal),male,6.91,4.5,5.89,1
+marry (as woman),marry,7.09,5.52,5.67,1
+marry (as man),marry,7.09,5.52,5.67,1
+massage (somebody),massage,7.16,3.88,6.57,1
+may (month),may,5.55,3.19,5.94,1
+mince (something),mince,5.23,4.14,5.68,1
+miss (a target),miss,4.1,3.9,5.12,1
+miss (somebody),miss,4.1,3.9,5.12,1
+mold (get rotten),mold,2.71,3.77,4.5,1
+mouthful (classifier),mouthful,4.88,3.8,4.64,1
+move (oneself),move,4.95,4.24,5.12,1
+move (affect emotionally),move,4.95,4.24,5.12,1
+nail (tool),nail,4.6,3.05,5.17,1
+nape (of neck),nape,0.427,0.268,0.298,0
+need (noun),need,5.45,3.67,5.06,1
+needle (for sewing),needle,3.97,4.36,5.12,1
+needle (classifier),needle,3.97,4.36,5.12,1
+net (for catching),net,5,3,4.61,1
+notice (something),notice,5.94,3.38,5.11,1
+oil (from plants),oil,3.91,4.25,5.63,1
+oil (organic substance),oil,3.91,4.25,5.63,1
+oil (hydrophobic liquid),oil,3.91,4.25,5.63,1
+old (used),old,3.19,4.48,4.22,1
+old (aged),old,3.19,4.48,4.22,1
+old (of man),old,3.19,4.48,4.22,1
+open (state),open,6.14,4.43,6.17,1
+open (eyes),open,6.14,4.43,6.17,1
+orange (fruit),orange,6.81,4.04,5.58,1
+orange (color),orange,6.81,4.04,5.58,1
+paint (pigments),paint,5.74,4.5,6.56,1
+paint (something),paint,5.74,4.5,6.56,1
+pair (classifier),pair,5.95,3.35,6.68,1
+perch (fish),perch,5.35,3.38,5.26,1
+person (classifier),person,6.1,3.71,6,1
+picture (photograph),picture,6.73,3.29,6.12,1
+picture (painting),picture,6.73,3.29,6.12,1
+pike (fish),pike,4.73,4.09,5.5,1
+pit (pothole),pit,3.85,3.5,4.04,1
+place (position),place,5.86,3.52,6.53,1
+plane (tool),plane,5.72,4.91,5.07,1
+plant (vegetation),plant,7.05,3.94,6.45,1
+plant (something),plant,7.05,3.94,6.45,1
+play (instrument),play,7.55,3.81,6.29,1
+plough (instrument),plough,0.677,0.427,0.458,0
+point (with finger),point,5.45,3.86,6.27,1
+point (pointed end),point,5.45,3.86,6.27,1
+portion (classifier),portion,5.16,3.91,5.05,1
+pupil (student),pupil,5.53,3.76,5.17,1
+rack (for storing food),rack,5.55,4.52,5.12,1
+rain (precipitation),rain,6.58,3.29,4.25,1
+rain (raining),rain,6.58,3.29,4.25,1
+raise (a child),raise,7.22,5.1,5.44,1
+recognize (somebody),recognize,6.14,4.2,7.11,1
+ring (make sound),ring,7.09,4.43,5.44,1
+rise (move upwards),rise,5.73,5.3,7.16,1
+rise (oneself),rise,5.73,5.3,7.16,1
+river (classifier),river,6.72,4.22,4.89,1
+roar (of sea),roar,5.37,6.15,5.88,1
+roast (something),roast,5.74,4.05,5.65,1
+rob (verb),rob,2.1,5.54,3.57,1
+rope (classifier),rope,5.05,4.58,5.62,1
+rough (of sea),rough,3.68,5.43,4.88,1
+rustle (of leaves),rustle,4.16,3.88,5.62,1
+scales (measure instrument),scales,0.439,0.33,0.491,0
+scatter (seeds),scatter,3.9,4.52,4.21,1
+sentence (classifier),sentence,5.13,3.09,6.53,1
+set (heavenly bodies),set,5.23,3.1,5.81,1
+shaman (folk healer),shaman,5.21,4.17,4.69,1
+sharpen (something),sharpen,5.67,4.74,5.67,1
+sheet (classifier),sheet,5.57,2.64,5,1
+ship (classifier),ship,6.14,3.94,5.84,1
+shit (defecate),shit,3.91,5.67,4.59,1
+shoot (with slingshot),shoot,3.5,6,4.67,1
+short (time),short,5.67,2.62,4.39,1
+side (body),side,5.32,3.14,5.82,1
+sieve (tool),sieve,0.459,0.25,0.333,0
+sink (descend),sink,4.62,3.7,4.1,1
+sink (basin),sink,4.62,3.7,4.1,1
+size (of object),size,5.61,3.14,5.22,1
+skin (of fruit),skin,5.78,3.25,5,1
+skin (animal),skin,5.78,3.25,5,1
+skin (human),skin,5.78,3.25,5,1
+sleep (state),sleep,7.22,3.6,5.3,1
+small (not tall),small,5.76,3.43,4.53,1
+smell (stink),smell,6.39,5.24,5.44,1
+smell (perceive),smell,6.39,5.24,5.44,1
+smoke (exhaust),smoke,3.44,5,4.17,1
+smoke (inhale),smoke,3.44,5,4.17,1
+smoke (emit smoke),smoke,3.44,5,4.17,1
+snare (trap),snare,4.79,4.7,4.55,1
+soak (verb),soak,6.05,3,5.6,1
+sole (foot),sole,4.9,3.78,5.27,1
+song (classifier),song,7.59,4.6,6.95,1
+sound (of instrument or voice),sound,6.45,4.14,5.5,1
+sow (female pig),sow,5.11,3.71,5.74,1
+space (available),space,6.89,3.6,4.98,1
+spear (somebody),spear,4.43,4.7,5,1
+spherical (round in three dimensions),spherical,0.55,0.308,0.5,0
+spill (something),spill,3.63,3.74,4.5,1
+spoil (become spoiled),spoil,2.83,4.09,4.11,1
+spoil (somebody or something),spoil,2.83,4.09,4.11,1
+spring (of water),spring,7.64,5.5,5.9,1
+sprout (shoot),sprout,5.7,3.59,5.32,1
+sprout (verb),sprout,5.7,3.59,5.32,1
+stalk (classifier),stalk,3.89,5.36,3.61,1
+state (politics),state,5.73,3.29,5.65,1
+steam (verb),steam,5.4,4,4.84,1
+step (verb),step,5.68,3.48,6,1
+stick (classifier),stick,5.27,3.81,5.82,1
+stone (of fruit),stone,4.81,3.25,7.26,1
+stone (classifier),stone,4.81,3.25,7.26,1
+stream (flow continuously),stream,6.9,4.35,5.09,1
+strike (something),strike,3.06,5.52,3.28,1
+strike (someone),strike,3.06,5.52,3.28,1
+stroke (of pen),stroke,4.19,4.95,4.19,1
+strong (of drink),strong,6.81,5.14,6.54,1
+support (of object),support,6.89,3.05,6.11,1
+swallow (bird),swallow,5.57,3.78,5.72,1
+swarm (of birds),swarm,3.76,6.26,3.92,1
+sweat (perspire),sweat,4.38,5.1,4.69,1
+sweat (substance),sweat,4.38,5.1,4.69,1
+swing (movement),swing,6.95,4.1,6.16,1
+swing (something),swing,6.95,4.1,6.16,1
+tall (person),tall,6.71,3.85,6.47,1
+taste (something),taste,6.63,4.56,7.33,1
+tear (of eye),tear,3.14,4.8,5.68,1
+tear (shred),tear,3.14,4.8,5.68,1
+thaw (dew),thaw,4.95,3.84,5.82,1
+thin (of shape of object),thin,5.47,4.5,5.33,1
+thin (of leaf and cloth),thin,5.47,4.5,5.33,1
+thin (slim),thin,5.47,4.5,5.33,1
+thin (of hair and thread),thin,5.47,4.5,5.33,1
+thin (of hair and leaf),thin,5.47,4.5,5.33,1
+think (reflect),think,6.68,3.75,6.5,1
+think (believe),think,6.68,3.75,6.5,1
+thither (there to),thither,0.5,0.27,0.316,0
+thunder (verb),thunder,5.74,5.75,3.9,1
+tin (metal),tin,4.95,2.73,5.54,1
+tip (of tongue),tip,6.77,4.05,5.84,1
+tip (of object),tip,6.77,4.05,5.84,1
+tone (music),tone,5.47,3.67,5.18,1
+trap (pitfall),trap,3.24,4.36,3.78,1
+trap (catch),trap,3.24,4.36,3.78,1
+tree (classifier),tree,7.59,2.67,5.62,1
+tumble (fall down),tumble,5.65,4.9,4.52,1
+turn (something),turn,5.45,3.48,5.88,1
+twist (around),twist,4.61,4.27,5.95,1
+twist (together),twist,4.61,4.27,5.95,1
+uncle (husband of father's sister),uncle,6.5,4.05,5.24,1
+urge (someone),urge,5.11,5.29,4.5,1
+use (verb),use,5.18,4.19,5,1
+wait (for),wait,4.55,3.62,5.31,1
+walk (classifier),walk,6.77,3.24,5.83,1
+walk (manner),walk,6.77,3.24,5.83,1
+walk (take a walk),walk,6.77,3.24,5.83,1
+wall (of house),wall,5.06,2.9,4.22,1
+warm (of weather),warm,7.5,3.35,6.33,1
+wash (oneself),wash,6,3.7,6.53,1
+wash (clothes),wash,6,3.7,6.53,1
+wave (verb),wave,6.32,4.19,5.48,1
+wear (on head),wear,6.36,3.33,5.72,1
+white (of eggs),white,6.18,3.35,5.71,1
+work (labour),work,5.05,4.33,6.12,1
+work (activity),work,5.05,4.33,6.12,1
+yearling (horse),yearling,0.51,0.348,0.518,0
