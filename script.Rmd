@@ -109,6 +109,34 @@ rownames(correl)<-seq(1,nrow(correl))
 correl
 # write.csv2(correlations, "output/Table3.csv", row.names=F)
 ```
+Study of colinearity of valence and dominance
+```{r}
+df_var<-data.frame(stringsAsFactors = F)
+for (netw in c('clics3','omegawiki','freedict'))
+{
+  for (lex in c('WKB','NRCVAD'))
+  {
+    ratings_allnetw<-readRDS(paste0('results/first_',netw,'_',lex,'.Rda'))
+    network<-readRDS(paste0('datasets/',netw,'.Rda'))
+    inlexicon<-ratings_allnetw[!is.na(ratings_allnetw$Valence),]
+    
+    mod1<-lm(Dominance~Valence,data=inlexicon)
+    res.anova<-aov(Dominance~Valence,data=inlexicon)
+    summary(res.anova)
+    var1<-var(mod1$residuals)
+    mod2<-lm(Dominance~Valence+Dominance_lang,data=inlexicon)
+    res.anova<-aov(Dominance~Valence+Dominance_lang,data=inlexicon)
+    summary(res.anova)
+    var2<-var(mod2$residuals)
+    diff<-1-(var2/var1)
+    df<-data.frame(network=netw,lexicon=lex,var=round(diff*100,digits = 1),stringsAsFactors = F)
+    df_var<-rbind(df_var,df)
+  }
+}
+df_var
+#write.csv2(df_var, "output/Table_colinearity.csv", row.names=F)
+```
+
 
 Fig 6. Comparison with the null models in the case of OmegaWiki and the NRC VAD lexicon
 ```{r}
