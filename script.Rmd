@@ -226,7 +226,7 @@ write.csv2(correlations, "output/Table5.csv", row.names=F)
 ```
 
 
-Figure 7. Comparison with the null models in the case of OmegaWiki and the NRC VAD lexicon
+Figure 8. Comparison with the null models in the case of OmegaWiki and the NRC VAD lexicon
 ```{r}
 netw<-'omegawiki'  ##selection of the network and the lexicon
 lex<-'NRCVAD'
@@ -342,7 +342,7 @@ ggplot(data = filt, aes(x=num_iter,y=estimated))+
   scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
   scale_y_continuous(breaks=c(0,0.2,0.4,0.6,0.8), labels=c('0','0.2','0.4','0.6','0.8'))+
   xlab('iterations')+ylab('correlation')+ggtitle('Comparison of the method with the null models')
-ggsave('output/fig6part1.pdf',width=10,height=6)
+ggsave('output/fig8part1.pdf',width=10,height=6)
 filt<-new_df[which(new_df$class1=='perm'),]
 ggplot(data = filt, aes(x=num_iter,y=estimated))+
   geom_point(aes(colour=factor(class)),shape=4)+
@@ -354,5 +354,5 @@ ggplot(data = filt, aes(x=num_iter,y=estimated))+
   scale_x_continuous(breaks=c(1,5,9,13,17,21,25,29,33,37), labels=c('1','2','3','4','5','6','7','8','9','10'))+
   scale_y_continuous(breaks=c(-0.1,0,0.1), labels=c('-0.1','0','0.1'))+
   xlab('iterations')+ylab('correlation')
-ggsave('output/fig6part2.pdf',width=10.1,height=1.6)
+ggsave('output/fig8part2.pdf',width=10.1,height=1.6)
 ```
