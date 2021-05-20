@@ -1,0 +1,4229 @@
+WordWeight;FamilyWeight;LanguageWeight;from_word;to_word
+16;6;16;earth (soil);mud
+27;14;26;earth (soil);dust
+42;16;42;earth (soil);sand
+9;3;9;earth (soil);ash
+9;4;9;earth (soil);dirty
+16;4;16;earth (soil);field
+167;43;159;earth (soil);land
+70;24;69;earth (soil);country
+28;12;28;earth (soil);mainland
+70;24;69;earth (soil);world
+9;3;9;earth (soil);island
+18;6;18;earth (soil);place (position)
+5;3;5;earth (soil);plain
+56;17;55;earth (soil);clay
+61;33;58;earth (soil);floor
+5;4;5;earth (soil);down or below
+3;3;3;earth (soil);adobe
+70;24;69;earth (soil);ground
+8;4;8;earth (soil);area
+3;3;3;earth (soil);raining or rain
+98;21;94;dust;ash
+3;3;3;dust;cloud
+7;6;7;dust;sand
+23;7;23;dust;smoke (exhaust)
+24;5;24;dust;fog
+5;4;5;dust;clay
+7;6;6;dust;land
+4;4;4;dust;mud
+5;5;5;dust;flour
+14;5;11;mud;dirty
+3;3;3;mud;shore
+69;25;64;mud;clay
+3;3;3;mud;mortar binder
+5;3;5;mud;adobe
+13;12;12;mud;swamp
+13;7;13;mountain or hill;top
+10;7;10;mountain or hill;stone or rock
+9;5;8;mountain or hill;precipice
+71;7;63;precipice;stone or rock
+6;5;6;precipice;reef
+6;5;6;precipice;wall (of house)
+5;3;5;precipice;edge
+4;3;4;precipice;valley
+5;4;5;plain;smooth
+91;16;84;plain;field
+4;4;4;plain;garden
+24;11;24;plain;pasture
+21;9;21;plain;flat
+3;3;3;plain;floor
+4;4;4;plain;land
+20;5;19;plain;valley
+3;3;3;valley;swamp
+4;3;4;valley;river
+46;21;46;cave;hole
+5;3;5;cave;grave
+4;4;4;cave;ditch
+3;3;3;cave;nest
+15;5;15;cave;lair
+4;4;4;calm;be silent
+47;10;42;calm;silence
+12;7;12;calm;quiet
+10;9;10;rough (of sea);wave
+13;4;13;rough (of sea);rough
+6;5;6;bay;lagoon
+5;3;5;bay;port
+3;3;3;bay;cape
+55;33;50;lagoon;lake
+4;3;4;lagoon;swamp
+27;5;26;tide;high tide
+16;3;16;tide;low tide
+3;3;3;tide;wave
+17;9;17;forest;tree
+10;6;10;forest;mountain
+18;5;18;forest;wood
+4;4;4;forest;pasture
+3;3;3;forest;plant (vegetation)
+7;3;7;forest;thick
+15;4;15;forest;grass
+32;12;32;thunder;lightning
+5;3;5;thunder;cloud
+7;5;5;thunder;sky
+18;10;17;thunder;bolt (of lightning)
+3;3;3;thunder;sound or noise
+16;6;16;thunder;thunder (verb)
+23;15;23;light (radiation);day (not night)
+49;19;48;light (radiation);bright
+5;4;5;light (radiation);white
+30;13;30;light (radiation);light (color)
+18;11;17;light (radiation);fire
+5;5;5;light (radiation);clear
+11;7;10;light (radiation);sun
+9;4;9;light (radiation);candle
+4;3;4;light (radiation);easy
+19;8;16;light (radiation);torch or lamp
+7;5;7;light (radiation);world
+10;9;9;light (radiation);shine
+3;3;3;light (radiation);hell
+12;7;12;light (radiation);dawn
+3;3;3;light (radiation);month
+7;6;6;light (radiation);electricity
+32;22;31;darkness;night
+41;18;40;darkness;dark
+13;8;12;darkness;obscure
+6;6;6;darkness;evening
+3;3;3;darkness;dirty
+14;6;13;darkness;black
+21;3;21;darkness;hit
+10;6;10;shade;ghost
+18;9;17;shade;soul
+16;7;16;dew;fog
+5;3;4;dew;ice
+5;3;5;dew;snow
+44;18;42;flame;fire
+3;3;3;flame;torch or lamp
+5;3;5;flame;red
+3;3;3;flame;hell
+6;3;6;flame;tongue
+3;3;3;flame;smoke (exhaust)
+5;4;5;ash;charcoal
+7;6;7;ash;fire
+12;4;12;ash;white
+4;4;4;ash;cloud
+3;3;3;ash;fireplace
+5;3;5;ash;oven
+4;3;4;ash;smoke (exhaust)
+74;35;72;embers;charcoal
+6;6;6;embers;fire
+104;24;98;burn (something);burning
+7;5;7;burn (something);hot
+51;20;51;burn (something);light (ignite)
+12;8;12;burn (something);arson
+6;4;6;burn (something);shoot
+3;3;3;burn (something);smoke (inhale)
+10;9;10;burn (something);roast or fry
+6;4;6;burn (something);cook (something)
+7;6;7;burn (something);bake
+37;13;33;extinguish;kill
+9;4;9;extinguish;die
+3;3;3;extinguish;destroy
+5;5;5;extinguish;murder
+3;3;3;extinguish;fart
+26;4;24;move;walk
+17;8;16;move;mix
+25;5;23;move;go
+4;3;4;move;come
+6;4;4;move;drive
+10;5;8;move;shake
+3;3;3;move;ride
+3;3;3;move;i
+5;4;5;move;change
+43;12;35;turn (something);turn around
+20;9;20;turn (something);roll
+10;7;10;turn (something);twist (around)
+23;6;23;turn (something);change
+11;7;11;turn (something);come back
+4;3;4;turn (something);mix
+3;3;3;turn (something);dig
+13;3;13;turn (something);translate
+13;7;13;roll;turn around
+24;5;24;roll;twist (around)
+19;7;16;roll;wrap
+6;5;6;roll;fold
+17;7;17;twist (around);turn around
+12;7;12;twist (around);wrap
+22;13;21;twist (around);squeeze
+26;14;25;twist (around);spin
+14;6;12;twist (around);braid (verb) or weave (basket)
+5;5;5;twist (around);weave
+15;10;14;twist (around);bend
+7;4;7;twist (around);braid
+3;3;3;twist (around);knead
+3;3;3;twist (around);grind
+5;4;5;twist (around);crooked
+8;5;8;twist (around);fold
+110;34;105;rise (move upwards);go up (ascend)
+15;11;13;rise (move upwards);stand
+15;6;15;rise (move upwards);grow
+75;28;70;rise (move upwards);climb
+3;3;3;rise (move upwards);land (descend)
+7;3;7;rise (move upwards);pick up
+20;7;17;rise (move upwards);lift
+5;3;5;rise (move upwards);fly (move through air)
+6;6;6;rise (move upwards);ride
+12;6;11;rise (move upwards);wake up
+7;4;7;rise (move upwards);go out
+4;3;4;rise (move upwards);jump
+4;3;4;rise (move upwards);be born
+10;3;10;rise (move upwards);leave
+10;6;10;lift;carry
+3;3;3;lift;get
+144;22;133;lift;pick up
+14;6;14;lift;take
+13;6;13;lift;build
+12;5;11;lift;go up (ascend)
+3;3;3;lift;stretch
+3;3;3;lift;put
+3;3;3;lift;carry on head
+8;7;8;lift;carry in hand
+3;3;3;lift;carry under arm
+5;3;5;lift;weigh
+3;3;3;lift;stand up
+44;15;41;fall;tumble (fall down)
+7;3;7;fall;eat
+3;3;3;fall;cut
+3;3;3;fall;climb
+8;4;8;fall;drip (emit liquid)
+21;3;21;fall;drop
+9;6;8;fall;sink (descend)
+4;4;4;fall;kill
+56;14;54;fall;drop (something)
+15;6;15;fall;go down (descend)
+9;5;9;fall;cut down
+3;3;3;fall;slip
+7;5;6;fall;be born
+3;3;3;fall;land (descend)
+8;3;8;fall;go
+13;4;11;drip (emit liquid);pour
+34;15;32;drip (emit liquid);dribble
+25;7;25;drip (emit liquid);drop (something)
+18;6;17;drip (emit liquid);flow
+3;3;3;throw;lie down
+6;6;6;throw;sow seeds
+51;17;49;throw;shoot
+6;3;6;throw;drop (something)
+7;5;7;throw;pour
+4;4;4;throw;cut down
+4;3;4;throw;pull
+3;3;3;throw;eat
+5;3;3;throw;put
+3;3;3;throw;let go or set free
+6;6;6;throw;divorce
+3;3;3;throw;strike or beat
+3;3;3;throw;hang up
+5;4;5;throw;misplace
+95;13;88;shake;shiver
+7;6;7;shake;swing (movement)
+8;5;8;shake;mix
+44;10;40;shake;jog (something)
+10;6;10;shake;swing (something)
+3;3;3;shake;sway
+15;8;13;flow;go
+4;3;4;flow;blow (of wind)
+37;12;34;flow;run
+4;3;4;flow;come
+15;9;14;flow;walk
+22;7;21;flow;float
+10;6;10;flow;pour
+6;3;6;flow;dribble
+4;4;4;flow;go down (descend)
+3;3;3;flow;fly (move through air)
+5;3;4;flow;swim
+5;4;5;flow;sail
+6;6;6;flow;leave
+3;3;3;flow;retreat
+36;12;36;flow;stream (flow continuously)
+20;11;19;sink (descend);drowned
+26;15;24;sink (descend);dive
+3;3;3;sink (descend);enter
+3;3;3;sink (descend);go down (descend)
+8;6;8;sink (descend);set (heavenly bodies)
+6;5;6;sink (descend);drown
+3;3;3;float;go
+93;17;86;float;swim
+51;8;47;float;sail
+3;3;3;float;bathe
+5;3;5;float;fly (move through air)
+3;3;3;swim;wash
+3;3;3;swim;walk
+3;3;3;swim;dig
+70;6;64;swim;sail
+30;13;30;swim;bathe
+31;3;31;swim;row
+3;3;3;swim;water
+23;3;23;sail;row
+18;3;18;sail;sailcloth
+3;3;3;sail;walk
+6;6;6;blow (of wind);shoot
+7;5;7;blow (of wind);fly (move through air)
+50;11;50;blow (of wind);blow (with mouth)
+3;3;3;blow (of wind);dig
+4;3;4;blow (of wind);give
+15;10;15;blow (of wind);fan action
+6;4;5;blow (of wind);breath or breathe
+32;7;31;blow (of wind);wind
+4;4;4;blow (of wind);whistle
+5;3;5;blow (of wind);come
+4;4;4;kneel;knee
+18;6;18;crouch;sit
+4;3;4;crouch;bend
+10;8;10;jump;run
+17;5;17;jump;dance
+23;14;23;jump;fly (move through air)
+3;3;3;jump;splash
+4;4;4;jump;flee
+4;3;4;kick;shoot
+11;7;11;kick;strike or beat
+9;4;9;kick;push
+3;3;3;kick;pound
+320;39;288;walk;go
+18;7;16;walk;come
+14;5;12;walk;run
+6;4;6;walk;enter
+8;5;8;walk;fly (move through air)
+3;3;3;walk;give
+4;3;4;walk;move (oneself)
+6;4;6;walk;ride
+30;10;30;walk;leave
+9;5;9;walk;go down (descend)
+7;5;7;walk;go up (ascend)
+3;3;3;walk;hunt
+14;8;14;walk;drive
+8;3;8;walk;come back
+3;3;3;walk;follow
+3;3;3;walk;blood
+4;3;4;walk;look for
+5;3;5;walk;cut
+12;5;11;walk;step (verb)
+9;3;9;walk;walk (take a walk)
+74;18;73;limp;lame
+84;23;80;run;flee
+4;3;4;run;fly (move through air)
+4;3;3;run;come
+6;3;5;run;hurry
+6;6;6;run;retreat
+3;3;3;run;give
+3;3;3;run;ride
+4;3;4;run;stream (flow continuously)
+10;5;10;run;escape
+3;3;3;run;sharp
+27;14;25;go;come
+90;29;86;go;leave
+3;3;3;go;go out
+7;3;7;go;last (endure)
+13;4;13;go;ride
+7;3;7;go;go down (descend)
+7;5;7;go;go up (ascend)
+8;4;8;go;enter
+8;3;7;go;fly (move through air)
+42;14;40;go;drive
+10;5;10;go;come back
+3;3;3;go;say
+3;3;3;go;bone
+5;3;5;go;let go or set free
+4;3;4;go;lead (guide)
+10;8;9;go;move (oneself)
+8;3;8;go;step (verb)
+8;3;8;go;pass
+146;43;132;go up (ascend);climb
+9;3;9;go up (ascend);crawl
+12;8;12;go up (ascend);ride
+3;3;3;go up (ascend);go out
+4;4;4;go up (ascend);leave
+4;4;4;go up (ascend);cut
+4;4;4;go up (ascend);grow
+8;6;7;go up (ascend);increase
+13;4;13;go up (ascend);stand up
+6;3;5;go up (ascend);pick up
+17;9;17;climb;ride
+8;4;8;climb;crawl or creep
+6;4;6;climb;creep
+5;4;5;go out;go down (descend)
+30;15;28;go out;leave
+5;5;5;go out;land (descend)
+8;4;8;go out;be born
+5;3;5;go out;enter
+95;20;84;come;arrive
+5;3;5;come;dog
+18;10;17;come;come back
+8;5;8;come;enter
+3;3;3;come;see
+4;3;4;come;go down (descend)
+6;4;5;come;say
+6;3;6;come;give
+7;3;7;come;bring
+8;6;6;come;approach
+12;4;12;come;get
+5;3;5;come;shoot
+4;4;4;come;here
+5;4;5;come;become
+4;4;4;leave;let go or set free
+6;4;6;leave;flee
+3;3;3;leave;go down (descend)
+7;5;6;leave;retreat
+7;4;7;leave;disappear
+4;3;4;leave;seize
+5;4;5;leave;divide
+4;3;4;leave;come back
+6;4;6;leave;divorce
+6;4;6;leave;separate
+3;3;3;leave;inside
+12;4;12;leave;drive
+5;3;5;leave;pass
+58;16;52;disappear;misplace
+6;4;6;disappear;cease
+3;3;3;disappear;be dead or die
+3;3;3;disappear;hide (conceal)
+4;4;4;disappear;flee
+3;3;3;disappear;set (heavenly bodies)
+48;13;44;flee;escape
+38;24;34;flee;retreat
+4;4;4;flee;hide (conceal)
+52;23;49;follow;pursue
+5;3;5;follow;look for
+7;6;7;follow;obey
+4;4;4;follow;arrive
+7;4;7;follow;imitate
+15;7;14;follow;hunt
+15;10;14;arrive;approach
+9;5;9;arrive;come back
+20;6;19;arrive;get
+5;5;5;arrive;land (descend)
+4;4;4;arrive;find
+5;4;5;arrive;be born
+4;4;4;arrive;meet
+4;4;4;arrive;understand
+7;4;7;arrive;ripen
+5;4;5;arrive;become
+10;5;10;approach;near
+3;3;3;enter;embrace
+3;3;3;enter;dive
+3;3;3;enter;put
+3;3;3;enter;near
+3;3;3;enter;father
+5;5;5;enter;put on
+3;3;3;enter;crawl or creep
+14;9;13;enter;set (heavenly bodies)
+3;3;3;enter;come back
+50;15;49;carry;carry on shoulder
+18;5;18;carry;get
+6;4;6;carry;give
+51;16;45;carry;carry in hand
+57;15;56;carry;bring
+34;7;34;carry;lead (guide)
+36;12;34;carry;carry on head
+20;9;19;carry;carry under arm
+3;3;3;carry;put on
+7;3;7;carry;send
+7;6;7;carry;drive
+27;6;26;carry;pick up
+13;7;13;carry;hold
+3;3;3;carry;own
+54;16;54;carry;take
+3;3;3;carry;choose
+6;4;6;carry;hear
+3;3;3;carry;dwell (live, reside)
+3;3;3;carry;put
+10;5;10;carry;seize
+4;4;4;carry;borrow
+14;3;14;carry;buy
+4;3;4;carry;catch
+4;3;4;carry;drag
+19;11;17;bring;take
+6;5;6;bring;carry in hand
+14;5;9;bring;lead (guide)
+13;5;11;bring;give
+4;3;4;bring;send
+4;3;3;bring;pick up
+3;3;3;bring;seize
+4;4;4;bring;hold
+9;4;9;bring;get
+4;3;4;bring;catch
+4;4;4;bring;drive
+33;6;32;send;let go or set free
+7;4;7;send;allow or permit
+6;4;6;send;lead (guide)
+31;18;26;send;command
+4;4;4;send;put
+8;4;8;send;drive
+3;3;3;send;take
+3;3;3;send;give
+3;3;3;send;say
+4;4;4;send;rule
+6;3;4;send;push
+6;6;6;ride;sit
+16;7;16;ride;drive
+10;7;10;push;squeeze
+7;4;7;push;pull
+5;3;5;push;dig
+3;3;3;push;split
+6;5;6;push;grind
+19;8;18;push;press
+3;3;3;push;pound
+30;3;27;push;refuse
+7;3;7;push;rub
+5;3;5;push;wipe
+153;43;133;road;path
+22;7;20;road;manner
+12;8;12;road;footprint
+47;13;45;road;path or road
+18;15;18;road;street
+8;4;8;axle;spindle
+198;24;181;canoe;boat
+98;4;83;canoe;outrigger
+9;6;7;canoe;raft
+5;4;5;canoe;trough
+10;4;10;canoe;ship
+9;6;8;row;paddle
+12;7;12;row;oar
+5;5;5;row;mix
+3;3;3;row;drive
+3;3;3;mast;doorpost
+12;6;11;mast;post
+3;3;3;port;bridge
+105;30;100;have;own
+21;10;20;have;hold
+17;10;17;have;keep
+9;9;9;have;get
+4;3;4;have;sit
+3;3;3;have;find
+6;4;6;have;dwell (live, reside)
+4;4;4;have;carry in hand
+14;3;14;have;rich
+3;3;3;have;remain
+8;7;8;have;be
+51;26;49;take;hold
+63;11;61;take;buy
+96;27;94;take;get
+3;3;3;take;do or make
+73;31;65;take;seize
+3;3;3;take;keep
+54;29;53;take;catch
+12;11;12;take;trap (catch)
+7;7;7;take;choose
+3;3;3;take;drink
+34;16;33;take;pick up
+7;7;7;take;borrow
+6;5;6;take;marry
+4;3;4;take;smoke (exhaust)
+24;4;24;take;give
+4;4;4;take;hunt
+9;5;9;take;carry in hand
+6;3;6;take;carry on head
+6;5;6;take;carry on shoulder
+4;4;4;take;lead (guide)
+4;3;4;take;break (destroy or get destroyed)
+61;12;59;seize;trap (catch)
+161;36;150;seize;catch
+145;23;140;seize;hold
+10;4;10;seize;buy
+3;3;3;seize;borrow
+3;3;3;seize;sing
+21;10;21;seize;get
+5;5;5;seize;embrace
+5;5;5;seize;keep
+4;4;4;seize;own
+3;3;3;seize;choose
+3;3;3;seize;stretch
+4;3;4;seize;cover
+5;3;4;seize;gather
+7;7;7;seize;pick up
+5;4;5;seize;pinch
+8;8;8;seize;hunt
+5;4;5;seize;touch
+3;3;3;seize;rub
+7;4;7;seize;carry in hand
+3;3;3;seize;burning
+4;3;4;seize;build
+4;4;4;hold;defend
+3;3;3;hold;squeeze
+44;9;44;hold;trap (catch)
+116;29;115;hold;catch
+59;14;52;hold;keep
+24;13;22;hold;own
+14;4;13;hold;preserve
+8;3;8;hold;buy
+5;3;5;hold;rule
+14;9;10;hold;get
+31;14;31;hold;carry in hand
+15;5;15;hold;embrace
+6;4;6;hold;touch
+3;3;3;hold;pinch
+3;3;3;hold;dig
+5;4;5;hold;fight
+5;4;5;hold;build
+4;3;4;hold;work (activity)
+4;3;4;hold;pull
+10;6;10;get;see
+5;5;5;get;gather
+3;3;3;get;kill
+35;16;34;get;find
+4;3;4;get;lie down
+19;13;19;get;catch
+28;9;27;get;buy
+14;8;14;get;earn
+12;9;12;get;own
+4;3;3;get;keep
+5;5;5;get;choose
+3;3;3;get;marry
+13;12;13;get;pick up
+10;8;10;get;meet
+6;6;6;get;trap (catch)
+6;4;6;get;borrow
+3;3;3;get;carry in hand
+3;3;3;get;understand
+4;3;4;get;want
+158;25;146;keep;preserve
+17;10;16;keep;own
+3;3;3;keep;catch
+10;7;10;keep;put
+5;4;4;keep;rescue
+19;4;18;keep;defend
+7;6;6;keep;pick up
+3;3;3;keep;hide (conceal)
+22;11;21;keep;guard
+4;3;4;keep;hide (oneself)
+9;4;9;keep;protect
+12;6;12;thing;tool
+12;9;12;thing;what
+9;7;9;thing;some
+6;3;6;thing;word
+3;3;3;thing;person
+3;3;3;thing;food
+7;5;6;thing;animal
+4;3;4;thing;which
+37;8;37;thing;item
+36;6;34;thing;affair
+7;3;7;thing;work (labour)
+4;3;4;give;borrow
+5;3;4;give;mother
+5;4;5;give;die
+5;4;5;give;kill
+3;3;3;give;seed
+11;6;11;give;hear
+5;3;5;give;bone
+7;5;7;give;permit
+5;3;5;give;see
+6;4;6;give;eye
+9;4;9;give;surrender
+19;14;17;give;lend
+5;4;5;give;give back
+9;3;9;give;betray
+11;6;11;give;allow or permit
+28;7;28;give;pay
+27;11;25;give;sell
+9;7;9;give;share
+21;8;18;give;put
+6;6;6;give;say
+16;7;14;give;do or make
+4;3;4;give;sacrifice
+5;3;4;give;thou
+4;3;3;give;now
+8;3;8;give;i
+3;3;3;give;he or she or it
+9;6;9;give;drink
+5;3;5;give;penis
+3;3;3;give;speak
+13;5;13;give;do
+4;3;4;give;far
+38;8;37;give;donate
+7;4;7;give;cause to (let)
+15;9;15;give back;come back
+4;4;4;give back;pay
+7;3;7;give back;answer
+6;4;6;destroy;grind
+28;9;28;destroy;break (destroy or get destroyed)
+11;3;11;destroy;rub
+9;7;9;destroy;misplace
+9;5;7;destroy;kill
+16;11;16;destroy;damage or injure
+5;5;5;destroy;finish
+4;3;4;destroy;spread out
+12;9;11;destroy;damage
+14;8;13;destroy;break (cleave)
+10;6;10;destroy;spoil (somebody or something)
+3;3;3;destroy;injure
+8;4;7;damage or injure;pain
+8;5;6;damage or injure;wound
+3;3;3;damage or injure;bad
+3;3;3;damage or injure;rotten
+46;27;44;find;meet
+31;22;31;find;see
+3;3;3;find;beget
+15;6;15;find;look for
+3;3;3;find;be born
+4;3;4;find;know (something)
+6;3;6;find;earn
+4;3;4;find;understand
+4;4;4;find;look
+6;5;6;misplace;forget
+8;5;8;misplace;drop (something)
+3;3;3;misplace;hide (conceal)
+146;25;143;money;silver
+50;22;49;money;coin
+6;4;6;money;scale
+16;5;16;money;iron
+7;3;7;money;price
+3;3;3;rich;wealth
+12;4;12;poor;difficult
+15;6;14;poor;beggar
+5;5;5;poor;orphan
+3;3;3;beggar;orphan
+3;3;3;stingy;envy
+95;12;83;stingy;greedy
+5;4;5;stingy;hard
+59;23;50;lend;borrow
+18;7;17;borrow;ask (request)
+5;5;5;borrow;catch
+10;4;10;borrow;hire or rent
+4;3;4;borrow;owe
+17;8;17;debt;owe
+4;3;4;debt;blame
+7;6;7;debt;bill
+11;5;11;pay;sell
+4;3;4;pay;trade or barter
+13;11;12;pay;buy
+8;5;7;pay;wages
+6;4;6;pay;answer
+4;3;4;pay;price
+8;6;8;bill;count
+5;5;5;bill;price
+3;3;3;hire or rent;wages
+11;4;11;earn;look for
+3;3;3;earn;victory
+25;12;25;buy;sell
+4;3;4;buy;cry
+5;3;5;buy;want
+9;4;9;buy;trade or barter
+3;3;3;buy;change
+3;3;3;buy;shout
+6;6;6;buy;pick up
+4;3;4;buy;catch
+4;4;4;buy;ask (request)
+3;3;3;sell;eye
+25;7;25;sell;betray
+24;10;23;sell;trade or barter
+3;3;3;sell;change
+25;19;25;trade or barter;change
+10;8;8;market;store
+3;3;3;market;town
+12;11;12;price;wages
+4;3;4;price;punishment
+30;9;30;price;expensive
+9;4;8;expensive;hard
+8;4;7;expensive;heavy
+9;6;9;expensive;difficult
+17;3;17;expensive;holy
+3;3;3;expensive;tall
+19;6;18;expensive;precious
+10;5;10;expensive;dear
+10;5;10;cheap;light (weight)
+24;8;24;cheap;easy
+3;3;3;cheap;low
+134;19;131;share;divide
+4;3;4;share;part
+26;11;24;share;separate
+4;3;4;share;split
+3;3;3;share;spread out
+26;3;26;weigh;pull
+22;4;22;weigh;stretch
+59;22;59;weigh;measure
+8;5;8;weigh;hang up
+4;3;4;weigh;try
+3;3;3;weigh;taste (something)
+10;9;10;weigh;count
+5;5;5;weigh;heavy
+3;3;3;weigh;read
+18;4;18;place (position);chair
+15;7;15;place (position);country
+6;3;6;place (position);mainland
+14;10;14;place (position);land
+3;3;3;place (position);part
+3;3;3;place (position);village
+7;4;4;place (position);put
+4;3;4;place (position);bed
+5;5;5;place (position);floor
+6;6;6;place (position);world
+6;4;6;place (position);time
+3;3;3;place (position);house
+6;4;4;place (position);room
+28;9;28;place (position);area
+35;9;34;place (position);space (available)
+9;4;9;place (position);ground
+18;6;18;put;do or make
+5;3;5;put;plant (something)
+5;3;5;put;fold
+3;3;3;put;hang up
+3;3;3;put;allow or permit
+5;4;5;put;gather
+3;3;3;put;cause
+4;4;4;put;let go or set free
+10;7;10;put;put on
+3;3;3;put;remain
+3;3;3;put;preserve
+6;5;6;put;cook (something)
+152;19;149;sit;dwell (live, reside)
+6;5;6;sit;be alive
+5;3;5;sit;eat
+4;3;4;sit;chair
+27;13;27;sit;remain
+5;3;5;sit;stand
+5;5;5;sit;be alive or life
+4;4;4;sit;lie down
+40;12;40;sit;sit down
+5;3;5;sit;set (heavenly bodies)
+197;40;191;lie down;sleep
+7;5;7;lie down;dig
+3;3;3;lie down;rest
+6;6;6;lie down;dwell (live, reside)
+3;3;3;lie down;kill
+5;3;5;lie down;woman
+3;3;3;lie down;gather
+3;3;3;lie down;what
+14;7;14;stand;stand up
+6;3;6;stand;last (endure)
+6;4;6;stand;dwell (live, reside)
+7;3;7;stand;remain
+34;6;34;stand;wake up
+29;15;28;stand;cease
+3;3;3;stand;hear
+11;8;11;stand;halt (stop)
+70;22;65;remain;dwell (live, reside)
+7;3;7;remain;remains
+9;4;9;remain;cease
+9;5;8;remain;be alive or life
+5;3;4;remain;last (endure)
+4;4;4;remain;come back
+4;3;4;remain;wait (for)
+5;5;5;remain;halt (stop)
+6;3;6;remain;become
+3;3;3;remain;be
+12;8;11;gather;mow
+66;11;66;gather;pile up
+6;5;6;gather;choose
+57;19;54;gather;pick up
+13;3;13;gather;fold
+26;15;25;gather;join
+5;3;5;gather;wrap
+14;3;14;gather;sweep
+3;3;3;gather;harvest
+3;3;3;gather;steal
+10;5;10;gather;pick
+4;3;4;pick up;pull
+8;3;8;pick up;pile up
+8;6;8;pick up;mow
+5;3;5;pick up;fold
+12;6;12;pick up;choose
+3;3;3;pick up;join
+6;6;6;pick up;catch
+3;3;3;pick up;trap (catch)
+9;7;9;join;tie
+5;4;5;join;meet
+3;3;3;join;touch
+3;3;3;join;split
+4;3;4;join;near
+3;3;3;join;kill
+8;3;8;join;mix
+11;4;10;join;pile up
+21;6;20;join;connect
+66;23;60;separate;divide
+13;9;13;separate;split
+3;3;3;separate;tear (shred)
+14;4;14;separate;divorce
+4;4;4;separate;cut
+3;3;3;separate;untie
+3;3;3;separate;spread out
+9;3;9;separate;choose
+21;10;19;divide;split
+5;4;5;divide;cut
+4;3;4;divide;spread out
+27;13;27;open;untie
+6;5;6;open;let go or set free
+10;5;8;open;spread out
+44;22;43;shut;cover
+3;3;3;shut;bury
+10;5;9;shut;tie
+8;5;8;cover;bury
+6;5;6;cover;wrap
+14;7;12;cover;hide (conceal)
+3;3;3;cover;put on
+3;3;3;cover;squeeze
+3;3;3;cover;split
+4;3;4;cover;hide (oneself)
+9;6;9;high;deep
+182;40;168;high;tall
+28;17;24;high;long
+16;4;16;high;loud
+11;10;11;high;big
+11;8;11;high;top
+33;25;32;high;up
+4;3;4;high;heaven
+6;4;6;high;sky
+5;3;5;high;above
+20;11;20;low;shallow
+40;21;39;low;short
+7;5;6;low;small
+30;13;29;low;down or below
+5;4;5;low;deep
+42;15;41;low;below or under
+12;7;10;low;bottom
+4;4;4;low;few
+14;8;14;low;down
+134;31;122;pointed;sharp
+6;5;5;pointed;end (of space)
+3;3;3;pointed;sour
+11;4;10;pointed;top
+5;3;5;pointed;tip (of object)
+17;5;14;edge;top
+52;15;50;edge;side
+25;9;25;edge;end (of space)
+7;3;7;edge;end (of time)
+62;15;60;edge;shore
+15;5;15;edge;corner
+28;8;28;edge;lip
+22;11;18;edge;boundary
+19;11;19;edge;mouth
+5;4;5;edge;beside
+3;3;3;edge;face
+3;3;3;edge;tooth
+37;10;35;edge;fringe
+6;4;6;edge;shore of lake
+4;3;4;edge;border
+27;7;27;side;half
+15;5;15;side;part
+8;3;8;side;country
+5;3;5;side;face
+5;3;5;side;rib
+9;5;9;side;shore
+5;4;4;side;boundary
+9;7;9;side;wall (of house)
+22;14;20;side;beside
+3;3;3;side;behind
+16;9;15;near;short
+93;11;84;near;beside
+3;3;3;near;neighbour
+4;4;4;near;soon
+3;3;3;near;sun
+5;3;4;east;dawn
+4;3;4;west;evening
+17;12;17;north;south
+3;3;3;north;bottom
+6;4;6;north;up
+17;3;17;south;midday
+5;3;4;south;right
+7;5;7;grow;plant (something)
+9;4;8;grow;be born
+36;7;36;grow;big
+13;5;13;grow;be alive
+13;4;13;grow;increase
+3;3;3;grow;raise (a child)
+13;10;13;measure;try
+24;16;24;measure;count
+6;5;6;measure;taste (something)
+3;3;3;measure;guess
+4;3;4;measure;painting
+6;5;6;measure;imitate
+13;6;13;big;fat (obese)
+64;27;60;big;wide
+17;12;17;big;long
+33;16;33;big;thick
+45;23;41;big;many
+20;5;20;big;loud
+13;8;12;big;old
+8;5;5;big;mighty or powerful or strong
+22;11;20;big;tall
+4;4;4;big;enough
+15;3;15;big;fat (organic substance)
+6;3;6;big;father
+10;4;8;big;old (aged)
+124;30;115;small;few
+44;24;42;small;narrow
+25;13;25;small;short
+5;3;5;small;egg
+4;4;4;small;son
+21;4;20;small;child
+6;5;6;small;some
+11;9;11;small;child (young human)
+9;7;8;small;baby
+5;3;5;small;thin
+29;12;28;small;young
+14;6;14;small;thin (of shape of object)
+4;4;4;long;wide
+70;19;68;long;far
+3;3;3;long;many
+5;3;5;long;straight
+121;39;113;long;tall
+36;9;36;long;for a long time
+9;8;9;long;deep
+5;3;4;long;length
+11;10;11;tall;deep
+28;4;28;tall;loud
+4;3;4;tall;for a long time
+3;3;3;tall;top
+10;5;10;short;few
+5;5;5;short;wide
+4;4;4;short;shallow
+6;3;5;short;round
+17;14;16;wide;thick
+11;6;10;wide;flat
+12;5;11;narrow;thin
+6;6;6;narrow;few
+39;26;37;narrow;thin (of shape of object)
+5;5;5;narrow;thin (slim)
+5;3;5;narrow;fine or thin
+9;4;9;thick;heavy
+9;4;9;thick;dense
+11;4;11;thick;fat (obese)
+5;5;5;thick;fat (organic substance)
+3;3;3;thick;mother's brother
+4;4;4;thick;full
+10;8;10;thin (of shape of object);shallow
+6;5;5;thin (of shape of object);weak
+5;5;5;thin (of shape of object);flat
+24;7;23;thin (of shape of object);fine or thin
+11;5;11;thin (of shape of object);thin (slim)
+6;3;6;deep;difficult
+5;4;5;deep;bottom
+4;4;4;deep;inside
+11;3;11;deep;dark
+3;3;3;shallow;dry
+7;4;7;shallow;flat
+48;12;48;flat;smooth
+21;8;21;flat;straight
+4;3;4;flat;similar
+8;4;8;flat;correct (right)
+3;3;3;flat;plate
+5;3;5;flat;board
+4;4;4;flat;floor
+3;3;3;flat;field
+25;9;25;straight;right
+185;24;181;straight;correct (right)
+21;7;21;straight;smooth
+9;5;9;straight;faithful
+9;7;9;straight;true
+11;4;11;straight;good
+3;3;3;straight;name
+3;3;3;straight;hard
+7;5;7;crooked;hook
+12;3;12;crooked;wrong
+49;14;44;crooked;bend
+4;3;4;crooked;lame
+3;3;3;crooked;mistake
+53;18;49;hook;fishhook
+5;3;5;hook;anchor
+9;6;8;hook;pitchfork
+4;3;4;hook;needle (for sewing)
+4;4;4;hook;peg
+8;6;8;round;wheel
+59;22;58;round;circle
+20;15;20;round;ball
+3;3;3;round;egg
+28;10;28;circle;wheel
+14;5;14;circle;ring
+17;11;17;circle;ball
+10;6;10;line;fishing line
+12;9;12;line;thread
+12;7;12;line;rope
+12;4;12;line;furrow
+40;10;37;line;stroke (of pen)
+85;4;79;hole;bore
+4;4;4;hole;hollow out
+5;4;4;hole;grave
+11;10;10;hole;ditch
+6;5;6;hole;inside
+7;3;7;hole;window
+5;3;5;hole;mouth
+3;3;3;hole;nostril
+6;4;5;hole;spring or well
+4;3;4;hole;trap (pitfall)
+4;3;4;hole;bury
+11;6;11;hole;lair
+7;5;7;hole;pit (pothole)
+4;4;4;similar;manner
+19;11;18;similar;seem
+4;3;3;similar;if
+6;5;6;similar;same
+7;3;7;change;come back
+19;6;16;change;change (become different)
+3;3;3;count;know (something)
+3;3;3;count;say
+50;6;48;count;think (believe)
+64;17;63;count;read
+15;3;14;count;tell
+4;3;4;count;think (reflect)
+3;3;3;count;number
+51;14;49;count;calculate
+50;17;47;all;many
+3;3;3;all;always
+15;5;15;many;full
+3;3;3;many;ten
+72;15;64;many;crowd
+4;3;4;many;how many pieces
+12;5;12;many;often
+34;7;32;many;more
+23;12;21;many;enough
+3;3;3;many;door
+3;3;3;many;difficult
+18;4;18;more;crowd
+9;7;9;more;again
+6;3;6;more;enough
+45;18;38;few;some
+5;3;5;few;owe
+7;5;7;few;one
+5;3;5;few;young
+8;5;6;few;two
+3;3;3;enough;ready
+3;3;3;enough;full
+8;3;8;enough;crowd
+8;7;7;some;one
+16;3;16;some;how much
+11;8;11;some;part
+5;3;5;some;how many pieces
+9;4;9;crowd;people
+3;3;3;crowd;pile up
+7;3;7;crowd;often
+9;3;9;full;swell
+4;3;4;full;father
+7;5;7;empty;dry
+7;3;7;empty;naked
+6;4;6;empty;nothing or zero
+26;10;22;part;half
+4;3;4;part;cloth
+4;3;4;part;end (of space)
+5;4;5;part;slice
+25;13;24;part;piece
+19;14;19;half;center or middle
+6;6;6;half;middle
+3;3;3;half;piece
+82;9;75;only;one
+19;10;19;only;alone
+14;9;14;first;in front of
+31;19;29;first;before
+5;5;5;first;begin or start
+8;3;8;first;at first
+3;3;3;first;beginning
+19;14;19;last (final);end (of space)
+19;11;18;last (final);end (of time)
+14;10;13;last (final);behind
+7;7;7;last (final);late
+7;4;6;last (final);after
+4;3;3;last (final);finish
+5;3;5;last (final);cease
+3;3;3;second;third
+3;3;3;second;twice
+6;4;6;second;two
+19;3;19;second;other
+40;19;39;pair;two
+6;6;6;pair;twins
+10;5;9;third;three
+17;13;17;time;day (not night)
+37;19;33;time;hour
+40;15;33;time;season
+47;7;39;time;age
+54;17;51;time;weather
+8;3;7;time;when
+4;4;4;time;clock
+4;4;4;time;day (24 hours)
+88;29;88;age;year
+5;4;5;age;summer
+6;4;6;age;old
+12;3;11;age;season
+3;3;3;age;weather
+4;3;4;age;life
+57;15;51;new;young
+6;3;6;new;now
+4;3;4;new;blood
+4;4;4;new;again
+8;5;8;new;raw
+3;3;3;new;unripe
+6;5;5;new;clean
+7;5;7;new;good
+13;8;13;new;fresh
+4;3;4;new;news
+45;17;42;young;young man
+10;6;10;young;child (young human)
+9;8;9;young;boy
+9;8;9;young;young woman
+6;4;6;young;soft
+7;5;6;young;unripe
+3;3;3;young;son
+5;5;5;young;baby
+28;19;28;old;old woman
+3;3;3;old;ancestors
+107;38;103;old;old man
+5;3;5;old;ripe
+5;5;5;old;husband
+3;3;3;old;rotten
+3;3;3;old;chieftain
+3;3;3;old;dirty
+37;7;34;old;old (aged)
+8;4;8;old;former
+50;25;50;early;morning
+3;3;3;early;in front of
+9;7;9;early;before
+21;7;20;early;fast
+22;7;22;early;soon
+10;8;10;early;dawn
+10;4;10;early;immediately
+3;3;3;early;hurry
+7;3;7;late;night
+38;20;37;late;afternoon
+16;4;15;late;after
+9;5;9;late;behind
+7;6;7;late;evening
+3;3;3;late;for a long time
+19;8;18;late;slow
+24;10;21;late;be late
+47;30;44;now;today
+32;14;32;now;immediately
+11;5;11;now;this
+12;10;11;now;soon
+3;3;3;now;again
+3;3;3;now;day (24 hours)
+4;3;4;now;instantly (immediately)
+19;11;15;immediately;fast
+36;14;31;immediately;soon
+3;3;3;immediately;today
+10;4;8;immediately;instantly (immediately)
+4;3;4;immediately;together
+7;5;6;immediately;suddenly
+17;4;17;fast;sharp
+3;3;3;fast;short (time)
+32;18;29;fast;soon
+21;12;19;fast;hurry
+4;4;4;fast;mighty or powerful or strong
+5;5;5;fast;light (weight)
+3;3;3;fast;clever
+29;10;28;slow;be late
+24;4;22;slow;silence
+5;3;4;slow;soft
+5;5;5;slow;quiet
+3;3;3;hurry;soon
+53;12;47;hurry;bolt (move in haste)
+3;3;3;hurry;urge (someone)
+5;3;5;begin or start;head
+4;3;4;begin or start;before
+52;21;47;cease;finish
+12;4;11;cease;end (of time)
+9;4;9;cease;rest
+5;5;5;cease;let go or set free
+4;3;4;cease;hear
+5;3;5;cease;divorce
+4;3;4;cease;cut
+12;3;12;cease;be late
+6;4;6;ready;good
+3;3;3;ready;ripe
+3;3;3;ready;finish
+14;5;12;always;never
+22;9;20;always;often
+3;3;3;often;sometimes
+3;3;3;often;for a long time
+3;3;3;often;dense
+3;3;3;soon;short (time)
+3;3;3;soon;instantly (immediately)
+6;4;4;never;no
+15;11;15;again;and
+4;3;4;again;come back
+9;6;7;again;still (continuing)
+4;4;4;dawn;tomorrow
+27;10;26;dawn;morning
+3;3;3;dawn;day (not night)
+4;3;4;dawn;bright
+12;4;11;midday;lunch
+8;3;8;midday;dinner (supper)
+7;5;7;midday;day (not night)
+7;4;7;midday;afternoon
+3;3;3;today;day (not night)
+97;15;93;tomorrow;yesterday
+42;18;42;tomorrow;morning
+4;4;4;tomorrow;day (not night)
+4;4;4;yesterday;day before yesterday
+4;3;4;hour;sun
+120;13;119;hour;clock
+8;6;8;hour;season
+8;8;8;clock;sun
+14;9;14;week;sunday
+7;3;7;week;saturday
+4;3;4;wednesday;thursday
+8;6;8;season;weather
+8;6;8;season;year
+7;5;6;season;day (not night)
+6;4;5;smell (stink);feel
+4;3;3;smell (stink);hear
+53;22;50;smell (stink);smell (perceive)
+20;9;20;smell (stink);stinking
+21;15;21;smell (stink);sniff
+7;7;7;smell (stink);fragrant
+3;3;3;smell (stink);rotten
+31;15;28;stinking;rotten
+11;5;11;stinking;smell (perceive)
+4;4;4;stinking;fragrant
+3;3;3;stinking;sniff
+3;3;3;stinking;pus
+3;3;3;stinking;red
+45;16;45;taste (something);try
+12;6;11;taste (something);hear
+9;7;8;taste (something);feel
+14;3;14;taste (something);touch
+5;5;5;taste (something);smell (perceive)
+6;4;6;taste (something);imitate
+56;12;55;salty;bitter
+8;7;8;salty;sweet
+18;12;17;salty;sour
+44;13;44;salty;brackish
+25;13;25;salty;salt
+50;22;45;bitter;sour
+4;3;4;bitter;brackish
+12;3;11;bitter;sharp
+3;3;3;bitter;difficult
+3;3;3;sour;rotten
+5;3;5;sour;citrus fruit
+109;48;107;hear;listen
+22;15;22;hear;smell (perceive)
+14;4;14;hear;think
+37;13;35;hear;know (something)
+9;4;9;hear;see
+10;7;10;hear;ear
+33;20;32;hear;obey
+5;3;5;hear;name
+25;14;23;hear;feel
+53;30;52;hear;understand
+3;3;3;hear;believe
+4;4;4;hear;look for
+5;4;5;hear;ask (inquire)
+11;4;11;hear;feel (tactually)
+4;3;4;hear;sing
+168;22;160;sound or noise;voice
+6;4;6;sound or noise;loud
+9;5;9;sound or noise;word
+3;3;3;sound or noise;shout
+7;3;7;sound or noise;language
+3;3;3;sound or noise;speak
+10;6;9;sound or noise;noise
+35;10;33;sound or noise;tone (music)
+3;3;3;loud;shout
+16;7;16;loud;hard
+20;7;19;loud;mighty or powerful or strong
+4;3;4;loud;bright
+6;4;6;loud;strong
+38;17;37;silence;be silent
+9;6;9;silence;peace
+124;30;121;see;look
+3;3;3;see;dry up
+3;3;3;see;say
+3;3;3;see;sew
+7;6;7;see;understand
+3;3;3;see;sleep
+36;15;34;see;know (something)
+3;3;3;see;dig
+5;3;5;see;eat
+4;3;4;see;think (reflect)
+5;4;5;see;think (believe)
+6;3;6;see;house
+24;17;23;see;meet
+4;3;4;see;eye
+3;3;3;see;try
+6;3;6;see;seem
+8;5;8;see;look for
+3;3;3;see;guard
+8;5;8;see;notice (something)
+29;7;29;see;watch
+4;3;4;see;bite
+26;8;25;look;look for
+4;4;4;look;try
+4;4;4;look;eye
+12;3;12;look;preserve
+4;4;4;look;understand
+5;3;5;look;read
+45;13;44;look;watch
+5;4;5;show;seem
+8;5;5;show;explain
+12;5;11;show;teach
+7;5;6;show;announce
+3;3;3;show;learn
+5;5;5;show;visible
+3;3;3;shine;light (ignite)
+10;5;10;shine;light (color)
+21;16;20;shine;bright
+7;6;7;shine;burning
+13;6;12;bright;white
+96;12;83;bright;light (color)
+44;8;39;bright;clear
+8;5;8;bright;clean
+3;3;3;bright;anger
+3;3;3;bright;smooth
+5;4;5;bright;lightning
+97;37;95;dark;black
+48;16;47;dark;night
+9;8;9;dark;dirty
+27;8;22;dark;obscure
+3;3;3;dark;red
+3;3;3;dark;blue
+10;4;10;dark;blind
+25;14;24;touch;feel
+3;3;3;touch;try
+9;7;9;touch;catch
+3;3;3;touch;carry in hand
+7;4;7;touch;move (affect emotionally)
+3;3;3;touch;trap (catch)
+24;6;24;pinch;press
+3;3;3;pinch;scrape
+28;8;26;pinch;squeeze
+3;3;3;pinch;tear (shred)
+8;4;8;pinch;draw milk
+4;3;4;pinch;rub
+3;3;3;pinch;bite
+34;6;34;feel;know (something)
+13;9;13;feel;smell (perceive)
+3;3;3;feel;guess
+5;5;5;feel;try
+14;8;14;feel;understand
+4;3;3;feel;think (believe)
+3;3;3;feel;obey
+3;3;3;feel;believe
+10;7;9;feel;listen
+28;5;26;hard;rough
+24;10;22;hard;difficult
+21;16;21;hard;mighty or powerful or strong
+14;7;14;hard;strong
+25;11;24;hard;solid
+22;14;20;soft;smooth
+5;5;5;soft;easy
+21;11;20;soft;weak
+23;7;23;soft;gentle
+6;4;6;smooth;slip
+13;3;13;smooth;correct (right)
+3;3;3;smooth;blunt
+5;4;4;sharp;rough
+20;6;20;blunt;blind
+4;3;4;blunt;stupid
+31;8;31;wet;raw
+9;5;9;wet;rotten
+4;3;4;wet;dirty
+18;10;16;wet;damp
+12;4;10;wet;water
+9;3;9;wet;cold
+10;3;10;dry;thin (slim)
+33;3;33;dry;thirsty
+3;3;3;dry;cold
+86;22;80;hot;warm
+10;6;10;hot;fire
+3;3;3;hot;drink
+24;14;23;hot;fever
+7;5;7;hot;burning
+9;3;9;hot;painful or sick
+22;9;22;hot;heat
+13;6;13;hot;hot or warm
+5;5;5;warm;heat
+21;8;20;clean;clear
+32;7;28;clean;holy
+16;8;15;clean;good
+12;8;11;clean;beautiful
+8;7;8;clean;light (color)
+5;3;5;clean;innocent
+14;8;14;clean;white
+3;3;3;clean;fresh
+3;3;3;dirty;night
+59;21;59;dirty;black
+14;12;14;dirty;ugly
+7;6;7;dirty;bad
+44;6;40;dirty;dirt
+84;22;76;soul;ghost
+3;3;3;soul;elf or fairy
+27;14;24;soul;heart
+16;6;12;soul;breath or breathe
+22;10;19;soul;mind
+3;3;3;soul;chest
+7;4;6;soul;be alive or life
+8;7;8;soul;demon
+9;3;8;soul;life
+5;5;5;surprised;fear (fright)
+4;4;4;happy;good
+3;3;3;happy;mighty or powerful or strong
+3;3;3;happy;healthy
+4;4;4;happy;love
+61;24;59;laugh;smile
+3;3;3;laugh;cloth
+9;5;9;laugh;laughter
+3;3;3;play;speak
+14;6;14;play;dance
+7;5;7;play;game
+7;5;7;love;good
+39;11;39;love;like
+44;24;40;love;want
+8;5;8;love;pity
+4;4;4;love;need (noun)
+3;3;3;love;look for
+3;3;3;love;ask (request)
+46;9;46;kiss;suck
+5;4;5;kiss;drink
+6;4;5;kiss;embrace
+11;3;11;kiss;smell (perceive)
+6;3;6;kiss;sniff
+3;3;3;embrace;carry under arm
+35;9;25;pain;grief
+113;18;110;pain;sick
+21;9;20;pain;wound
+3;3;3;pain;anxiety
+3;3;3;pain;bruise
+21;10;20;pain;disease
+4;3;4;pain;ache
+23;7;18;grief;bad luck
+15;6;15;grief;regret
+17;9;16;grief;anxiety
+7;3;6;grief;pity
+7;3;7;anxiety;danger
+11;5;10;anxiety;fear (fright)
+3;3;3;anxiety;think (believe)
+8;8;8;regret;pity
+4;3;4;cry;tooth
+16;12;16;cry;howl
+4;4;4;cry;shout
+5;5;5;cry;shriek
+8;7;8;cry;groan
+3;3;3;cry;tear (of eye)
+7;4;7;anger;hate
+4;4;4;anger;bad
+8;5;8;anger;quarrel
+4;3;4;anger;envy
+4;4;4;envy;hate
+15;10;15;proud;boast
+38;9;36;dare;brave
+3;3;3;dare;try
+16;6;15;brave;mighty or powerful or strong
+3;3;3;brave;male (of person)
+3;3;3;brave;male (of animal)
+49;6;48;fear (fright);danger
+3;3;3;danger;bad
+43;7;36;want;intention
+11;10;11;want;need (noun)
+15;6;15;want;ask (request)
+4;3;4;want;say
+5;4;4;want;think (believe)
+5;3;5;want;speak
+5;3;4;want;try
+39;5;37;want;look for
+9;5;9;want;hope
+3;3;3;want;think (reflect)
+17;6;17;want;like
+3;3;3;want;hope (something)
+3;3;3;choose;catch
+24;4;24;hope;believe
+13;6;12;faithful;true
+12;5;10;faithful;correct (right)
+16;6;16;faithful;certain
+50;19;49;true;correct (right)
+6;3;6;true;right
+38;26;37;true;certain
+3;3;3;true;good
+9;5;8;true;yes
+3;3;3;true;clear
+9;7;9;true;truth
+43;14;42;lie (mislead);deceit
+13;9;13;lie (mislead);perjury
+3;3;3;lie (mislead);sleep
+5;4;5;deceit;wrong
+6;6;6;deceit;betray
+8;7;8;deceit;perjury
+4;4;4;forgive;forget
+4;3;4;forgive;allow or permit
+6;5;6;forgive;acquit
+4;3;4;forgive;pity
+78;30;75;good;correct (right)
+26;9;26;good;right
+6;3;6;good;fat (organic substance)
+101;25;96;good;beautiful
+4;4;4;good;easy
+11;3;11;good;good-looking
+3;3;3;good;god
+3;3;3;good;holy
+24;13;21;good;healthy
+10;6;10;good;sweet
+4;3;4;good;cure
+3;3;3;good;yes
+35;10;33;bad;rotten
+54;27;51;bad;ugly
+6;5;6;bad;sick
+52;11;52;bad;evil
+27;16;27;bad;wrong
+3;3;3;bad;difficult
+7;4;6;bad;demon
+43;7;40;bad;severe
+6;3;5;bad;damage (injury)
+37;12;33;wrong;mistake
+26;8;24;wrong;fault
+33;6;33;wrong;guilty
+5;4;5;wrong;miss (a target)
+9;7;9;fault;guilty
+71;15;61;fault;mistake
+5;3;5;fault;cause
+41;17;39;fault;blame
+4;3;3;fault;miss (a target)
+7;3;7;fault;sin
+5;5;5;fault;crime
+13;9;12;mistake;miss (a target)
+6;4;6;mistake;blame
+6;5;5;beautiful;healthy
+3;3;3;beautiful;correct (right)
+56;12;53;beautiful;good-looking
+6;5;6;clever;know (something)
+100;16;89;clever;wise
+23;11;23;mind;brain
+32;20;31;mind;idea
+13;10;13;mind;think (reflect)
+6;5;6;mind;intention
+14;10;11;mind;heart
+4;4;4;mind;head
+12;8;12;mind;thought
+10;6;10;mind;memory
+6;3;6;mind;meaning
+8;4;7;mind;spirit
+8;3;8;believe;worship
+14;10;14;believe;obey
+30;10;26;believe;think (believe)
+5;4;4;believe;think (reflect)
+5;4;5;believe;understand
+6;4;6;believe;admit
+3;3;3;believe;listen
+6;6;6;believe;know (something)
+102;28;96;understand;know (something)
+4;3;4;understand;study
+4;4;4;understand;remember
+19;15;19;understand;listen
+9;8;9;understand;obey
+6;6;6;understand;learn
+4;3;4;understand;clear
+7;3;6;understand;feel (tactually)
+4;3;3;understand;be able
+3;3;3;understand;smell (perceive)
+7;3;7;know (something);kill
+16;8;16;know (something);be able
+23;3;23;know (something);know or be able
+58;17;57;know (something);learn
+8;6;8;know (something);admit
+5;5;5;know (something);guess
+4;3;3;know (something);think (reflect)
+3;3;3;know (something);remember
+10;4;10;know (something);study
+3;3;3;know (something);listen
+6;6;6;know (something);think (believe)
+3;3;3;know (something);clear
+12;7;12;know (something);recognize (somebody)
+3;3;3;know (something);feel (tactually)
+33;8;31;guess;think (believe)
+26;10;26;guess;think (reflect)
+5;3;5;guess;remember
+13;7;10;guess;suspect
+22;3;22;guess;seem
+5;3;5;guess;adjudicate
+13;5;13;imitate;try
+5;4;5;imitate;study
+11;4;11;imitate;learn
+3;3;3;seem;think (reflect)
+9;5;9;seem;think (believe)
+16;7;16;seem;emerge (appear)
+18;4;18;seem;visible
+52;15;47;stupid;mad
+9;7;9;stupid;mute
+122;29;111;learn;study
+85;18;81;learn;teach
+62;8;62;learn;read
+48;12;46;study;read
+67;11;64;study;teach
+19;5;19;teach;read
+8;6;7;teach;preach
+21;12;20;teach;explain
+4;4;4;teach;lead (guide)
+3;3;3;teach;try
+3;3;3;pupil (student);child (young human)
+6;6;6;pupil (student);teacher
+22;15;20;remember;think (reflect)
+5;3;3;remember;wake up
+9;9;9;remember;think (believe)
+7;3;7;remember;sneeze
+50;11;46;clear;light (color)
+3;3;3;clear;certain
+3;3;3;clear;correct (right)
+4;3;4;obscure;secret
+13;11;13;certain;correct (right)
+3;3;3;certain;mighty or powerful or strong
+3;3;3;certain;yes
+18;8;14;explain;say
+9;4;9;explain;speak
+15;9;12;explain;tell
+11;8;8;explain;announce
+7;6;6;explain;preach
+27;12;27;intention;idea
+4;3;3;intention;cause
+10;4;6;cause;do or make
+4;3;4;cause;root
+10;7;9;cause;allow or permit
+10;9;10;cause;because
+27;9;27;doubt;suspect
+4;4;4;suspect;think (reflect)
+9;7;9;suspect;think (believe)
+4;4;4;need (noun);look for
+113;12;106;easy;light (weight)
+56;9;52;difficult;heavy
+4;3;4;difficult;pregnant
+3;3;3;try;meet
+27;12;25;manner;custom
+6;3;4;manner;path
+17;5;15;and;if
+4;4;4;and;yes
+5;3;5;and;or
+4;3;4;and;thou
+4;3;3;and;say
+131;8;120;and;with
+10;4;7;because;what
+5;3;5;because;how
+7;4;4;because;when
+13;4;13;because;why
+20;8;14;because;if
+5;3;4;because;after
+18;8;16;if;when
+3;3;3;if;in
+3;3;3;if;at
+7;4;7;if;yes
+4;3;4;if;or
+3;3;3;or;fat (organic substance)
+50;22;47;how;what
+13;11;12;how;where
+5;5;5;how;when
+3;3;3;how;who
+44;13;42;how;why
+8;6;8;how;how much
+13;7;13;how;which
+203;37;184;how much;how many pieces
+6;4;6;how much;when
+78;19;71;what;who
+4;3;4;what;name
+6;4;6;what;where
+21;9;19;what;why
+34;13;28;what;which
+4;3;3;what;no
+3;3;3;what;we (exclusive)
+5;4;5;what;one
+4;3;4;what;eat
+4;4;4;what;not
+9;8;9;when;where
+4;4;4;where;who
+15;8;14;where;which
+4;4;4;where;there
+3;3;3;where;at
+19;5;16;where;whither (where to)
+48;11;41;which;who
+5;4;5;who;name
+8;6;8;who;person
+5;3;5;who;head
+27;7;27;voice;neck
+68;27;67;voice;language
+55;20;55;voice;word
+20;3;20;voice;shout
+6;4;6;voice;say
+9;8;9;voice;speak
+20;12;20;voice;throat
+8;6;8;voice;speech
+6;5;6;voice;noise
+24;10;24;voice;tone (music)
+6;5;6;sing;say
+12;7;12;sing;dance
+7;3;7;sing;do
+19;7;19;sing;song
+3;3;3;sing;drink
+5;4;5;sing;speak
+13;7;13;sing;read
+8;6;8;sing;shout
+6;3;6;sing;call
+6;3;6;sing;do or make
+3;3;3;sing;cook (something)
+3;3;3;sing;cultivate
+81;21;77;shout;call
+24;17;24;shout;howl
+48;19;39;shout;shriek
+12;4;12;shout;call by name
+4;3;4;shout;threaten
+4;4;4;shout;groan
+3;3;3;shout;put on
+15;10;15;whisper;mumble
+30;14;29;howl;shriek
+8;8;8;howl;groan
+53;16;48;speak;tell
+218;31;196;speak;say
+44;16;42;speak;speech
+55;17;54;speak;talk
+12;6;8;speak;announce
+6;4;6;speak;answer
+3;3;3;speak;mumble
+20;11;20;speak;word
+3;3;3;speak;pray
+30;11;30;speak;language
+5;4;5;speak;do or make
+4;4;4;speak;ask (request)
+6;4;6;speak;preach
+9;4;9;speak;chat (with somebody)
+3;3;3;stutter;pull
+3;3;3;stutter;mumble
+4;4;4;say;fat (organic substance)
+56;15;52;say;tell
+8;7;8;say;promise
+6;6;6;say;talk
+11;3;11;say;burn
+6;3;6;say;i
+3;3;3;say;eat
+4;3;4;say;kill
+3;3;3;say;they
+36;6;36;say;call by name
+28;8;24;say;announce
+6;4;5;say;command
+10;6;10;say;answer
+16;9;16;say;do or make
+5;4;5;say;think (believe)
+10;5;9;say;speech
+13;7;13;say;language
+3;3;3;say;preach
+14;6;14;say;word
+3;3;3;say;he or she or it
+3;3;3;say;read
+5;4;5;say;admit
+3;3;3;say;swear
+3;3;3;say;burning
+10;5;10;say;convey (a message)
+4;3;4;tell;command
+15;10;12;tell;announce
+9;8;8;tell;preach
+4;4;4;tell;answer
+11;7;10;tell;speech
+7;7;7;tell;admit
+6;4;6;tell;convey (a message)
+6;5;6;tell;talk
+39;15;39;speech;language
+47;17;47;speech;word
+6;4;5;speech;announce
+13;9;13;speech;preach
+15;6;15;speech;conversation
+5;3;5;speech;talk
+6;6;6;be silent;quiet
+175;13;175;language;tongue
+149;49;148;language;word
+27;7;27;language;mouth
+3;3;3;language;lip
+5;3;5;language;neck
+3;3;3;language;conversation
+8;3;8;word;tongue
+6;3;6;word;name
+8;6;8;word;mouth
+3;3;3;word;lip
+24;3;24;word;book
+3;3;3;word;conversation
+21;3;20;name;eye
+10;3;10;name;fire
+9;4;9;name;tooth
+7;3;7;name;louse
+3;3;3;name;we (exclusive)
+3;3;3;name;below or under
+10;8;10;name;call by name
+3;3;3;name;i
+13;5;13;name;egg
+6;3;6;name;skin
+12;3;12;name;ear
+3;3;3;name;person
+13;3;13;ask (inquire);listen
+4;4;4;ask (inquire);call
+70;27;66;ask (inquire);ask (request)
+4;4;4;answer;obey
+3;3;3;answer;call by name
+4;4;4;answer;admit
+3;3;3;answer;ask (request)
+4;3;4;answer;come back
+24;5;24;admit;obey
+4;4;4;admit;preach
+7;4;5;admit;allow or permit
+3;3;3;admit;announce
+6;4;6;admit;promise
+3;3;3;admit;yes
+3;3;3;admit;permit
+128;16;121;deny;refuse
+7;4;7;deny;forbid
+7;6;6;deny;no
+4;4;4;deny;hide (conceal)
+10;8;10;promise;swear
+3;3;3;promise;oath
+52;13;51;call;call by name
+12;5;12;call;ask (request)
+4;3;4;call;command
+8;4;6;call;shriek
+7;3;7;call;read
+3;3;3;call;dig
+34;9;34;call;invite
+12;3;11;announce;call by name
+6;3;6;announce;preach
+3;3;3;boast;commend
+66;23;64;town;village
+10;5;9;town;fortress
+3;3;3;town;house
+13;9;13;town;country
+3;3;3;town;people
+17;13;17;village;house
+21;11;21;village;country
+12;8;11;village;people
+3;3;3;village;garden
+6;4;6;village;native country
+6;6;6;village;clan
+3;3;3;village;wife
+8;3;7;boundary;end (of time)
+14;7;12;boundary;end (of space)
+5;3;5;boundary;shore
+26;13;22;people;clan
+56;27;55;people;person
+10;9;10;people;man
+19;9;18;people;citizen
+4;4;4;people;relatives
+5;4;5;people;country
+5;5;5;people;family
+14;7;14;rule;lead (guide)
+7;6;7;rule;drive
+15;9;14;rule;command
+13;6;12;rule;own
+4;4;4;citizen;neighbour
+4;4;4;citizen;friend
+6;4;4;citizen;relatives
+8;6;8;citizen;person
+96;11;86;master;host
+34;12;32;master;chieftain
+16;6;14;master;husband
+11;6;10;master;god
+12;4;12;master;teacher
+22;8;16;master;king
+3;3;3;master;thou
+3;3;3;master;father
+6;6;6;master;own
+9;4;9;master;dexterous
+47;17;47;slave;servant
+13;8;13;slave;prisoner
+3;3;3;servant;soldier
+3;3;3;command;law
+43;21;39;obey;listen
+4;3;4;stranger;host
+16;6;16;stranger;guest
+10;4;10;guest;host
+6;3;6;guest;relatives
+3;3;3;guest;friend
+9;3;9;host;husband
+14;6;14;help;rescue
+3;3;3;hinder or prevent;mix
+24;11;22;hinder or prevent;forbid
+17;6;16;hinder or prevent;defend
+5;3;5;hinder or prevent;be late
+11;7;10;custom;law
+39;17;38;quarrel;fight
+19;12;18;quarrel;battle
+4;3;4;prostitute;adultery
+205;41;199;person;man
+10;8;9;person;body
+3;3;3;person;woman
+13;5;13;person;husband
+5;4;5;person;child (young human)
+6;6;6;person;clan
+4;4;4;person;male (of person)
+3;3;3;person;we (inclusive)
+4;3;4;person;male
+163;45;145;male (of person);male (of animal)
+33;15;33;male (of person);husband
+115;41;104;male (of person);man
+4;4;4;male (of person);father
+3;3;3;male (of person);young man
+4;4;4;male (of person);penis
+4;4;4;male (of person);boy
+11;6;11;male (of person);married man
+154;44;146;female (of person);female (of animal)
+119;39;109;female (of person);woman
+33;15;32;female (of person);wife
+4;3;4;female (of person);young woman
+10;5;10;female (of person);married woman
+5;3;5;female (of person);mother
+6;3;6;female (of person);daughter
+200;21;189;girl;daughter
+86;17;80;girl;young woman
+21;16;19;girl;child (young human)
+28;16;27;girl;boy
+12;8;12;girl;woman
+4;3;4;girl;son
+8;7;7;girl;baby
+3;3;3;girl;stepdaughter
+125;33;118;baby;child (young human)
+22;8;22;baby;child (descendant)
+19;13;19;baby;boy
+117;26;108;husband;wife
+194;34;185;husband;man
+9;6;9;husband;father
+21;4;20;husband;male
+18;10;15;husband;married man
+4;4;4;husband;old man
+21;14;21;husband;male (of animal)
+5;3;5;husband;chieftain
+5;5;5;husband;marry
+5;4;5;husband;friend
+301;44;289;wife;woman
+3;3;3;wife;daughter
+5;3;5;wife;fire
+27;12;24;wife;married woman
+5;3;5;wife;old woman
+3;3;3;wife;married man
+20;12;19;wife;female (of animal)
+3;3;3;wife;marry
+4;3;4;wife;friend
+7;6;6;marry;have sex
+17;9;16;marry;marriage or wedding
+6;4;5;marry;sleep
+4;3;4;marry;married man
+3;3;3;marry;married woman
+3;3;3;marry;wedding
+6;4;6;parents;relatives
+10;8;10;parents;family
+6;4;6;parents;ancestors
+170;21;159;son;boy
+6;3;6;son;child
+3;3;3;son;pregnant
+16;7;13;son;young man
+13;8;13;son;nephew
+3;3;3;son;descendants
+28;18;27;son;child (young human)
+31;22;31;son;child (descendant)
+39;20;37;son;daughter
+17;3;17;son;man
+5;5;5;son;niece
+4;4;4;son;stepson
+21;5;21;daughter;woman
+65;7;64;daughter;young woman
+16;8;16;daughter;niece
+16;14;16;daughter;child (descendant)
+7;6;7;daughter;child (young human)
+8;3;8;daughter;boy
+5;5;5;daughter;nephew
+4;3;4;daughter;stepdaughter
+130;17;120;grandmother;grandfather
+12;6;11;grandmother;mother-in-law (of woman)
+32;16;30;grandmother;old woman
+16;8;15;grandmother;mother-in-law (of man)
+9;7;9;grandmother;aunt
+3;3;3;grandmother;mother's sister
+9;6;9;grandmother;mother
+5;3;4;grandmother;grandson
+10;5;6;grandmother;granddaughter
+42;3;41;grandmother;grandchild
+3;3;3;grandmother;grandparents
+151;39;133;grandson;granddaughter
+61;10;58;grandson;nephew
+20;6;20;grandson;niece
+5;3;5;grandson;descendants
+11;6;7;grandson;grandfather
+4;3;4;grandson;child (descendant)
+18;13;18;grandson;grandchild
+23;6;23;granddaughter;nephew
+53;10;52;granddaughter;niece
+5;4;5;granddaughter;descendants
+7;3;4;granddaughter;grandfather
+3;3;3;granddaughter;daughter-in-law (of woman)
+3;3;3;granddaughter;daughter-in-law (of man)
+5;4;5;granddaughter;child (descendant)
+13;11;13;granddaughter;grandchild
+179;24;151;aunt;mother's sister
+162;26;142;aunt;father's sister
+3;3;3;aunt;niece
+8;5;6;aunt;cousin
+6;5;6;aunt;mother-in-law (of man)
+16;5;16;aunt;sister
+24;9;21;aunt;uncle
+13;6;13;aunt;mother
+5;4;4;aunt;mother's brother
+6;5;6;aunt;mother-in-law (of woman)
+4;3;4;aunt;stepmother
+5;4;4;aunt;father's brother
+5;5;5;nephew;younger brother
+5;5;5;nephew;uncle
+3;3;3;nephew;father's brother
+9;8;9;nephew;cousin
+104;28;82;nephew;niece
+5;5;5;nephew;son-in-law (of man)
+3;3;3;nephew;stepson
+4;3;4;nephew;child (young human)
+7;6;7;nephew;child (descendant)
+3;3;3;nephew;son-in-law (of woman)
+19;7;11;nephew;sibling's child
+11;9;10;niece;cousin
+4;4;4;niece;younger sister
+5;4;4;niece;daughter-in-law (of woman)
+7;6;6;niece;daughter-in-law (of man)
+5;4;5;niece;stepdaughter
+4;4;4;niece;child (descendant)
+14;5;8;niece;sibling's child
+3;3;3;ancestors;clan
+3;3;3;ancestors;old man
+6;3;5;ancestors;descendants
+3;3;3;ancestors;grandparents
+204;41;187;father-in-law (of man);father-in-law (of woman)
+12;7;12;father-in-law (of man);grandfather
+9;9;9;father-in-law (of man);uncle
+14;13;14;father-in-law (of man);mother's brother
+3;3;3;father-in-law (of man);father's brother
+6;5;6;father-in-law (of man);stepfather
+27;17;27;father-in-law (of man);son-in-law (of man)
+15;10;14;father-in-law (of man);mother-in-law (of man)
+14;9;14;father-in-law (of man);son-in-law (of woman)
+6;6;6;father-in-law (of man);mother-in-law (of woman)
+3;3;3;father-in-law (of man);daughter-in-law (of woman)
+6;6;6;father-in-law (of man);daughter-in-law (of man)
+9;5;8;father-in-law (of man);father
+4;4;4;father-in-law (of man);parents-in-law
+203;39;181;mother-in-law (of man);mother-in-law (of woman)
+14;11;14;mother-in-law (of man);father's sister
+6;5;6;mother-in-law (of man);mother's sister
+6;5;6;mother-in-law (of man);stepmother
+12;10;12;mother-in-law (of man);son-in-law (of woman)
+15;11;14;mother-in-law (of man);daughter-in-law (of man)
+13;10;12;mother-in-law (of man);daughter-in-law (of woman)
+8;8;8;mother-in-law (of man);father-in-law (of woman)
+8;5;8;mother-in-law (of man);son-in-law (of man)
+3;3;3;mother-in-law (of man);child-in-law
+280;49;261;son-in-law (of man);son-in-law (of woman)
+15;8;15;son-in-law (of man);daughter-in-law (of woman)
+23;12;23;son-in-law (of man);daughter-in-law (of man)
+12;10;12;son-in-law (of man);father-in-law (of woman)
+4;4;4;son-in-law (of man);mother-in-law (of woman)
+3;3;3;son-in-law (of man);stepson
+3;3;3;son-in-law (of man);parents-in-law
+11;8;9;son-in-law (of man);child-in-law
+256;47;234;daughter-in-law (of man);daughter-in-law (of woman)
+4;3;4;daughter-in-law (of man);stepdaughter
+24;13;24;daughter-in-law (of man);son-in-law (of woman)
+15;11;14;daughter-in-law (of man);mother-in-law (of woman)
+13;11;13;daughter-in-law (of man);father-in-law (of woman)
+3;3;3;daughter-in-law (of man);parents-in-law
+8;6;7;daughter-in-law (of man);child-in-law
+3;3;3;stepfather;uncle
+3;3;3;stepfather;father's brother
+7;6;7;stepfather;father-in-law (of woman)
+4;4;4;stepfather;stepmother
+5;5;5;stepfather;father
+6;5;6;stepmother;mother-in-law (of woman)
+3;3;3;stepmother;mother
+3;3;3;stepmother;father's sister
+47;16;45;stepson;stepdaughter
+3;3;3;stepson;son-in-law (of woman)
+3;3;3;stepson;boy
+53;24;53;widower;widow
+12;7;12;relatives;sibling
+35;24;33;relatives;family
+18;9;18;relatives;clan
+9;4;9;relatives;cousin
+5;5;5;relatives;friend
+12;5;12;relatives;brother
+9;4;9;relatives;sister
+31;12;31;i;we
+10;8;10;i;we (inclusive)
+4;4;4;i;we (exclusive)
+9;6;8;i;thou
+4;4;4;i;house
+22;7;22;i;eat
+4;4;4;i;eye
+5;3;5;i;mother
+3;3;3;i;father
+5;4;5;thou;he
+6;3;6;thou;she
+5;4;5;thou;breast
+64;24;64;thou;you
+6;3;6;thou;that
+6;3;6;thou;child
+10;6;10;thou;he or she or it
+5;4;5;thou;they
+12;3;12;thou;eat
+36;3;33;thou;you (formal address)
+4;3;4;we;mother
+153;32;145;we;we (inclusive)
+11;7;11;we;you
+82;20;74;we;we (exclusive)
+3;3;3;we;he or she or it
+4;3;4;they;she
+36;14;35;they;you
+5;5;5;they;that
+15;3;15;they;he or she
+9;8;9;they;he
+73;25;68;they;he or she or it
+52;3;52;they;their
+4;3;4;fight;hit
+9;4;9;fight;scold
+23;11;22;fight;battle
+17;8;15;fight;kill
+6;3;6;fight;shoot
+7;5;7;fight;strike or beat
+4;4;4;fight;pound
+3;3;3;fight;bite
+10;5;8;battle;war
+5;5;5;battle;army
+41;14;40;soldier;army
+5;4;5;club;stick
+14;12;14;club;tree
+4;4;4;club;firewood
+38;7;35;club;walking stick
+13;12;13;club;wood
+8;6;8;club;post
+3;3;3;club;pestle
+3;3;3;spear;walking stick
+25;13;25;spear;arrow
+7;6;7;spear;sword
+6;5;5;armour;shield
+10;6;9;helmet;headgear
+5;3;5;helmet;headband or headdress
+16;3;16;fortress;tower
+4;4;4;fortress;wall (of house)
+4;4;4;fortress;fence
+10;8;9;defeat;victory
+3;3;3;defeat;bad luck
+5;5;5;attack;strike or beat
+21;10;17;defend;rescue
+36;11;33;defend;preserve
+8;5;7;defend;forbid
+10;6;10;defend;guard
+7;3;7;defend;herd (something)
+29;8;26;defend;protect
+3;3;3;defend;prevent
+3;3;3;surrender;allow or permit
+15;5;15;prisoner;prison
+15;6;15;guard;preserve
+3;3;3;guard;army
+17;6;17;guard;herd (something)
+11;4;11;guard;protect
+16;11;15;fishing line;thread
+14;10;13;fishing line;rope
+5;4;5;bait;worm
+6;5;6;bait;food
+3;3;3;bait;meal
+11;3;11;hunt;dispel
+17;7;16;hunt;look for
+10;6;10;hunt;pursue
+3;3;3;hunt;bite
+14;7;13;hunt;shoot
+8;6;8;hunt;catch
+5;4;5;hunt;kill
+3;3;3;hunt;trap (catch)
+10;3;10;shoot;strike
+6;5;6;shoot;stab
+38;3;38;shoot;shoot (with slingshot)
+11;8;10;shoot;strike or beat
+59;8;57;shoot;kill
+12;6;12;shoot;pull
+5;4;5;shoot;eat
+4;3;4;shoot;let go or set free
+8;3;8;shoot;bite
+7;3;6;law;court
+7;3;6;law;judgment
+16;3;9;judgment;court
+14;8;14;judgment;adjudicate
+3;3;3;judgment;punishment
+8;6;8;swear;oath
+30;4;26;accuse;condemn
+16;4;16;accuse;convict
+64;13;59;accuse;blame
+24;8;21;condemn;adjudicate
+36;10;35;condemn;convict
+7;3;6;condemn;scold
+21;6;20;condemn;blame
+16;6;15;acquit;let go or set free
+3;3;3;acquit;untie
+3;3;3;acquit;allow or permit
+3;3;3;acquit;rescue
+5;3;4;acquit;liberate
+5;4;4;guilty;defendant
+4;3;4;guilty;convict
+14;5;14;punishment;fine (penalty)
+5;3;5;prison;stable
+69;24;64;murder;kill
+4;3;3;murder;crime
+4;4;4;rape;press
+8;5;8;arson;light (ignite)
+3;3;3;arson;burning
+16;11;15;thief;steal
+87;20;81;livestock;cattle
+34;14;34;livestock;animal
+4;3;4;livestock;fowl
+6;5;6;stable;fence
+5;4;5;cattle;calf
+64;23;62;cattle;cow
+11;7;11;cattle;bull
+10;7;10;cattle;ox
+3;3;3;cattle;horse
+29;8;28;cattle;animal
+18;9;17;ox;cow
+98;15;90;ox;bull
+3;3;3;calf;foot
+4;4;4;calf;cow
+55;10;54;ram;sheep
+3;3;3;ram;lamb
+10;6;10;ram;ewe
+18;8;18;ram;he-goat
+48;13;46;boar;pig
+20;4;19;boar;sow (female pig)
+55;12;53;sow (female pig);pig
+19;12;18;he-goat;goat
+3;3;3;he-goat;kid
+7;3;6;kid;goat
+4;4;4;kid;lamb
+7;5;7;stallion;foal
+28;9;27;stallion;horse
+7;5;7;stallion;mare
+17;9;17;mare;horse
+3;3;3;mare;foal
+3;3;3;foal;horse
+11;7;11;mule;donkey
+6;6;6;mule;horse
+12;5;12;fowl;rooster
+58;23;58;fowl;bird
+26;14;23;fowl;hen
+28;11;28;fowl;chicken
+51;19;48;hen;chicken
+28;14;26;hen;rooster
+11;7;10;goose;duck
+61;8;61;vulture;eagle
+11;7;11;vulture;hawk
+4;4;4;vulture;crow
+3;3;3;gill;ear
+12;8;12;shell;skin
+25;14;24;shell;snail
+7;7;7;shell;scale
+4;3;4;shell;spoon
+13;10;13;shell;bark
+6;4;6;shell;leather
+14;3;12;dolphin;whale
+11;4;11;insect;fly (insect)
+35;13;35;insect;worm
+7;7;7;insect;animal
+3;3;3;insect;mosquito
+3;3;3;insect;wasp
+5;5;5;louse;this
+3;3;3;louse;tree
+6;5;5;louse;nit
+29;11;28;louse;flea
+9;4;9;louse;body louse
+5;4;5;louse;head
+3;3;3;louse;mother
+5;4;5;louse;tooth
+3;3;3;louse;hair
+8;4;8;nit;egg
+7;3;7;flea;body louse
+14;6;14;centipede;scorpion
+12;3;11;beeswax;earwax
+11;7;11;beeswax;candle
+3;3;3;beeswax;bee
+4;4;4;beeswax;honey
+22;7;22;worm;snake
+4;4;4;crocodile;lizard
+3;3;3;skin;back
+29;14;28;skin;body
+5;4;5;skin;basket
+9;5;8;skin;scale
+213;49;209;skin;bark
+116;28;113;skin;fur
+3;3;3;skin;foot
+258;46;236;skin;leather
+5;4;5;skin;flesh
+5;3;5;skin;pull off (skin)
+6;5;6;skin;peel
+6;3;6;skin;meat
+10;6;10;skin;skin (of fruit)
+4;3;4;dandruff;scale
+56;18;56;blood;red
+3;3;3;blood;bone
+13;3;13;blood;meat
+29;3;29;blood;sap
+4;4;4;blood;eat
+4;3;4;blood;river
+6;4;6;blood;water
+12;4;12;blood;liver
+12;7;12;blood vessel;root
+3;3;3;blood vessel;thread
+11;7;11;blood vessel;tendon
+5;4;5;rib;bone
+4;3;4;rib;chest
+29;7;29;horn (anatomy);brass instrument (horn or trumpet)
+18;3;18;horn (anatomy);corner
+7;5;7;horn (anatomy);branch or twig
+10;8;10;horn (anatomy);tooth
+3;3;3;horn (anatomy);branch
+7;3;7;skull;top
+23;13;22;skull;head
+6;4;6;brain;head
+67;33;67;jaw;chin
+6;3;6;jaw;mouth
+31;12;30;jaw;cheek
+4;3;4;jaw;face
+5;4;5;jaw;beard
+32;9;32;eyelid;eyelash
+8;5;8;eyelid;eyebrow
+76;18;75;eyelash;eyebrow
+4;3;3;nostril;nasal mucus (snot)
+8;5;8;nostril;nose
+20;8;20;nasal mucus (snot);nose
+12;10;12;nasal mucus (snot);common cold (disease)
+121;20;119;mouth;lip
+40;7;40;mouth;tooth
+7;5;7;mouth;mother
+27;13;24;mouth;beak
+3;3;3;mouth;throat
+13;6;13;mouth;face
+16;6;16;mouth;door
+10;5;10;mouth;chin
+30;19;30;beak;nose
+17;8;16;beak;lip
+4;4;4;beak;end (of space)
+12;9;12;beak;tooth
+84;34;81;nape (of neck);neck
+5;5;5;nape (of neck);throat
+98;28;96;throat;neck
+11;9;11;throat;collar
+10;8;10;shoulder;back
+3;3;3;shoulder;upper arm
+11;10;11;shoulder;wing
+9;6;9;shoulder;arm
+6;3;6;shoulder;collarbone
+9;4;9;shoulder;shoulderblade
+3;3;3;shoulder;ear
+7;6;7;collarbone;shoulderblade
+3;3;3;elbow;hand
+51;9;47;elbow;knee
+8;6;8;elbow;wrist
+6;6;6;elbow;arm
+4;4;4;elbow;corner
+13;7;12;wrist;hand
+10;7;10;wrist;arm
+19;9;19;palm of hand;hand
+13;4;12;palm of hand;sole (foot)
+9;7;9;claw;foot
+243;55;236;claw;fingernail
+8;7;8;claw;toe
+4;4;4;claw;nail (tool)
+7;7;7;claw;finger
+8;6;6;claw;hand
+5;5;5;claw;leg
+58;14;57;claw;fingernail or toenail
+45;13;43;claw;paw
+9;7;9;leg;calf of leg
+53;22;52;leg;thigh
+358;52;349;leg;foot
+33;8;33;leg;shin
+30;12;28;leg;bone
+24;8;23;leg;lower leg
+3;3;3;leg;heel
+4;3;4;leg;toe
+6;5;6;leg;footprint
+3;3;3;leg;egg
+4;4;4;leg;liver
+7;4;7;leg;tree
+9;6;9;leg;paw
+46;17;46;leg;foot or leg
+83;13;81;thigh;hip
+12;8;11;thigh;buttocks
+4;4;4;thigh;foot
+7;4;7;thigh;calf of leg
+17;6;17;ankle;heel
+4;4;4;ankle;knot
+4;4;4;ankle;foot
+3;3;3;ankle;knee
+14;4;14;heel;foot
+3;3;3;heel;knee
+5;5;5;heel;calf of leg
+3;3;3;heel;bottom
+135;29;133;toe;finger
+5;5;5;toe;foot
+3;3;3;toe;thumb
+72;26;71;feather;wing
+29;12;28;feather;leaf
+111;23;108;feather;hair (body)
+37;17;34;feather;hair (head)
+23;5;23;feather;pen
+17;8;17;feather;wool
+8;5;8;feather;fin
+30;18;30;feather;fur
+17;10;17;feather;pubic hair
+68;16;67;feather;hair
+97;24;90;chest;breast
+10;8;10;chest;heart
+5;3;5;chest;lung
+4;4;4;chest;stomach
+175;26;173;breast;milk
+5;3;5;breast;rope
+49;26;49;breast;nipple
+75;34;72;breast;udder
+8;4;8;breast;suck
+27;15;25;nipple;udder
+3;3;3;nipple;seed
+4;4;4;nipple;milk
+19;13;17;udder;milk
+9;5;9;lung;heart
+6;4;6;lung;liver
+6;4;5;lung;light (weight)
+10;5;10;lung;foam
+27;9;26;liver;heart
+3;3;3;liver;spleen
+8;3;8;liver;inside
+3;3;3;liver;seed
+3;3;3;kidney;heart
+3;3;3;kidney;bean
+4;3;4;waist;middle
+11;8;11;waist;back
+13;10;13;waist;hip
+17;5;17;waist;center or middle
+7;3;6;waist;belt
+6;3;6;waist;spade
+3;3;3;waist;body
+3;3;3;waist;stomach
+31;11;30;hip;buttocks
+9;6;9;buttocks;behind
+20;12;18;buttocks;bottom
+7;4;7;buttocks;tail
+21;5;21;penis;tail
+3;3;3;penis;seed
+4;3;4;penis;vulva
+3;3;3;penis;bird
+17;5;17;penis;egg
+7;4;6;penis;testicles
+3;3;3;penis;vagina
+12;9;11;breath or breathe;air
+7;4;6;breath or breathe;wind
+4;4;4;breath or breathe;heart
+4;4;4;breath or breathe;rest
+3;3;3;cough;common cold (disease)
+3;3;3;cough;sneeze
+23;6;23;spit;vomit
+6;3;6;spit;dribble
+3;3;3;spit;saliva
+4;3;4;vomit;dig
+11;3;11;vomit;two
+10;8;10;bite;cut
+7;4;7;bite;drink
+18;4;18;bite;itchy
+44;17;44;bite;eat
+30;12;29;bite;chew
+3;3;3;bite;weave
+4;3;4;bite;put on
+3;3;3;bite;tear (shred)
+5;3;5;bite;dig
+4;3;4;bite;pull
+4;3;4;bite;kill
+5;3;5;bite;sleep
+7;5;7;lick;suck
+14;8;13;dream (something);sleep
+3;3;3;wake up;smell (perceive)
+20;8;20;wake up;wake up (someone)
+3;3;3;fart;shit (defecate)
+7;3;7;piss;urine
+31;4;31;piss;shit (defecate)
+5;4;5;shit (defecate);faeces (excrement)
+3;3;3;have sex;sleep
+154;16;153;bathe;wash
+4;3;4;bathe;dive
+23;4;23;bathe;bathe (someone)
+7;4;7;bathe;wash (oneself)
+30;8;29;be born;beget
+8;3;8;be born;happen
+12;5;12;be born;become
+3;3;3;be born;be alive
+10;6;10;pregnant;heavy
+28;11;28;pregnant;conceive
+19;14;19;be dead or die;corpse
+6;3;6;be dead or die;rotten
+14;5;14;be dead or die;kill
+3;3;3;be dead or die;finish
+4;3;4;be dead or die;sick
+8;7;8;drowned;choke
+4;4;4;drowned;dive
+32;10;27;corpse;body
+6;6;6;corpse;dead
+5;4;5;corpse;ghost
+3;3;3;corpse;grave
+12;3;12;corpse;bone
+13;10;11;corpse;carcass
+15;8;13;bury;plant (something)
+19;11;18;bury;hide (conceal)
+9;7;9;bury;dig
+3;3;3;bury;grave
+3;3;3;bury;sow seeds
+3;3;3;bury;cultivate
+5;4;5;grave;pit (pothole)
+11;6;11;mighty or powerful or strong;healthy
+12;3;9;weak;sick
+17;9;16;weak;lazy
+14;8;13;weak;tired
+5;5;5;healthy;correct (right)
+3;3;3;healthy;cure
+9;4;9;healthy;be alive or life
+4;4;4;healthy;strong
+19;11;19;sick;disease
+5;3;3;sick;wound
+5;3;5;sick;tired
+8;5;8;sick;fever
+3;3;3;sick;common cold (disease)
+15;4;15;fever;fire
+7;6;7;fever;heat
+5;4;5;wound;boil (of skin)
+24;11;23;wound;scar
+10;6;10;wound;bruise
+3;3;3;wound;pus
+3;3;3;wound;blister
+3;3;3;bruise;blue
+7;4;7;bruise;swelling
+11;4;11;bruise;scar
+4;3;4;swelling;ball
+11;10;10;swelling;boil (of skin)
+3;3;3;swelling;blister
+24;3;24;swelling;itch
+4;3;4;blister;boil (of skin)
+5;3;5;boil (of skin);boil (of liquid)
+9;5;9;pus;rotten
+3;3;3;pus;sap
+6;3;6;scar;footprint
+6;3;6;cure;preserve
+9;6;7;cure;rescue
+6;6;6;cure;medicine
+17;4;17;medicine;tree
+3;3;3;medicine;leaf
+3;3;3;medicine;grass
+7;6;7;medicine;ointment
+14;11;14;medicine;poison
+3;3;3;medicine;wood
+3;3;3;medicine;plant (vegetation)
+6;3;6;medicine;tobacco
+6;6;6;medicine;pill
+13;10;12;poison;fish poison
+10;4;10;tired;lazy
+6;4;6;deaf;mute
+3;3;3;deaf;ear
+3;3;3;mute;mad
+136;40;124;food;meal
+33;14;31;food;eat
+14;9;13;food;dinner (supper)
+6;4;5;food;lunch
+7;5;7;food;bread
+4;4;4;food;beverage
+3;3;3;food;flour
+6;6;6;food;meat
+65;23;64;cooked;ripe
+23;10;22;cooked;cook (something)
+6;4;6;cooked;boil (of liquid)
+14;8;14;raw;be alive
+15;12;15;raw;green
+3;3;3;raw;blue
+71;27;63;raw;unripe
+14;6;14;raw;be alive or life
+7;4;7;raw;damp
+13;3;13;ripe;white
+44;11;43;ripe;red
+18;10;18;ripe;yellow
+23;4;22;ripe;ripen
+4;3;4;rotten;die
+10;5;10;rotten;smell (perceive)
+86;19;84;famine;hunger
+3;3;3;famine;be hungry
+35;13;35;suck;drink
+6;3;6;suck;grind
+19;7;19;suck;pull
+3;3;3;suck;urine
+12;7;10;suck;eat
+9;3;9;suck;squeeze
+12;7;12;suck;smoke (inhale)
+5;3;5;suck;stretch
+3;3;3;suck;wash
+104;17;101;roast or fry;bake
+11;6;11;roast or fry;cook (something)
+5;3;5;roast or fry;oven
+8;5;8;bake;oven
+33;8;33;bake;cook (something)
+6;3;6;bake;stove
+4;4;4;bake;build
+19;6;19;bake;fry
+18;5;18;bake;boil (something)
+45;25;45;kettle;pot
+7;6;7;kettle;pan
+9;4;9;kettle;jug
+55;22;49;bowl;dish
+12;9;11;bowl;saucer
+59;21;53;bowl;cup
+30;17;27;bowl;plate
+9;9;9;bowl;pot
+9;8;9;bowl;pan
+9;7;8;bowl;gourd
+4;4;4;bowl;jug
+12;7;10;meal;lunch
+34;7;34;meal;eat
+26;11;23;meal;dinner (supper)
+4;3;4;meal;flour
+4;3;4;meal;breakfast
+9;3;9;meal;rice
+4;3;4;breakfast;morning
+11;6;11;breakfast;lunch
+8;7;8;breakfast;dinner (supper)
+21;11;20;lunch;dinner (supper)
+3;3;3;dinner (supper);evening
+4;3;4;dinner (supper);eat
+3;3;3;peel;tear (shred)
+54;26;54;peel;pull off (skin)
+3;3;3;peel;tie
+12;6;12;peel;scrape
+6;5;6;peel;thresh
+3;3;3;peel;bark
+12;7;11;mix;knead
+7;6;7;knead;mold
+5;5;5;knead;squeeze
+3;3;3;knead;dough
+6;4;5;knead;grind
+4;4;4;knead;press
+15;5;15;knead;rub
+26;7;26;grind;mill
+13;3;13;grind;sharpen (something)
+6;4;6;grind;thresh
+37;10;37;grind;press
+3;3;3;grind;cut
+4;3;4;grind;chop
+9;6;9;grind;pound
+20;12;18;grind;squeeze
+3;3;3;grind;strike or beat
+6;3;6;grind;split
+3;3;3;grind;draw milk
+4;4;4;grind;stab to death
+3;3;3;grind;weave
+3;3;3;grind;pull
+3;3;3;mill;flour
+6;6;6;mill;mortar crusher
+19;4;18;mortar crusher;mortar binder
+22;6;22;mortar crusher;pestle
+18;6;18;sausage;intestines
+11;6;11;soup;water
+3;3;3;soup;boil (of liquid)
+3;3;3;soup;beverage
+55;7;55;vegetables;fruit
+6;4;6;vegetables;grass
+7;5;7;vegetables;plant (vegetation)
+4;3;4;bunch;knot
+7;3;7;bunch;vine
+3;3;3;bunch;fruit
+7;7;7;nut;fruit
+10;9;10;nut;seed
+5;3;5;nut;grain
+4;3;4;nut;bean
+3;3;3;fat (organic substance);salt
+95;35;93;fat (organic substance);oil (organic substance)
+30;17;30;fat (organic substance);butter
+15;7;14;fat (organic substance);ointment
+31;4;31;fat (organic substance);fat (obese)
+3;3;3;fat (organic substance);petroleum
+7;3;7;wine;grape
+23;10;23;wine;alcohol (fermented drink)
+5;3;5;wine;beverage
+14;10;14;wine;beer
+6;4;6;wine;mead
+18;9;18;alcohol (fermented drink);beer
+10;4;10;alcohol (fermented drink);mead
+12;6;10;alcohol (fermented drink);beverage
+3;3;3;alcohol (fermented drink);sap
+11;4;11;yolk;yellow
+3;3;3;put on;plant (something)
+4;3;4;put on;hide (conceal)
+14;8;14;put on;clothes
+3;3;3;put on;build
+14;9;14;put on;dress up
+90;26;87;cloth;clothes
+9;3;9;cloth;flax or linen
+10;4;10;cloth;cotton
+3;3;3;cloth;wool
+14;12;14;cloth;rag
+3;3;3;cloth;cloak
+12;9;12;cloth;dress
+5;4;5;cloth;shirt
+12;3;8;wool;sheep
+29;13;28;wool;fur
+15;12;15;wool;hair (body)
+3;3;3;wool;cotton
+9;8;9;wool;hair (head)
+6;6;6;wool;pubic hair
+5;3;5;cotton;flax or linen
+13;8;13;cotton;thread
+3;3;3;felt;fur
+136;30;124;fur;leather
+64;20;63;fur;hair (head)
+5;4;5;fur;leaf
+74;27;73;fur;hair (body)
+17;8;16;fur;plantain
+4;3;4;fur;color
+11;9;11;fur;pubic hair
+9;8;9;fur;bark
+5;3;5;fur;skin (of fruit)
+14;6;11;fur;hair
+50;4;40;leather;skin (human)
+50;17;49;leather;bark
+5;5;5;leather;pull off (skin)
+3;3;3;leather;belt
+6;4;6;leather;skin (of fruit)
+20;7;20;spin;weave
+25;8;25;spin;braid (verb) or weave (basket)
+3;3;3;spin;turn around
+55;8;53;weave;sew
+8;7;8;weave;tie
+6;6;6;weave;kill
+133;41;122;weave;braid (verb) or weave (basket)
+5;3;5;weave;do
+17;11;16;weave;braid
+12;5;12;weave;build
+7;4;7;weave;do or make
+3;3;3;weave;loom
+3;3;3;weave;eat
+3;3;3;weave;dig
+3;3;3;weave;forge
+5;3;5;weave;cut
+7;3;7;sew;repair
+3;3;3;sew;burning
+3;3;3;sew;eat
+6;5;6;sew;pierce
+9;5;9;sew;braid (verb) or weave (basket)
+6;4;6;sew;dig
+11;3;11;sew;stab
+6;5;6;awl;needle (for sewing)
+3;3;3;awl;chisel
+86;10;77;dye;paint (pigments)
+49;15;48;dye;painting
+25;5;24;dye;color
+3;3;3;dye;plant (vegetation)
+5;4;5;cloak;blanket
+12;7;12;cloak;poncho
+17;6;14;cloak;coat
+4;3;4;cloak;clothes
+3;3;3;cloak;shirt
+50;14;49;collar;neck
+12;9;11;collar;necklace
+63;22;62;boot;shoe
+14;6;14;headgear;headband or headdress
+5;3;5;veil;rag
+6;5;6;pocket;netbag
+6;4;6;jewel;stone or rock
+7;5;7;jewel;ornament
+37;18;36;bead;necklace
+6;5;6;bead;seed
+3;3;3;bead;fruit
+56;19;53;braid;braid (verb) or weave (basket)
+6;3;6;braid;hair (head)
+9;4;9;razor;knife (for eating)
+10;7;10;ointment;oil (organic substance)
+97;18;91;dwell (live, reside);be alive or life
+3;3;3;dwell (live, reside);last (endure)
+4;3;4;dwell (live, reside);own
+6;4;6;dwell (live, reside);sleep
+55;19;55;dwell (live, reside);be alive
+3;3;3;dwell (live, reside);life
+4;3;4;dwell (live, reside);sit down
+8;8;8;dwell (live, reside);be
+57;21;55;hut;house
+31;14;30;hut;garden-house
+3;3;3;hut;cookhouse
+27;6;27;hut;room
+3;3;3;hut;nest
+12;9;11;hut;tent
+50;6;49;garden-house;house
+20;4;19;garden-house;men's house
+9;6;9;yard;garden
+8;6;8;yard;fence
+4;4;4;yard;outside
+5;3;5;yard;threshing-floor
+92;12;89;room;house
+5;4;5;room;family
+4;3;4;room;wall (of house)
+3;3;3;door;one
+6;5;5;door;path
+8;7;8;door;window
+16;6;16;door;gate
+9;3;8;chimney;brass instrument (horn or trumpet)
+17;3;14;chimney;fireplace
+3;3;3;chimney;smoke (exhaust)
+16;13;15;torch or lamp;candle
+12;8;11;torch or lamp;fire
+19;9;19;shelf;board
+7;6;6;shelf;table
+19;9;18;board;table
+11;5;11;board;floor
+5;3;5;board;beam
+17;12;17;board;wood
+4;4;4;board;tree
+3;3;3;board;leaf
+11;6;11;board;slab
+6;3;6;mason;carpenter
+15;10;15;adobe;brick
+12;3;12;field;furrow
+12;6;12;field;pasture
+33;8;30;field;corn field
+46;19;45;field;garden
+7;6;7;field;land
+3;3;3;field;head
+16;6;16;cultivate;dig
+19;15;19;cultivate;sow seeds
+39;11;37;cultivate;plough
+5;4;5;cultivate;work (labour)
+5;3;5;cultivate;build
+5;4;5;cultivate;do or make
+26;10;25;cultivate;plant (something)
+4;4;4;cultivate;cook (something)
+24;7;24;ditch;furrow
+12;4;12;ditch;river
+3;3;3;ditch;spring or well
+27;5;24;plough;plough (instrument)
+84;14;84;pitchfork;fork
+7;5;7;pitchfork;forked branch
+5;4;5;pitchfork;rake
+70;28;67;seed;grain
+38;15;37;seed;fruit
+17;11;17;seed;eye
+17;4;16;seed;sow seeds
+31;5;31;seed;bone
+45;10;45;seed;egg
+5;4;5;seed;tooth
+5;4;4;seed;rub
+13;8;13;seed;testicles
+6;3;6;seed;dog
+21;3;20;seed;stone
+34;13;34;mow;cut
+7;4;7;mow;chop
+5;3;5;mow;strike or beat
+4;3;4;mow;tear (shred)
+6;3;6;mow;harvest
+12;10;12;thresh;strike or beat
+5;3;5;thresh;rub
+7;6;6;thresh;pound
+3;3;3;thresh;pull off (skin)
+6;5;6;grain;rye
+14;4;14;grain;wheat
+11;4;11;grain;barley
+5;5;5;grain;maize
+9;3;8;grain;harvest
+8;3;8;grain;oat
+13;9;13;grain;fruit
+5;4;5;grain;eye
+3;3;3;grain;tooth
+19;4;19;grain;rice
+4;4;4;grain;berry
+15;6;15;wheat;barley
+3;3;3;wheat;rye
+6;3;6;barley;rye
+10;4;9;barley;oat
+5;3;5;rye;oat
+7;4;7;plant (vegetation);hay
+53;9;53;plant (vegetation);grass
+4;3;4;plant (vegetation);harvest
+4;3;4;plant (vegetation);flower
+21;15;21;plant (vegetation);tree
+13;6;13;plant (vegetation);plant (something)
+6;4;6;plant (vegetation);sow seeds
+8;7;8;plant (vegetation);wood
+3;3;3;plant (vegetation);post
+53;14;50;branch or twig;forked branch
+4;4;4;branch or twig;wing
+10;7;10;branch or twig;arm
+5;5;5;branch or twig;hand
+3;3;3;branch or twig;leaf
+4;3;4;beech;oak
+12;7;12;vine;grape
+16;10;15;vine;rope
+5;4;5;vine;root
+16;4;16;tobacco;smoke (inhale)
+3;3;3;tobacco;leaf
+30;8;30;tobacco;smoke (exhaust)
+13;13;13;tobacco;cigarette
+18;5;16;bark;skin (human)
+17;9;17;bark;scale
+4;4;4;bark;back
+8;4;8;bark;body
+3;3;3;bark;tree
+29;8;29;bark;skin (of fruit)
+26;7;26;sap;water
+5;4;5;sap;glue
+4;4;4;sap;milk
+72;19;70;sweet potato;yam
+44;18;42;sweet potato;potato
+18;4;18;yam;taro
+4;4;4;yam;potato
+4;4;4;cassava;manioc bread
+9;6;9;do or make;mold
+80;25;74;do or make;build
+15;7;15;do or make;work (labour)
+4;3;4;do or make;plant (something)
+20;4;20;do or make;beget
+4;4;4;do or make;cook (something)
+6;5;6;work (labour);build
+5;3;5;work (labour);work (activity)
+15;5;15;work (labour);affair
+13;5;11;work (labour);business
+12;5;12;work (labour);do
+32;11;29;bend;fold
+56;12;55;tie;tie up (tether)
+34;9;32;tie;connect
+12;6;12;tie;rope
+74;3;74;tie;pull
+9;7;8;tie;wrap
+13;7;12;tie;knot
+3;3;3;tie;bundle
+15;4;15;tie;knit
+27;11;19;untie;let go or set free
+3;3;3;untie;spread out
+4;3;4;untie;liberate
+24;12;23;strike or beat;kill
+40;18;40;strike or beat;pound
+4;3;4;strike or beat;drink
+5;3;5;strike or beat;stab to death
+4;3;4;strike or beat;hammer
+3;3;3;shears;chisel
+56;8;55;adze;axe
+3;3;3;adze;hoe
+21;3;21;adze;battle-axe
+8;3;8;broken;split
+13;10;13;broken;break (destroy or get destroyed)
+24;10;24;rub;scrape
+10;6;9;rub;sweep
+10;4;10;rub;wash
+4;3;4;rub;cut
+6;4;6;rub;squeeze
+82;10;80;rub;wipe
+8;5;8;rub;spread out
+3;3;3;rub;sharpen (something)
+81;13;77;stretch;pull
+20;10;19;stretch;spread out
+9;5;9;pull;tear (shred)
+16;6;16;pull;lead (guide)
+4;4;4;pull;smoke (inhale)
+5;3;5;pull;kill
+3;3;3;pull;carry on shoulder
+5;3;5;pull;steal
+3;3;3;pull;wash
+3;3;3;pull;scrape
+62;10;61;pull;drag
+4;3;4;pull;sharpen (something)
+22;7;22;hang up;hang
+86;20;80;press;squeeze
+26;5;26;press;draw milk
+44;8;42;pour;cast
+4;3;4;pour;spread out
+25;9;23;pour;irrigate
+3;3;3;pour;fill
+3;3;3;wash;cut
+6;3;6;wash;die
+3;3;3;wash;dig
+6;6;6;wash;wipe
+3;3;3;wash;clean (something)
+13;6;13;wash;rinse
+10;5;10;wash;wash (oneself)
+3;3;3;wash;fry
+9;5;9;sweep;broom
+3;3;3;sweep;brush
+6;6;6;sweep;scrape
+27;7;27;sweep;wipe
+4;3;4;sweep;tumble (fall down)
+3;3;3;carpenter;sculptor
+4;4;4;build;plant (something)
+4;3;4;build;carve
+10;7;10;build;mold
+5;5;5;build;braid (verb) or weave (basket)
+4;3;4;build;cook (something)
+18;10;17;build;produce
+32;20;32;build;make
+15;9;15;build;do
+16;11;14;bore;hollow out
+20;7;18;bore;stab to death
+6;3;6;blacksmith;forge
+31;6;31;cast;mold
+6;5;6;lead (chemical element);tin or tinplate
+32;4;32;tin or tinplate;iron
+5;4;5;tin or tinplate;can
+10;8;10;clay;floor
+14;10;14;clay;land
+9;6;9;clay;world
+3;3;3;clay;country
+5;5;5;clay;swamp
+10;6;10;mat;bed
+19;10;18;mat;rug
+4;4;4;mat;blanket
+9;4;9;carve;mold
+60;6;58;carve;cut
+39;8;38;carve;chop
+6;4;6;carve;dig
+4;4;4;carve;write
+9;5;8;carve;hollow out
+72;14;68;paint (pigments);color
+13;6;13;paint (pigments);painting
+15;7;15;sky;day (not night)
+16;4;16;sky;sun
+102;22;102;sky;cloud
+29;3;29;sky;above
+8;3;8;sky;rain (precipitation)
+11;8;11;sky;up
+120;40;117;sky;heaven
+14;6;14;sky;god
+9;4;9;sky;blue
+20;10;20;sky;weather
+12;7;11;sky;air
+7;5;7;sky;top
+3;3;3;sky;wind
+8;6;8;sky;world
+8;3;8;sky;deity
+123;31;123;sun;day (not night)
+103;16;101;sun;day (24 hours)
+38;18;38;sun;moon
+4;3;4;sun;eye
+17;5;17;sun;god
+5;3;5;sun;year
+3;3;3;sun;woman
+4;3;4;sun;ground
+327;57;324;moon;month
+5;3;5;moon;dog
+14;6;14;moon;noon
+4;3;4;star;fish
+3;3;3;star;eye
+183;35;179;cloud;fog
+3;3;3;cloud;rain (precipitation)
+30;19;29;cloud;smoke (exhaust)
+7;4;7;cloud;storm clouds
+3;3;3;cloud;wind
+3;3;3;cloud;fire
+7;4;7;cloud;black
+27;8;26;wind;cold
+28;10;28;wind;storm
+56;28;53;wind;air
+4;3;4;wind;weather
+16;3;16;wind;common cold (disease)
+37;11;35;rain (precipitation);water
+4;3;4;rain (precipitation);river
+5;4;5;rain (precipitation);year
+12;5;12;rain (precipitation);rain (raining)
+3;3;3;thunder (verb);roar (of sea)
+38;18;36;snow;ice
+6;4;6;snow;frost
+3;3;3;snow;cold
+4;4;4;snow;fog
+13;3;13;frost;ice
+3;3;3;frost;hoarfrost
+27;9;25;frost;cold (chill)
+14;5;13;frost;cold
+26;14;26;fog;smoke (exhaust)
+3;3;3;fog;storm clouds
+3;3;3;fog;steam
+200;38;197;water;river
+5;3;5;water;sea
+77;15;76;water;raining or rain
+7;4;7;water;urine
+10;5;10;water;flowing body of water
+5;3;5;water;dog
+9;6;9;water;drink
+29;7;29;water;beverage
+3;3;3;water;tear (of eye)
+11;7;11;water;lake
+6;3;6;water;woman
+4;3;4;water;year
+4;3;4;water;eye
+3;3;3;water;tooth
+8;3;8;water;eat
+12;9;12;river;sea
+3;3;3;river;ear
+15;12;15;river;lake
+15;4;4;river;flowing body of water
+3;3;3;river;waterfall
+3;3;3;river;fish
+12;4;12;river;drink
+32;7;32;river;stream
+9;5;9;river;spring or well
+5;5;5;river;beverage
+41;12;41;lake;sea
+9;6;9;lake;swamp
+8;6;8;lake;ocean
+12;7;12;ground;floor
+10;5;10;ground;mainland
+9;5;9;ground;area
+17;5;17;ground;country
+9;3;8;ground;raining or rain
+141;20;132;mountain;hill
+41;11;41;mountain;stone
+3;3;3;mountain;head
+3;3;3;mountain;bush
+3;3;3;mountain;egg
+12;3;12;stone;hill
+8;4;8;stone;egg
+68;22;67;fire;firewood
+62;12;60;fire;tree
+9;4;9;fire;wood
+7;6;7;fire;match
+9;8;9;fire;hell
+7;7;7;fire;red
+5;5;5;fire;fireplace
+4;4;4;fire;candle
+6;3;6;fire;tail
+29;11;28;fire;campfire
+11;3;10;fire;burn
+8;4;8;fire;hot or warm
+5;5;5;fire;electricity
+16;5;16;in front of;face
+116;29;112;in front of;before
+3;3;3;in front of;beside
+6;3;6;in front of;forward
+18;8;17;behind;back
+4;3;4;behind;back (direction)
+6;6;6;behind;outside
+86;28;77;behind;after
+4;3;4;behind;beside
+4;4;4;behind;below or under
+4;3;3;behind;before
+18;3;18;behind;afterwards
+4;3;4;behind;backward
+5;3;5;right;eat
+45;11;45;right;correct (right)
+19;5;18;inside;at
+18;12;15;inside;below or under
+3;3;3;inside;he or she or it
+6;3;3;inside;up
+9;6;9;inside;down or below
+10;3;10;inside;stomach
+7;6;7;inside;bottom
+4;3;4;inside;heart
+16;10;16;inside;in
+6;3;6;outside;back
+5;4;5;outside;up
+3;3;3;year;dry season
+20;13;20;year;summer
+3;3;3;year;springtime
+8;4;8;year;winter
+27;15;27;day (24 hours);day (not night)
+4;4;4;day (24 hours);weather
+94;12;93;day before yesterday;day after tomorrow
+27;13;27;cow;bull
+3;3;3;cow;flesh
+3;3;3;cow;buffalo
+11;6;11;horse;donkey
+34;4;29;pig;wild boar
+8;4;8;pig;meat
+24;12;22;sheep;lamb
+95;16;91;sheep;ewe
+22;7;22;sheep;goat
+15;7;15;dog;jaguar
+5;4;5;dog;cat
+5;3;4;wolf;fox
+41;6;41;chicken;bird
+24;15;21;chicken;rooster
+4;3;4;bird;eagle
+15;6;15;bird;animal
+3;3;3;bird;fish
+11;3;10;bird;tree
+3;3;3;bird;duck
+32;13;32;eagle;hawk
+8;6;8;swallow;drink
+4;4;4;swallow;eat
+18;3;18;bat;flying fox
+20;10;20;fish;meat
+5;4;5;fish;flesh or meat
+4;4;4;fish;flesh
+4;3;4;fish;shark
+3;3;3;fish;ear
+36;18;31;bee;honey
+23;16;22;bee;wasp
+8;5;8;bee;beehive
+17;4;17;ant;termite
+8;3;8;spider;spider web
+3;3;3;spider;scorpion
+17;9;17;fly (insect);mosquito
+5;5;5;fly (insect);sandfly
+8;3;8;fly (insect);fly (move through air)
+107;10;96;mosquito;sandfly
+28;4;27;egg;fruit
+3;3;3;egg;head
+37;17;36;egg;testicles
+3;3;3;egg;child (descendant)
+5;5;5;egg;tooth
+4;3;4;egg;bone
+4;4;4;wing;hand
+27;5;27;wing;leaf
+4;4;4;wing;fly (move through air)
+9;6;8;wing;plantain
+17;11;17;wing;arm
+20;10;20;wing;fin
+6;4;6;tail;end (of space)
+29;16;29;tree;firewood
+67;23;66;tree;stick
+3;3;3;tree;leaf
+361;59;348;tree;wood
+4;3;4;tree;bone
+35;17;35;tree;tree trunk
+7;6;7;tree;eat
+7;7;7;tree;walking stick
+19;15;19;tree;post
+6;4;5;tree;beam
+4;3;4;tree;tree stump
+7;3;7;tree;root
+35;13;33;pine;fir
+7;4;6;willow;pasture
+8;5;8;bamboo;flute
+122;14;119;pumpkin;gourd
+33;11;32;chili pepper;pepper
+24;18;24;grass;pasture
+54;17;53;grass;hay
+7;5;7;grass;leaf
+13;9;13;grass;thatch
+3;3;3;grass;green
+25;7;25;root;vein
+3;3;3;root;clan
+9;5;9;root;tendon
+3;3;3;root;rope
+9;3;9;root;nose
+4;4;4;root;beard
+6;5;6;root;bottom
+12;7;12;root;tree stump
+6;3;6;leaf;ear
+5;3;5;leaf;drink
+3;3;3;leaf;hand
+4;4;4;leaf;green
+33;10;33;leaf;hair
+18;12;17;leaf;leaf (leaflike object)
+12;5;12;leaf;paper
+4;4;4;leaf;thatch
+4;3;4;leaf;hair (head)
+7;3;7;leaf;arm
+7;3;7;flower;red
+4;3;4;flower;fruit
+4;3;4;flower;foam
+6;5;6;fruit;harvest
+4;3;4;fruit;testicles
+12;5;12;fruit;meat
+5;4;5;fruit;eye
+72;9;62;body;flesh
+6;5;6;body;meat
+12;8;12;body;tree trunk
+3;3;3;body;idol
+5;5;5;head;roof
+18;7;17;head;hair
+7;5;7;head;forehead
+6;4;6;head;gourd
+11;7;10;head;hair (head)
+58;10;57;head;chieftain
+37;12;37;head;top
+15;5;15;head;end (of space)
+4;3;4;head;eye
+12;3;12;head;king
+4;4;4;head;bone
+8;5;8;head;tip (of object)
+9;4;9;head;boss
+16;7;15;hair;hair (body)
+19;11;18;face;cheek
+38;12;36;face;eye
+3;3;3;face;color
+21;13;20;face;forehead
+4;3;4;face;nose
+4;3;4;eye;father
+13;5;13;nose;cape
+3;3;3;nose;tip (of object)
+4;3;4;ear;earring
+19;12;19;ear;earlobe
+10;3;10;tooth;bone
+13;8;13;tooth;front tooth (incisor)
+34;12;33;tooth;molar tooth
+7;3;7;tooth;not
+3;3;3;tongue;tip (of tongue)
+3;3;3;tongue;neck
+65;12;63;beard;chin
+5;3;5;beard;hair (body)
+12;7;12;beard;moustache
+5;4;5;hand;thumb
+3;3;3;hand;fingernail
+20;13;20;hand;finger
+300;48;294;hand;arm
+57;5;57;hand;five
+6;4;6;finger;fingernail
+7;4;7;finger;arm
+4;3;4;finger;thumb
+4;3;4;finger;ring
+36;12;35;fingernail;claw or nail
+10;4;10;fingernail;nail (tool)
+88;20;85;fingernail;fingernail or toenail
+30;7;30;fingernail;paw
+3;3;3;fingernail;arm
+13;5;12;belly;intestines
+95;29;90;belly;stomach
+4;3;4;belly;heart
+14;3;14;belly;guts
+4;4;4;foot;bone
+13;11;13;foot;footprint
+4;3;4;foot;calf of leg
+5;5;5;foot;wheel
+3;3;3;foot;corner
+4;3;4;foot;paw
+6;3;6;knee;calf of leg
+6;5;5;bone;spine
+7;3;7;bone;back
+12;5;12;bone;shin
+5;3;5;bone;stick
+3;3;3;bone;reed
+3;3;3;bone;shoulderblade
+4;3;4;bone;meat
+22;10;16;intestines;stomach
+3;3;3;intestines;womb
+10;8;10;stomach;heart
+34;10;30;stomach;womb
+6;3;5;heart;ghost
+44;3;44;heart;spirit
+15;7;15;woman;mother
+4;3;4;woman;old woman
+60;32;59;woman;female (of animal)
+9;5;8;woman;young woman
+19;10;18;woman;married woman
+17;3;17;woman;female person
+54;13;52;child (descendant);descendants
+70;24;65;child (descendant);child (young human)
+6;4;6;child (descendant);clan
+9;6;9;child (descendant);boy
+5;4;5;child (descendant);young man
+3;3;3;child (descendant);family
+15;8;14;grandfather;father-in-law (of woman)
+20;12;19;grandfather;old man
+5;3;5;grandfather;uncle
+5;4;5;grandfather;mother's brother
+6;5;6;grandfather;father
+29;3;29;grandfather;grandchild
+6;4;5;grandfather;grandparents
+3;3;3;father;older brother
+7;4;7;father;mother
+6;5;6;father;male (of animal)
+9;5;9;father;man
+23;15;20;father;father's brother
+11;7;10;father;uncle
+3;3;3;father;chop
+11;4;10;father;father-in-law (of woman)
+10;3;10;mother;female (of animal)
+3;3;3;mother;sister
+20;12;17;mother;mother's sister
+6;3;6;mother;father's sister
+4;3;3;mother;old woman
+9;4;8;mother;mother-in-law (of woman)
+5;3;5;mother;this
+3;3;3;family;descendants
+25;6;24;family;house
+3;3;3;family;sibling
+8;3;8;family;clan
+13;3;13;house;fly (move through air)
+12;10;12;house;roof
+6;3;6;house;in
+3;3;3;house;that
+38;6;35;house;men's house
+3;3;3;house;tent
+3;3;3;house;nest
+23;3;22;house;meeting house
+71;16;70;house;home
+25;12;25;bridge;ladder
+26;14;25;wall (of house);fence
+32;15;26;clothes;dress
+34;13;33;clothes;shirt
+6;5;5;clothes;skirt
+14;7;14;clothes;coat
+4;3;4;clothes;rag
+5;3;5;bracelet;ring
+6;3;6;bracelet;wheel
+6;5;6;shoe;stocking
+49;7;49;cooked rice;rice
+50;4;50;cooked rice;rice plant
+57;9;57;salt;sea
+20;10;20;meat;animal
+58;5;56;meat;flesh or meat
+262;47;252;meat;flesh
+3;3;3;meat;deer
+4;4;4;sugar;sugar cane
+6;5;6;sugar;sweet
+8;4;6;knife;axe
+27;10;27;knife;sword
+282;51;268;knife;knife (for eating)
+5;5;5;knife;iron
+11;7;10;hoe;spade
+7;4;7;hoe;dig
+5;3;4;hoe;shovel
+5;3;5;broom;brush
+5;5;5;broom;rake
+6;5;6;bottle;glass
+129;14;120;stove;oven
+31;14;28;stove;fireplace
+129;26;128;firewood;wood
+4;4;4;firewood;match
+13;3;13;table;chair
+5;3;5;table;dish
+4;3;4;table;plate
+17;3;17;stool;chair
+9;5;9;bed;nest
+29;13;29;lock;key
+19;15;19;lock;latch
+15;13;15;lock;padlock
+4;3;4;key;latch
+61;20;61;mirror;glass
+3;3;3;mirror;spectacles
+84;10;83;comb;brush
+5;3;5;comb;comb (verb)
+63;29;62;paper;book
+11;8;11;paper;letter
+38;11;38;book;letter
+5;3;5;story;message
+14;5;14;story;fairy tale
+5;3;5;story;news
+4;3;4;story;conversation
+64;17;63;ghost;demon
+3;3;3;ghost;elf or fairy
+7;3;7;strength;violence
+6;5;6;listen;smell (perceive)
+129;26;125;eat;drink
+9;7;8;eat;chew
+5;3;5;eat;dig
+7;3;7;eat;there
+4;3;4;eat;think
+5;3;5;eat;he or she or it
+3;3;3;eat;burn
+3;3;3;drink;cook (something)
+16;9;15;drink;smoke (inhale)
+11;6;11;drink;beverage
+3;3;3;drink;cut
+18;7;17;read;calculate
+4;4;4;pick;tear (shred)
+28;8;28;sleep;lie (rest)
+7;5;7;sleep;fall asleep
+6;4;6;sleep;sleep (state)
+3;3;3;sleep;dream
+5;4;5;do;cook (something)
+100;27;97;do;make
+12;7;12;do;produce
+15;7;15;do;work (activity)
+4;3;4;plant (something);three
+58;27;57;plant (something);sow seeds
+4;3;3;cut;dig
+4;4;4;cut;scratch
+25;14;22;cut;split
+38;13;36;cut;cut down
+133;21;127;cut;chop
+5;3;5;cut;saw
+5;4;5;cut;break (destroy or get destroyed)
+11;5;11;cut;tear (shred)
+5;4;4;cut;stab to death
+32;4;31;cut;kill
+5;4;5;cut;break (of rope)
+11;4;11;cut;chop (into pieces)
+3;3;3;cut;wait (for)
+4;3;4;feed;raise (a child)
+19;6;19;lead (guide);drive
+11;3;11;lead (guide);carry on shoulder
+5;4;5;call by name;invite
+16;9;16;write;painting
+4;3;3;write;scrape
+19;3;19;cook (something);burn
+58;13;50;cook (something);boil (of liquid)
+4;3;4;cook (something);spread out
+4;3;4;cook (something);burning
+40;9;39;cook (something);prepare
+12;7;10;cook (something);boil (something)
+4;3;3;fry;ripen
+20;6;18;boil (something);boil (of liquid)
+20;6;20;pile up;fold
+19;7;18;light (ignite);burning
+10;7;10;look for;ask (request)
+8;3;8;pursue;drive
+16;7;16;steal;hide (conceal)
+43;13;37;deceive;swindle
+8;3;8;hate;refuse
+5;3;4;fear (be afraid);shy
+3;3;3;be;live
+3;3;3;be;become
+4;3;3;be;be alive
+19;11;17;come back;turn around
+4;4;4;come back;retreat
+13;10;12;come back;return home
+12;10;12;go down (descend);land (descend)
+4;3;4;go down (descend);down or below
+5;5;5;go down (descend);down
+9;5;7;break (cleave);damage
+4;3;4;break (cleave);spoil (somebody or something)
+46;11;42;break (cleave);break (destroy or get destroyed)
+49;15;45;break (destroy or get destroyed);split
+10;6;10;break (destroy or get destroyed);tear (shred)
+11;3;11;break (destroy or get destroyed);chop
+5;3;5;break (destroy or get destroyed);fold
+7;3;7;break (destroy or get destroyed);break (of rope)
+5;4;4;break (destroy or get destroyed);damage
+6;3;6;die;wipe
+5;3;5;die;burn
+28;10;28;die;kill
+29;6;28;die;death
+15;10;15;die;dead
+26;8;26;die;die (from accident)
+7;4;7;fine or thin;thin (slim)
+14;3;14;far;that
+6;4;6;far;for a long time
+8;4;8;light (weight);light (color)
+5;4;5;heavy;load
+21;14;21;red;yellow
+32;16;30;yellow;green
+26;4;25;yellow;gold
+7;6;6;yellow;blue
+13;6;12;yellow;white
+3;3;3;yellow;light (color)
+204;46;195;blue;green
+9;5;9;blue;grey
+12;10;12;blue;black
+11;8;11;blue;unripe
+21;3;21;white;silver
+22;18;22;white;light (color)
+11;5;10;black;night
+12;7;12;black;green
+86;19;85;green;unripe
+27;5;27;old (used);old (aged)
+5;3;5;be late;for a long time
+5;4;5;be late;last (endure)
+19;8;18;cold;cold (of weather)
+15;7;15;cold;common cold (disease)
+5;5;5;cold;winter
+4;4;4;cold;ice
+30;6;29;cold;cold (chill)
+11;8;11;sweet;fragrant
+21;9;21;sweet;tasty
+5;5;5;sweet;honey
+16;7;15;one;alone
+4;3;4;one;other
+3;3;3;one;night
+4;3;4;two;seven
+5;3;3;two;three
+5;4;5;three;four
+13;5;11;four;five
+5;3;3;five;six
+8;4;7;we (inclusive);you
+121;22;116;we (inclusive);we (exclusive)
+5;3;5;we (inclusive);we two (inclusive)
+6;5;6;you;he or she or it
+6;3;6;you;you two
+59;3;58;you;your (plural)
+5;3;5;he or she or it;at
+16;6;15;he or she or it;this
+16;9;15;he or she or it;that
+3;3;3;he or she or it;there
+20;15;19;he or she or it;it
+24;19;23;he or she or it;he
+24;19;23;he or she or it;she
+4;3;4;this;he or she
+77;19;73;this;that
+104;11;100;this;here
+7;3;7;this;there
+12;10;11;this;he
+8;5;8;here;there
+6;5;6;here;at
+13;5;12;here;hither (here to)
+9;4;9;that;he or she
+46;10;41;that;there
+35;14;31;that;he
+15;11;14;that;it
+9;6;7;that;she
+20;6;17;there;thither (there to)
+3;3;3;there;at that time
+48;14;41;afterwards;then
+15;6;15;spirit;breath
+4;3;4;spirit;memory
+7;3;7;animal;flesh
+12;7;12;arm;upper arm
+21;8;20;arm;lower arm
+4;4;4;arm;fathom
+25;9;24;arm;arm or hand
+38;18;37;arrow;bow
+6;3;6;arrow;reed
+22;10;21;ask (request);pray
+8;4;8;ask (request);invite
+95;20;92;axe;battle-axe
+4;4;4;axe;iron
+3;3;3;axe;hammer
+30;13;29;back;upper back
+18;9;18;back;spine
+9;3;9;back;after
+29;9;29;become;happen
+6;4;6;become;succeed
+12;5;12;become;result in
+7;5;7;beer;mead
+110;25;96;below or under;down or below
+3;3;3;below or under;before
+22;10;22;below or under;bottom
+18;12;18;below or under;down
+7;5;7;bow;rainbow
+29;7;28;bow;arch
+3;3;3;bow;cannon or gun
+3;3;3;bow;gun
+45;15;43;branch;twig
+4;4;4;breath;life
+5;5;5;breath;breathe
+4;3;4;breath;air
+3;3;3;bull;male (of animal)
+14;5;14;load;weight
+119;4;119;burn;roast (something)
+9;4;8;cheek;chin
+10;3;10;child;boy
+4;3;4;chin;lip
+67;12;61;finish;end (of time)
+15;6;11;finish;end (of space)
+71;17;69;pot;pan
+11;6;10;pot;dish
+16;10;15;pot;jug
+226;30;205;country;land
+16;9;16;country;mainland
+29;15;29;country;world
+24;13;23;country;native country
+11;7;11;country;floor
+6;5;6;country;state (politics)
+10;5;10;country;area
+3;3;3;day (not night);night
+18;13;18;day (not night);weather
+9;6;9;day (not night);afternoon
+11;8;10;day (not night);world
+3;3;3;day (not night);heaven
+15;6;15;dig;scratch
+4;3;4;dig;stab
+7;5;7;dig;split
+62;19;59;dig;hollow out
+4;3;4;dig;cut down
+3;3;3;dig;stab to death
+7;5;7;dig;scrape
+20;8;19;fireplace;oven
+5;5;5;fireplace;cookhouse
+7;3;7;fly (move through air);dash (of vehicle)
+3;3;3;goat;deer
+5;3;5;goat;lamb
+4;3;4;god;idol
+4;3;4;god;demon
+4;4;4;god;king
+44;20;43;hit;kill
+9;3;8;hit;pound
+34;6;34;honey;mead
+3;3;3;honey;beehive
+3;3;3;honey;candy
+4;4;4;hunger;thirst
+11;7;10;hunger;be hungry
+34;3;34;kill;strike
+8;5;8;kill;stab to death
+4;3;4;kill;cut down
+3;3;3;kill;pound
+3;3;3;kill;sacrifice
+5;3;5;kill;hide (conceal)
+3;3;3;kill;raining or rain
+129;25;121;lightning;bolt (of lightning)
+4;4;4;lightning;light (color)
+4;3;4;lip;shore
+3;3;3;lip;shore of lake
+5;3;5;shaman (folk healer);chieftain
+8;3;8;milk;draw milk
+55;15;54;night;evening
+94;28;88;path;path or road
+8;6;8;path;footprint
+9;8;9;path;street
+12;11;12;refuse;forbid
+22;9;21;sand;shore
+4;4;4;sand;land
+33;10;30;smoke (exhaust);smoke (inhale)
+6;6;6;smoke (exhaust);steam
+4;3;4;smoke (exhaust);smoke (emit smoke)
+41;12;39;split;chop
+3;3;3;split;stab to death
+23;8;21;split;tear (shred)
+5;3;4;spread out;sow seeds
+4;3;4;spread out;wipe
+17;5;17;spring (of water);well
+62;15;60;draw milk;squeeze
+20;10;20;stick;wood
+5;3;5;stick;post
+3;3;3;string;thread
+6;4;6;string;leash
+6;3;6;tear (of eye);tear (shred)
+16;8;15;tortoise;turtle
+4;3;3;vein;thread
+13;4;13;vein;tendon
+7;4;7;wipe;clean (something)
+92;18;86;young man;boy
+16;11;15;young man;young woman
+9;5;9;shin;lower leg
+4;4;4;ice;freeze
+67;9;66;weather;air
+11;7;11;weather;world
+4;4;4;weather;heaven
+16;12;16;afternoon;evening
+4;4;4;gold;silver
+18;11;18;silver;coin
+16;4;16;copper;iron
+3;3;3;iron;coin
+4;3;4;iron;tool
+6;5;6;iron;knife (for eating)
+3;3;3;iron;nail (tool)
+16;3;16;rice plant;unhusked rice
+117;7;117;rice plant;rice
+28;7;28;flour;dough
+6;5;6;flour;bread
+4;4;4;gourd;cup
+35;13;35;shirt;dress
+12;8;11;shirt;coat
+6;4;6;shirt;skirt
+4;3;4;coat;poncho
+3;3;3;coat;dress
+53;6;52;skirt;grass-skirt
+25;11;22;skirt;dress
+13;6;13;towel;rag
+64;16;58;beam;rafter
+44;12;44;beam;ridgepole
+7;4;7;beam;wood
+10;6;10;beam;post
+9;5;9;window;glass
+3;3;3;spoon;dish
+4;3;4;spoon;fork
+8;6;8;jug;cup
+3;3;3;jug;pan
+3;3;3;glue;mortar binder
+34;14;33;needle (for sewing);pin
+4;3;4;needle (for sewing);fishhook
+8;4;8;needle (for sewing);needle tree
+7;5;7;needle (for sewing);injection
+51;15;48;thread;rope
+4;3;4;thread;tendon
+28;8;27;rope;rattan
+21;7;21;fan (object);fan action
+5;5;5;walking stick;wood
+7;3;6;walking stick;post
+4;3;4;candle;sailcloth
+5;4;4;nail (tool);pin
+7;4;7;nail (tool);fingernail or toenail
+6;5;6;nail (tool);peg
+5;3;4;wheel;cart
+17;13;17;wood;tree trunk
+16;15;16;wood;post
+4;3;4;wood;rafter
+3;3;3;glass;cup
+6;6;6;car;machine
+5;5;5;car;cart
+5;5;5;car;bus
+99;4;84;boat;outrigger
+53;23;47;boat;ship
+8;6;7;boat;raft
+4;4;4;letter;mail
+4;4;4;letter;postcard
+120;26;114;hair (head);hair (body)
+7;5;7;hair (head);long hair
+16;6;16;hair (head);plantain
+59;13;58;hair (head);pubic hair
+4;4;4;man;freeman
+44;13;44;man;male
+5;5;5;man;old man
+16;6;15;man;married man
+49;26;47;man;male (of animal)
+9;5;9;man;boy
+46;20;43;old man;old woman
+3;3;3;old man;father-in-law (of woman)
+71;32;68;child (young human);boy
+164;30;150;uncle;mother's brother
+21;4;19;uncle;brother
+7;3;5;uncle;cousin
+174;27;150;uncle;father's brother
+5;5;5;uncle;father-in-law (of woman)
+6;4;4;uncle;father's sister
+16;13;15;father-in-law (of woman);son-in-law (of woman)
+10;9;10;father-in-law (of woman);mother-in-law (of woman)
+6;6;6;father-in-law (of woman);daughter-in-law (of woman)
+10;9;10;father-in-law (of woman);mother's brother
+4;4;4;father-in-law (of woman);parents-in-law
+14;12;14;mother-in-law (of woman);father's sister
+17;13;16;mother-in-law (of woman);daughter-in-law (of woman)
+6;6;6;mother-in-law (of woman);son-in-law (of woman)
+49;16;44;older brother;brother
+8;8;8;older brother;cousin
+13;4;11;older brother;sister
+73;17;67;older brother;older sister
+14;9;13;older brother;younger brother
+37;8;32;older brother;older sibling
+6;5;5;older brother;younger sibling
+6;3;4;older brother;sibling
+115;25;112;younger brother;younger sister
+36;14;34;younger brother;brother
+10;8;10;younger brother;cousin
+14;6;12;younger brother;sister
+8;5;7;younger brother;older sister
+8;5;7;younger brother;sibling
+13;3;13;younger brother;younger sister (of woman)
+26;9;23;younger brother;younger sibling
+7;5;6;younger brother;older sibling
+13;8;13;older sister;younger sister
+44;18;40;older sister;sister
+9;8;9;older sister;cousin
+3;3;3;older sister;mother's sister
+14;5;11;older sister;brother
+31;8;26;older sister;older sibling
+6;5;5;older sister;younger sibling
+5;3;3;older sister;sibling
+11;9;11;younger sister;cousin
+23;12;21;younger sister;sister
+11;7;10;younger sister;brother
+8;6;7;younger sister;sibling
+3;3;3;younger sister;older sibling
+8;6;7;younger sister;younger sibling
+7;5;7;top;chieftain
+15;10;13;top;end (of space)
+4;4;4;top;ridgepole
+4;4;4;top;cape
+4;3;4;top;heaven
+13;12;13;top;up
+5;4;5;top;roof
+5;4;5;top;above
+8;6;8;bottom;end (of space)
+10;8;10;bottom;floor
+16;6;16;bottom;down or below
+5;5;5;bottom;down
+6;4;6;middle;between
+5;4;5;corner;end (of space)
+14;6;14;affair;business
+58;15;54;melt;thaw (dew)
+110;26;107;smell (perceive);sniff
+14;4;14;squeeze;sieve or strain
+83;16;80;catch;trap (catch)
+8;4;8;catch;carry in hand
+4;3;4;catch;own
+25;9;24;carry in hand;carry on head
+18;11;17;carry in hand;carry under arm
+24;7;23;carry in hand;carry on shoulder
+3;3;3;carry in hand;own
+6;4;6;wrap;turn around
+20;9;19;wrap;fold
+3;3;3;tear (shred);scrape
+7;3;7;tear (shred);chop
+16;9;14;tear (shred);break (of rope)
+5;4;5;stand up;halt (stop)
+55;12;55;hide (oneself);hide (conceal)
+27;9;26;carry on shoulder;carry on head
+15;6;14;carry on shoulder;carry under arm
+4;3;4;wash (oneself);rinse
+24;10;23;talk;chat (with somebody)
+3;3;3;talk;conversation
+7;4;5;scold;threaten
+12;8;12;scold;curse
+5;3;5;scold;blame
+5;4;5;work (activity);make
+8;5;6;drive;move (oneself)
+13;5;13;drive;drive (cattle)
+67;10;67;be alive;life
+16;6;16;scratch;scrape
+6;4;5;become sick;ache
+5;5;5;no;yes
+10;7;10;no;nothing or zero
+49;18;45;no;not
+3;3;3;cold (of weather);winter
+15;6;15;cold (of weather);fresh
+5;3;4;good-looking;dear
+36;13;35;strong;powerful
+9;5;8;strong;solid
+36;12;34;one time;once (in the past)
+3;3;3;not;without
+3;3;3;not;nothing
+8;5;8;other;foreign
+7;3;6;other;next
+68;20;62;in;at
+6;4;6;in;with
+3;3;3;we two (exclusive);we two
+5;3;5;nest;spider web
+3;3;3;nest;beehive
+8;3;8;nest;basket
+8;4;8;nest;lair
+12;10;12;above;up
+8;6;8;at;with
+4;4;4;at;he
+26;5;25;evil;severe
+19;6;18;bag;pouch
+14;5;13;bag;sack
+10;4;10;basket;netbag
+3;3;3;correct (right);holy
+18;6;17;correct (right);yes
+7;3;7;correct (right);truth
+5;3;5;digging stick;dibble stick
+15;5;14;father's sister;mother's brother
+106;19;93;father's sister;mother's sister
+5;3;5;father's sister;sister
+17;6;15;father's sister;father's brother
+32;6;26;hill;elevation
+4;3;4;hill;heap
+34;13;33;make;produce
+3;3;3;make;mold
+4;3;4;mother's brother;brother
+5;3;5;mother's brother;cousin
+97;20;90;mother's brother;father's brother
+15;6;15;mother's brother;mother's sister
+32;8;31;mouse;rat
+10;5;10;path or road;footprint
+42;11;40;roof;thatch
+4;3;4;roof;ridgepole
+43;4;32;stab;pierce
+13;3;13;stab;pound
+11;7;11;upper arm;lower arm
+14;10;14;vulva;vagina
+33;14;33;swamp;moorland
+7;6;7;waterfall;rapids
+4;3;4;waterfall;spring or well
+28;12;26;fishnet;netbag
+19;11;18;fishnet;fish trap
+3;3;3;fishnet;fishhook
+6;4;6;fishhook;trap (pitfall)
+16;3;16;paddle;shovel
+161;26;151;paddle;oar
+20;5;20;paddle;spade
+39;5;39;paddle;rudder
+9;4;9;jaguar;puma
+9;4;7;collared peccary;white-lipped peccary
+7;4;7;curassow;guan
+16;6;16;plantain;hair (body)
+84;21;81;chieftain;king
+3;3;3;chieftain;queen
+4;4;4;chieftain;president
+3;3;3;chieftain;government
+69;27;61;he;she
+36;21;32;he;it
+33;21;30;she;it
+84;19;83;hair (body);pubic hair
+110;41;101;sea;ocean
+3;3;3;up;down or below
+3;3;3;up;before
+4;4;4;up;heaven
+128;31;120;end (of time);end (of space)
+4;3;4;end (of time);fringe
+3;3;3;last (endure);for a long time
+4;3;4;last (endure);be alive or life
+12;7;12;end (of space);fringe
+14;4;14;end (of space);tip (of object)
+3;3;3;before;beside
+3;3;3;before;after
+11;5;11;before;at first
+6;3;6;before;once (in the past)
+3;3;3;before;forward
+4;4;4;down or below;floor
+3;3;3;down or below;world
+11;4;7;let go or set free;rescue
+23;5;20;let go or set free;allow or permit
+16;5;14;let go or set free;drop (something)
+13;11;12;let go or set free;liberate
+5;5;5;let go or set free;permit
+14;5;13;rescue;preserve
+5;3;5;rescue;protect
+3;3;3;preserve;forbid
+16;5;16;preserve;protect
+8;3;8;preserve;herd (something)
+10;4;9;rudder;oar
+7;3;7;oar;shovel
+17;3;17;oar;spade
+16;7;15;carry under arm;carry on head
+8;5;8;drop (something);cut down
+3;3;3;drop (something);liberate
+23;10;22;statue;idol
+17;6;17;rug;blanket
+5;3;4;forge;pound
+10;6;10;tool;weapons
+5;3;5;pull off (skin);scrape
+35;18;34;chop;cut down
+7;3;7;knot;button
+3;3;3;knot;noose
+8;5;8;chain;necklace
+13;4;13;banyan;fig
+3;3;3;forked branch;fork
+25;14;22;tree trunk;tree stump
+10;6;10;tree trunk;post
+4;3;4;tree stump;post
+20;4;19;acorn;oak
+4;3;4;hay;thatch
+4;3;4;harvest;autumn
+3;3;3;rake;fork
+126;28;123;shovel;spade
+8;3;8;spade;shoulderblade
+19;12;18;post;doorpost
+4;3;4;post;rafter
+3;3;3;post;pestle
+5;4;5;post;ridgepole
+23;7;23;rafter;ridgepole
+14;3;14;thatch;sago palm
+6;4;5;blanket;poncho
+47;27;47;floor;land
+5;5;5;floor;mainland
+24;13;23;floor;world
+4;4;4;latch;padlock
+6;4;6;meeting house;temple
+7;3;7;meeting house;men's house
+10;5;10;rag;headband or headdress
+18;9;18;belt;strap
+50;15;49;butter;oil (organic substance)
+7;6;7;oil (organic substance);petroleum
+7;6;7;knife (for eating);sword
+8;6;8;saucer;cup
+29;12;27;saucer;plate
+30;12;29;saucer;dish
+13;7;11;cup;plate
+16;11;16;cup;dish
+170;44;155;plate;dish
+4;3;4;dish;pan
+6;6;6;physician;magician
+3;3;3;physician;nurse
+6;3;6;conceive;think (reflect)
+10;4;10;conceive;think (believe)
+8;7;7;conceive;beget
+5;3;5;temples;temple
+13;5;13;whale;shark
+20;13;18;rabbit;hare
+9;7;7;lamb;ewe
+12;9;11;pasture;grassland
+4;3;4;stepdaughter;daughter-in-law (of woman)
+21;10;21;daughter-in-law (of woman);son-in-law (of woman)
+8;6;7;daughter-in-law (of woman);child-in-law
+12;9;10;son-in-law (of woman);child-in-law
+3;3;3;descendants;grandchild
+33;18;29;cousin;brother
+6;4;5;cousin;mother's sister
+25;15;21;cousin;sister
+4;3;3;cousin;friend
+26;12;24;cousin;sibling
+4;4;4;mother's sister;sister
+5;3;5;father's brother;brother
+101;19;95;sibling;sister
+111;23;104;sibling;brother
+8;3;4;sibling;older sibling
+6;3;4;sibling;younger sibling
+105;29;84;sister;brother
+5;5;5;sister;friend
+11;4;9;sister;younger sibling
+12;6;9;sister;older sibling
+7;5;7;brother;friend
+17;7;14;brother;older sibling
+14;6;12;brother;younger sibling
+10;8;9;married woman;married man
+3;3;3;air;storm
+4;4;4;stone or rock;reef
+8;7;8;mainland;world
+23;13;22;mainland;land
+82;26;73;land;world
+10;7;10;land;native country
+9;4;9;world;peace
+10;3;10;winter;autumn
+6;3;6;springtime;autumn
+26;7;25;springtime;summer
+6;4;6;summer;warm (of weather)
+6;5;6;summer;autumn
+4;3;3;good luck;bad luck
+4;4;4;bad luck;omen
+12;10;12;groan;shriek
+5;5;5;praise;worship
+122;24;114;think (reflect);think (believe)
+8;6;8;think (reflect);idea
+4;3;4;think (reflect);thought
+5;3;5;think (believe);idea
+5;4;5;forbid;prevent
+22;12;22;flute;brass instrument (horn or trumpet)
+18;9;15;king;queen
+6;4;5;king;judge
+3;3;3;king;president
+21;11;20;weapons;cannon or gun
+35;7;31;fish trap;trap (pitfall)
+8;4;8;trap (pitfall);trap (catch)
+8;3;6;trap (pitfall);noose
+6;6;6;adjudicate;convict
+10;8;10;temple;church
+58;9;54;worship;pray
+3;3;3;demon;magician
+4;3;4;idol;picture (painting)
+8;5;7;magic;magician
+6;4;6;between;gap (distance)
+4;4;4;between;space (available)
+4;3;3;begin;beginning
+35;8;35;fingernail or toenail;paw
+26;6;26;sleep (state);dream
+9;5;9;elevation;height
+18;6;17;summit;tip (of object)
+30;10;27;shore of lake;coast
+12;8;12;shore of lake;fringe
+5;3;5;coast;fringe
+9;5;9;lair;pit (pothole)
+20;8;20;flock (of animals);swarm (of birds)
+4;4;4;joy;happiness
+23;11;21;message;news
+6;3;6;noise;tone (music)
+6;6;6;song;music
+41;10;40;count (quantity);amount
+18;8;18;piece;slice
+48;11;46;gap (distance);distance
+8;7;8;gap (distance);space (available)
+5;3;5;area;fringe
+4;3;4;item;ware
+45;17;44;pouch;sack
+13;5;13;strap;leash
+9;3;6;church;mosque
+13;5;13;business;shop
+17;5;17;then;at that time
+41;12;37;backward;back (direction)
+6;5;6;happen;result in
+4;4;4;happen;pass
+4;4;4;sway;budge (oneself)
+3;3;3;sway;move (oneself)
+21;7;21;sway;swing (movement)
+3;3;3;swing (movement);jog (something)
+17;8;17;swing (movement);swing (something)
+56;14;52;spoil (become spoiled);rot
+20;5;19;emerge (appear);visible
+52;11;48;chime (action);ring (make sound)
+6;6;6;chime (action);knock
+4;3;4;chime (action);strike (something)
+5;4;5;chime (action);strike (someone)
+11;3;11;chime (action);sound (of instrument or voice)
+4;4;4;ring (make sound);tinkle
+10;4;10;ring (make sound);sound (of instrument or voice)
+3;3;3;roar (of sea);dash (of vehicle)
+25;11;24;move (oneself);budge (oneself)
+3;3;3;bolt (move in haste);dash (of vehicle)
+12;3;12;prepare;produce
+9;3;9;feel (tactually);recognize (somebody)
+19;8;19;connect;tie up (tether)
+6;3;6;connect;knit
+5;3;5;repair;improve (something)
+16;8;16;knock;strike (someone)
+16;8;15;knock;strike (something)
+38;11;37;strike (something);strike (someone)
+6;6;6;jog (something);swing (something)
+17;8;17;hinder;disturb
+14;8;14;spoil (somebody or something);damage
+8;5;7;damage;injure
+6;5;6;urge (someone);drive (cattle)
+7;4;7;protect;herd (something)
+14;6;14;disturb;bother (harass)
+4;3;4;notice (something);recognize (somebody)
+12;3;11;bride price;dowry
+4;4;4;grandchild;sibling's child
+25;17;24;head louse;body louse
+11;7;9;older sibling;younger sibling
+13;3;13;younger sibling;younger sister (of woman)
+3;3;3;zero;nothing
+6;4;6;we two;you two
+3;3;3;parents-in-law;child-in-law
+5;5;5;machine;motor
+3;3;3;government;president
+4;3;3;carcass;dead
+4;3;4;same-sex older sibling;same-sex younger sibling
+7;3;7;tinea;ringworm
